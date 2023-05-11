@@ -1,0 +1,76 @@
+// Colors
+
+// Цвета для фона карточек, иконок
+$light-blue: #E7F0FF;
+$light-pink: #FEEFEA;
+$light-green: #DAEFD5;
+$light-purple: #EAE6FF;
+// Цвета для текста карточек
+$blue-card-text: #0C4BA0;
+$orange-card-text: #E98509;
+$green-card-text: #319B17;
+$purple-card-text: #8B75FF;
+$black-card-text: #333333;
+// Основной цвет для background и фона карточек
+$white-background: #FFFFFF;
+// Цвета для фона блоков
+$light-grey: #F5F5F5; // так же используется переменная $light-blue
+// Цвет для обводки элементов
+$grey-outline: #DADADA;
+// Цвета для лейки (раздел с теми, кто пожертвовал)
+$grey-40: rgba(0, 0, 0, 0.4);
+$grey-30: rgba(0, 0, 0, 0.3);
+$grey-20: rgba(0, 0, 0, 0.2);
+$grey-10: rgba(0, 0, 0, 0.1);
+// Цвета кнопок primary, secondary в состоянии hover, disabled
+$blue-hover: #4183DC;
+$grey-disabled: #C4C4C4;
+// Цвета кнопок в карточках в состоянии pressed ( в зависимости от цвета кнопки)
+$blue-pressed: #00275C;
+$orange-pressed: #864A00;
+$green-pressed: #0E4900;
+$purple-pressed: #4935B5;
+
+
+// Fonts
+
+$base-font-family: 'Raleway', Arial, sans-serif;
+$base-line-height: 120%;
+// Weights
+$font-weight-bold: 700;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+// Desktop
+$h1-font-size-desktop: 72px;
+$h2-font-size-desktop: 64px;
+$h3-font-size-desktop: 36px;
+$h4-font-size-desktop: 34px;
+$h5-font-size-desktop: 24px;
+$big-text-font-size-desktop: 20px;
+$main-text-font-size-desktop: 20px;
+$small-text-font-size-desktop: 18px;
+$button-text-font-size-desktop: 20px;
+// Tablet
+$h1-font-size-tablet: 38px;
+$h2-font-size-tablet: 36px;
+$h3-font-size-tablet: 26px;
+$h4-font-size-tablet: 20px;
+$big-text-font-size-tablet: 16px;
+$main-text-font-size-tablet: 16px;
+$small-text-font-size-tablet: 14px;
+$button-text-font-size-tablet: 16px;
+// Mobile
+$h1-font-size-mobile: 28px;
+$h2-font-size-mobile: 26px;
+$h3-font-size-mobile: 18px;
+$h4-font-size-mobile: 16px;
+$big-text-font-size-mobile: 14px;
+$main-text-font-size-mobile: 14px;
+$small-text-font-size-mobile: 12px;
+$button-text-font-size-mobile: 14px;
+
+
+// Animations
+
+$animation-transition-time: 0.3s;
+$animation-easing: ease-in-out;
