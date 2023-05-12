@@ -1,0 +1,56 @@
+// Mixins for text styles
+@mixin text-styles($desktop, $tablet, $mobile, $weight: $font-weight-regular) {
+  font-size: $mobile;
+  font-weight: $weight;
+  line-height: $base-line-height;
+
+  @media (max-width: 768px) {
+    font-size: $tablet;
+  }
+
+  @media (max-width: 1440px) {
+    font-size: $desktop;
+  }
+}
+
+// Text types mixins
+@mixin h1 {
+  @include text-styles(72px, 38px, 28px, $font-weight-bold);
+}
+
+@mixin h2 {
+  @include text-styles(64px, 36px, 26px, $font-weight-bold);
+}
+
+@mixin h3 {
+  @include text-styles(36px, 26px, 18px, $font-weight-bold);
+}
+
+@mixin h4 {
+  @include text-styles(34px, 20px, 16px, $font-weight-bold);
+}
+
+@mixin h5 {
+  @include text-styles(24px, 16px, 14px, $font-weight-bold);
+}
+
+@mixin big-text {
+  @include text-styles(20px, 16px, 14px, $font-weight-bold);
+}
+
+@mixin main-text {
+  @include text-styles(20px, 16px, 14px, $font-weight-regular);
+}
+
+@mixin small-text {
+  @include text-styles(18px, 14px, 12px, $font-weight-medium);
+}
+
+@mixin button-text {
+  @include text-styles(20px, 16px, 14px, $font-weight-medium);
+}
+
+// Mixin for animation
+@mixin animation($duration: $animation-transition-time, $easing: $animation-easing) {
+  transition: all $duration $easing;
+}
