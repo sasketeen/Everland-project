@@ -32,6 +32,8 @@ $green-pressed: #0E4900;
 $purple-pressed: #4935B5;
 
 
+
+
 // Fonts
 
 $base-font-family: 'Raleway', Arial, sans-serif;
@@ -40,37 +42,65 @@ $base-line-height: 120%;
 $font-weight-bold: 700;
 $font-weight-regular: 400;
 $font-weight-medium: 500;
-// Desktop
-$h1-font-size-desktop: 72px;
-$h2-font-size-desktop: 64px;
-$h3-font-size-desktop: 36px;
-$h4-font-size-desktop: 34px;
-$h5-font-size-desktop: 24px;
-$big-text-font-size-desktop: 20px;
-$main-text-font-size-desktop: 20px;
-$small-text-font-size-desktop: 18px;
-$button-text-font-size-desktop: 20px;
-// Tablet
-$h1-font-size-tablet: 38px;
-$h2-font-size-tablet: 36px;
-$h3-font-size-tablet: 26px;
-$h4-font-size-tablet: 20px;
-$big-text-font-size-tablet: 16px;
-$main-text-font-size-tablet: 16px;
-$small-text-font-size-tablet: 14px;
-$button-text-font-size-tablet: 16px;
-// Mobile
-$h1-font-size-mobile: 28px;
-$h2-font-size-mobile: 26px;
-$h3-font-size-mobile: 18px;
-$h4-font-size-mobile: 16px;
-$big-text-font-size-mobile: 14px;
-$main-text-font-size-mobile: 14px;
-$small-text-font-size-mobile: 12px;
-$button-text-font-size-mobile: 14px;
+// Mixins
+@mixin text-styles($desktop, $tablet, $mobile, $weight: $font-weight-regular) {
+  font-size: $mobile;
+  font-weight: $weight;
+  line-height: $base-line-height;
+
+  @media (max-width: 768px) {
+    font-size: $tablet;
+  }
+
+  @media (max-width: 1440px) {
+    font-size: $desktop;
+  }
+}
+// Text types mixins
+@mixin h1 {
+  @include text-styles(72px, 38px, 28px, $font-weight-bold);
+}
+
+@mixin h2 {
+  @include text-styles(64px, 36px, 26px, $font-weight-bold);
+}
+
+@mixin h3 {
+  @include text-styles(36px, 26px, 18px, $font-weight-bold);
+}
+
+@mixin h4 {
+  @include text-styles(34px, 20px, 16px, $font-weight-bold);
+}
+
+@mixin h5 {
+  @include text-styles(24px, 16px, 14px, $font-weight-bold);
+}
+
+@mixin big-text {
+  @include text-styles(20px, 16px, 14px, $font-weight-bold);
+}
+
+@mixin main-text {
+  @include text-styles(20px, 16px, 14px, $font-weight-regular);
+}
+
+@mixin small-text {
+  @include text-styles(18px, 14px, 12px, $font-weight-medium);
+}
+
+@mixin button-text {
+  @include text-styles(20px, 16px, 14px, $font-weight-medium);
+}
+
 
 
 // Animations
 
 $animation-transition-time: 0.3s;
 $animation-easing: ease-in-out;
+// Mixins
+@mixin animation($duration: $animation-transition-time, $easing: $animation-easing) {
+  transition: all $duration $easing;
+}
+
