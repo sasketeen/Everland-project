@@ -4,11 +4,11 @@
   font-weight: $weight;
   line-height: $base-line-height;
 
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     font-size: $tablet;
   }
 
-  @media (max-width: 1440px) {
+  @media (min-width: 1440px) {
     font-size: $desktop;
   }
 }
