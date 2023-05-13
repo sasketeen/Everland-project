@@ -1,0 +1,7 @@
+.accardion-button_opened {
+    background-color: #0C4BA0;
+    &::before {
+        background-color: white;
+        transform: rotate(-45deg);
+    }
+};

@@ -1,0 +1,16 @@
+.link_color_blue {
+    background-color: #E7F0FF;
+    color: #0C4BA0;
+
+    &::after {
+        background-color: #0C4BA0;
+    }
+
+    &:hover {
+        background-color: #0C4BA0;
+    }
+    
+    &:active {
+        background-color: #00275C;
+    }
+}

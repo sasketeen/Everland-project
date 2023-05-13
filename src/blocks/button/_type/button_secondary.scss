@@ -1,0 +1,14 @@
+.button_secondary {
+    color: #0C4BA0;
+    border: 1px solid #0C4BA0;
+
+    &:hover {
+        color: #00275C;
+        border: 1px solid #00275C;
+    }
+    
+    &:active {
+        color: white;
+        background-color: #00275C;
+    }
+}

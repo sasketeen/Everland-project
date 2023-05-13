@@ -1,0 +1,11 @@
+.slider-button_type_dark {
+    background-color: #333333;
+
+    &:hover {
+        background-color: #0C4BA0;
+    }
+    
+    &:active {
+        background-color: #00275C;
+    };
+}

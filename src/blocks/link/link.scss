@@ -1,0 +1,45 @@
+.link {
+    padding: 12px 16px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    text-decoration: none;
+    transition: background-color 0.1s ease-out;
+
+    &::after {
+        @include arrow-icon;
+        margin-left: 14px;
+        width: 16px;
+        height: 16px;
+    }
+    ;
+
+    &:hover,
+    &:active {
+        color: white;
+
+        &::after {
+            background-color: white;
+        }
+    }
+
+    &[disabled] {
+        pointer-events: none;
+        background-color: #C4C4C4;
+        color: #26262680;
+    }
+}
+
+@media (max-width: 768px) {
+    .link {
+
+        &::after {
+            width: 13px;
+            height: 13px;
+        }
+
+    }
+    
+}

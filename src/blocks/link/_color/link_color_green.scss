@@ -1,0 +1,17 @@
+.link_color_green {
+    background-color: #DAEFD5;
+    color: #319B17;
+    
+    &::after {
+        background-color: #319B17;
+    }
+
+
+    &:hover {
+        background-color: #319B17;
+    }
+
+    &:active {
+        background-color: #0E4900;
+    }
+}

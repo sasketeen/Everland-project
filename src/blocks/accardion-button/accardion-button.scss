@@ -1,0 +1,49 @@
+.accardion-button {
+    border: none;
+    outline: unset;
+    padding: 13px;
+    border-radius: 20px;
+    background-color: #E7F0FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.1s ease-out;
+    &::before {
+        @include cross-icon;
+        background-color: #0C4BA0;
+        width: 19px;
+        height: 19px;
+        transition: transform 0.3s ease-in-out;
+    };
+
+    &:hover {
+        background-color: #0C4BA0;
+
+        &::before {
+            background-color: white;
+        }
+
+    };
+
+    &[disabled] {
+        background-color: #C4C4C4;
+
+        &::before {
+            background-color: #26262680;
+            opacity: 0.5;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .accardion-button {
+        padding: 12px;
+        &::before {
+            width: 14px;
+            height: 14px;
+        }
+    }
+    
+}

@@ -1,0 +1,16 @@
+.button {
+    background-color: unset;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.1s ease-out;
+    
+    &:disabled {
+        border: 2px solid #C4C4C4;
+        color: #C4C4C4;
+    }
+}

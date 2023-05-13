@@ -1,0 +1,11 @@
+@mixin cross-icon {
+    content: '';
+    -webkit-mask-image: url("/src/images/cross-icon.svg");
+    mask-image: url("/src/images/cross-icon.svg");
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}

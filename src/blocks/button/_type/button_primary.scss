@@ -1,0 +1,13 @@
+.button_primary {
+    color: White;
+    background-color: #0C4BA0;
+
+    &:hover {
+        text-decoration: none;
+        background-color: #4183DC;
+    }
+
+    &:active {
+        background-color: #00275C;
+    }
+}

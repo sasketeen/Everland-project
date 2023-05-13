@@ -1,0 +1,40 @@
+.slider-button {
+    background-color: unset;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding: 9px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.1s ease-out;
+
+    &::after {
+        @include arrow-icon;
+        width: 17px;
+        height: 17px;
+        background-color: white;
+        cursor: pointer;
+    };
+
+    &:disabled {
+        background-color: #C4C4C4;
+
+        &::after {
+            background-color: #26262680;
+        };
+    }
+}
+
+@media (max-width: 768px) {
+    .slider-button {
+        padding: 7px;
+        &::after {
+            width: 10px;
+            height: 10px;
+        }
+
+    }
+    
+}

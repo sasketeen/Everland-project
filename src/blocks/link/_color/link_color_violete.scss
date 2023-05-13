@@ -1,0 +1,16 @@
+.link_color_violete {
+    background-color: #EAE6FF;
+    color: #8B75FF;
+    
+    &::after {
+        background-color: #8B75FF;
+    }
+    
+    &:hover {
+        background-color: #8B75FF;
+    }
+
+    &:active {
+        background-color: #4935B5;
+    }
+}
