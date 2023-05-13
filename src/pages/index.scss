@@ -1,6 +1,8 @@
 @import "../vendor/normalize.scss";
 @import "../vendor/fonts.css";
 
+@import "../utils/variables.scss";
+@import "../utils/mixins.scss";
 @import "../blocks/icon/_type/icon_type_arrow.scss";
 @import "../blocks/icon/_type/icon_type_cross.scss";
 
