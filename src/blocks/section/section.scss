@@ -1,15 +1,16 @@
-.section {
+.section-container {
+	max-width: 1440px;
 	padding: 32px 10px;
 }
 
 @media screen and (min-width: 768px) {
-	.section {
+	.section-container {
 		padding: 50px 40px;
 	}
 }
 
 @media screen and (min-width: 1440px) {
-	.section {
+	.section-container {
 		padding: 100px 40px;
 	}
 }
