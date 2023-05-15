@@ -3,6 +3,9 @@
 
 @import "../utils/variables.scss";
 @import "../utils/mixins.scss";
+
+@import "../blocks/section/section.scss";
+
 @import "../blocks/icon/_type/icon_type_arrow.scss";
 @import "../blocks/icon/_type/icon_type_cross.scss";
 
@@ -26,5 +29,3 @@
 
 @import "../blocks/accardion-button/accardion-button.scss";
 @import "../blocks/accardion-button/_opened/accardion-button_opened.scss";
-
-
