@@ -30,7 +30,7 @@
         background-color: $grey-disabled;
 
         &::before {
-            background-color: #262626;
+            background-color: $gray-disabled-icon;
             opacity: 0.5;
         }
     }
