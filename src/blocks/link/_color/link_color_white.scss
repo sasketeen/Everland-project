@@ -1,0 +1,28 @@
+.link_color_white {
+    color: $black-card-text;
+
+    &::after {
+        background-color: $black-card-text;
+    }
+
+    &:hover {
+        color: $blue-pressed;
+        &::after {
+            background-color: $blue-pressed;
+        }
+    }
+
+    &:active {
+        color: $blue-card-text;
+        &::after {
+            background-color: $blue-card-text;
+        }
+    }
+    
+
+    &.link_disabled {
+        background-color: $white-background;
+        pointer-events: none;
+        color: $grey-disabled;
+    }
+}

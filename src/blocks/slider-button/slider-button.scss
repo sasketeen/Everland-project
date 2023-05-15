@@ -1,0 +1,41 @@
+.slider-button {
+    background-color: unset;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding: 9px;
+    border-radius: 10px;
+    cursor: pointer;
+    @include animation(background-color);
+
+    &::after {
+        @include arrow-icon;
+        width: 17px;
+        height: 17px;
+        background-color: $white-background;
+        cursor: pointer;
+    };
+
+    &:disabled {
+        background-color: $grey-disabled;
+
+        &::after {
+            background-color: $gray-disabled-icon;
+            opacity: 0.5;
+        };
+    }
+}
+
+@media (max-width: 768px) {
+    .slider-button {
+        padding: 7px;
+        &::after {
+            width: 10px;
+            height: 10px;
+        }
+
+    }
+    
+}
