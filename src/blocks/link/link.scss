@@ -24,12 +24,6 @@
             background-color: white;
         }
     }
-
-    &[disabled] {
-        pointer-events: none;
-        background-color: #C4C4C4;
-        color: #26262680;
-    }
 }
 
 @media (max-width: 768px) {
