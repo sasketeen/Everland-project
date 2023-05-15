@@ -1,0 +1,34 @@
+.accardion {
+    max-width: 670px;
+    box-sizing: border-box;
+    border: 2px solid $grey-outline;
+    border-radius: 30px;
+   
+    
+
+    .accardion__header {
+        padding: 29.5px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .accardion__title {
+            margin: 0;
+            width: 85%;
+            overflow-wrap: break-word;
+            font-family: $base-font-family;
+            font-weight: $font-weight-bold;
+            line-height: $base-line-height;
+        }
+    }
+
+    .accardion__body {
+        margin: 0;
+        max-height: 0;
+        padding: 0 20px;
+        box-sizing: content-box;
+        overflow-wrap: break-word;
+        overflow: hidden;
+        transition: max-height $animation-transition-time $animation-easing;
+    }
+}

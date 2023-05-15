@@ -2,3 +2,6 @@
 @import "../vendor/fonts.css";
 @import "../utils/variables.scss";
 @import "../utils/mixins.scss";
+
+@import "/src/blocks/accardeon/accardion.scss";
+@import "/src/blocks/accardeon/_opened/accardion_opened.scss";
