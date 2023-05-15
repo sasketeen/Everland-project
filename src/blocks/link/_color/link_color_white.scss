@@ -19,7 +19,8 @@
         }
     }
     
-    .link_disabled {
+
+    &.link_disabled {
         background-color: $white-background;
         pointer-events: none;
         color: $grey-disabled;
