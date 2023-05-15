@@ -1,0 +1,11 @@
+.slider-button_type_dark {
+    background-color: $black-card-text;
+
+    &:hover {
+        background-color: $blue-card-text;
+    }
+    
+    &:active {
+        background-color: $blue-pressed;
+    };
+}
