@@ -1,6 +1,7 @@
 import "./pages/index.scss"
-import Accardion from "./components/Accardion/Accardion"
-const accardions = document.querySelector(".accordions");
+import Accordion from "./components/Accordion/Accordion"
+
+const accordions = document.querySelector(".accordions");
 
 const arr = [
     {
@@ -30,12 +31,12 @@ const arr = [
 ]
 
 
-const renderAcardeon = (() => {
+const renderAccordion = (() => {
     arr.forEach(element => {
-        const accardion = new Accardion('.accardion__template', element);
-        const accardionElement = accardion.generate();
-        accardions.append(accardionElement);
+        const accordion = new Accordion('.accordion__template', element);
+        const accordionElement = accordion.generate();
+        accordions.append(accordionElement);
     });
 })
 
-renderAcardeon();
+renderAccordion();
