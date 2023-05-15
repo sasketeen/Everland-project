@@ -1,0 +1,55 @@
+// Colors
+
+// Цвета для фона карточек, иконок
+$light-blue: #E7F0FF;
+$light-pink: #FEEFEA;
+$light-green: #DAEFD5;
+$light-purple: #EAE6FF;
+// Цвета для текста карточек
+$blue-card-text: #0C4BA0;
+$orange-card-text: #E98509;
+$green-card-text: #319B17;
+$purple-card-text: #8B75FF;
+$black-card-text: #333333;
+// Основной цвет для background и фона карточек
+$white-background: #FFFFFF;
+// Цвета для фона блоков
+$light-grey: #F5F5F5; // так же используется переменная $light-blue
+// Цвет для обводки элементов
+$grey-outline: #DADADA;
+// Цвета для лейки (раздел с теми, кто пожертвовал)
+$grey-40: rgba(0, 0, 0, 0.4);
+$grey-30: rgba(0, 0, 0, 0.3);
+$grey-20: rgba(0, 0, 0, 0.2);
+$grey-10: rgba(0, 0, 0, 0.1);
+// Цвета кнопок primary, secondary в состоянии hover, disabled
+$blue-hover: #4183DC;
+$grey-disabled: #C4C4C4;
+// Цвета кнопок в карточках в состоянии pressed ( в зависимости от цвета кнопки)
+$blue-pressed: #00275C;
+$orange-pressed: #864A00;
+$green-pressed: #0E4900;
+$purple-pressed: #4935B5;
+
+
+
+
+// Fonts
+
+$base-font-family: 'Raleway', Arial, sans-serif;
+$base-line-height: 120%;
+// Weights
+$font-weight-bold: 700;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+
+
+
+
+
+// Animations
+
+$animation-transition-time: 0.3s;
+$animation-easing: ease-in-out;
+
+
