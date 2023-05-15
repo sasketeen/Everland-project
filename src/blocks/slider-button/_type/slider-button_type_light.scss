@@ -1,11 +1,11 @@
 .slider-button_type_light {
-    background-color: #0C4BA0;
+    background-color: $blue-card-text;
 
     &:hover {
-        background-color: #4183DC;
+        background-color: $blue-hover;
     }
     
     &:active {
-        background-color: #00275C;
+        background-color: $blue-pressed;
     };
 }

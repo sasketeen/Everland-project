@@ -1,13 +1,13 @@
 .button_primary {
-    color: White;
-    background-color: #0C4BA0;
+    color: $white-background;
+    background-color: $blue-card-text;
 
     &:hover {
         text-decoration: none;
-        background-color: #4183DC;
+        background-color: $blue-hover;
     }
 
     &:active {
-        background-color: #00275C;
+        background-color: $blue-pressed;
     }
 }

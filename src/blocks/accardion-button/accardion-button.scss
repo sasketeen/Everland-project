@@ -3,7 +3,7 @@
     outline: unset;
     padding: 13px;
     border-radius: 20px;
-    background-color: #E7F0FF;
+    background-color: $light-blue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,26 +11,26 @@
     transition: background-color 0.1s ease-out;
     &::before {
         @include cross-icon;
-        background-color: #0C4BA0;
+        background-color: $blue-card-text;
         width: 19px;
         height: 19px;
         transition: transform 0.3s ease-in-out;
     };
 
     &:hover {
-        background-color: #0C4BA0;
+        background-color: $blue-card-text;
 
         &::before {
-            background-color: white;
+            background-color: $white-background;
         }
 
     };
 
     &[disabled] {
-        background-color: #C4C4C4;
+        background-color: $grey-disabled;
 
         &::before {
-            background-color: #26262680;
+            background-color: #262626;
             opacity: 0.5;
         }
     }

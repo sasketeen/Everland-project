@@ -18,10 +18,10 @@
 
     &:hover,
     &:active {
-        color: white;
+        color: $white-background;
 
         &::after {
-            background-color: white;
+            background-color: $white-background;
         }
     }
 }

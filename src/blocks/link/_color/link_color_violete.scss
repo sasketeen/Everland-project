@@ -1,16 +1,16 @@
 .link_color_violete {
-    background-color: #EAE6FF;
-    color: #8B75FF;
+    background-color: $light-purple;
+    color: $purple-card-text;
     
     &::after {
-        background-color: #8B75FF;
+        background-color: $purple-card-text;
     }
     
     &:hover {
-        background-color: #8B75FF;
+        background-color: $purple-card-text;
     }
 
     &:active {
-        background-color: #4935B5;
+        background-color: $purple-pressed;
     }
 }

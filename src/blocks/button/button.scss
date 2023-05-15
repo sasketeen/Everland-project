@@ -10,7 +10,7 @@
     transition: background-color 0.1s ease-out;
     
     &:disabled {
-        border: 2px solid #C4C4C4;
-        color: #C4C4C4;
+        border: 2px solid $grey-disabled;
+        color: $grey-disabled;
     }
 }

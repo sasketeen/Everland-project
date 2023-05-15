@@ -1,5 +1,6 @@
 .link_disabled {
     pointer-events: none;
-    background-color: #C4C4C4;
-    color: #26262680;
+    background-color: $grey-disabled;
+    color: #262626;
+    opacity: 0.5;
 }

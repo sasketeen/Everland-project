@@ -14,15 +14,16 @@
         @include arrow-icon;
         width: 17px;
         height: 17px;
-        background-color: white;
+        background-color: $white-background;
         cursor: pointer;
     };
 
     &:disabled {
-        background-color: #C4C4C4;
+        background-color: $grey-disabled;
 
         &::after {
-            background-color: #26262680;
+            background-color: #262626;
+            opacity: 0.5;
         };
     }
 }
