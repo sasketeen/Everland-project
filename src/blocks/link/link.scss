@@ -6,7 +6,7 @@
     align-items: center;
     width: fit-content;
     text-decoration: none;
-    transition: background-color 0.1s ease-out;
+    @include animation(background-color);
 
     &::after {
         @include arrow-icon;

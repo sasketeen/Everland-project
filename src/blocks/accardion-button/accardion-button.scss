@@ -8,13 +8,13 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: background-color 0.1s ease-out;
+    @include animation(background-color);
     &::before {
         @include cross-icon;
         background-color: $blue-card-text;
         width: 19px;
         height: 19px;
-        transition: transform 0.3s ease-in-out;
+        @include animation(transform);
     };
 
     &:hover {
