@@ -2,19 +2,19 @@
   position: absolute;
   top: 0;
   right: 0;
-  max-width: 190px;
-  max-height: 144px;
+  width: 190px;
+  height: 144px;
   border-radius: 10px;
   object-fit: cover;
   overflow: hidden;
 
   @media screen and (min-width: 768px) {
-    max-width: 184px;
-    max-height: 152px;
+    width: 75%;
+    height: 55%;
   }
 
   @media screen and (min-width: 1440px) {
-    max-width: 352px;
-    max-height: 315px;
+    width: 352px;
+    height: 315px;
   }
 }

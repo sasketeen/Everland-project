@@ -4,8 +4,8 @@
   position: relative;
 
   @media screen and (min-width: 768px) {
-    width: 244px;
-    height: 272px;
+    width: 35%;
+    height: calc((100vw - 80px) * .39);
     padding: 0;
   }
 

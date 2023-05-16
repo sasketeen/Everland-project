@@ -6,15 +6,16 @@
   border-radius: 10px;
   object-fit: cover;
   overflow: hidden;
-  max-width: 170px;
-  max-height: 160px;
+  width: 170px;
+  height: 160px;
 
   @media screen and (min-width: 768px) {
-    max-height: 175px;
+    width: 69%;
+    height: 64%;
   }
 
   @media screen and (min-width: 1440px) {
-    max-width: 392px;
-    max-height: 407px;
+    width: 392px;
+    height: 407px;
   }
 }
