@@ -1,0 +1,15 @@
+.card_histories_large {
+  width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .card_histories_large {
+    width: 688px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card_histories_large {
+    width: 1360px;
+  }
+}

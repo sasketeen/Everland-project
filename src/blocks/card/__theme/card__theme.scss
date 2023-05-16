@@ -1,0 +1,19 @@
+.card__theme {
+  font-weight: $font-weight-medium;
+  font-size: 12px;
+  line-height: 120%;
+}
+
+@media screen and (min-width: 768px) {
+  .card__theme {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card__theme {
+    line-height: 130%;
+    font-size: 18px;
+    font-weight: $font-weight-regular;
+  }
+}

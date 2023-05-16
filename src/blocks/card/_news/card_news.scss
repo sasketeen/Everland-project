@@ -1,0 +1,15 @@
+.card_news {
+  width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .card_news {
+    width: 334px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card_news {
+    width: 440px;
+  }
+}

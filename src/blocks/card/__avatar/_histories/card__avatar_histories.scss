@@ -1,0 +1,21 @@
+.card__avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .card__avatar {
+    width: 204px;
+    height: 204px;
+    border-radius: 102px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card__avatar {
+    width: 224px;
+    height: 224px;
+    border-radius: 112px;
+  }
+}

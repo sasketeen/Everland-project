@@ -1,0 +1,15 @@
+.card_best-projects {
+  width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .card_best-projects {
+    width: 334px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card_best-projects {
+    width: 440px;
+  }
+}
