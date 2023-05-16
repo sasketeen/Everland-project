@@ -1,5 +1,16 @@
 .intro__image-container {
-  min-width: 520px;
-  min-height: 565px;
+  width: 300px;
+  height: 200px;
   position: relative;
+
+  @media screen and (min-width: 768px) {
+    width: 244px;
+    height: 272px;
+    padding: 0;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 520px;
+    height: 565px;
+  }
 }

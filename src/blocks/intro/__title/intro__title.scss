@@ -3,6 +3,10 @@
   font-family: $base-font-family;
   color: $black-card-text;
   margin: 0;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.02em;
   width: 100%;
+
+  @media screen and (min-width: 768px) {
+    letter-spacing: -0.03em;
+  }
 }

@@ -2,5 +2,13 @@
   list-style-type: none;
   display: flex;
   min-width: 100%;
-  justify-content: space-between;
+  flex-direction: column;
+  row-gap: 26px;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    align-items: normal;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
