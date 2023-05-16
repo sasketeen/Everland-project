@@ -1,0 +1,4 @@
+.popup__list_type_global {
+  grid-area: type_global;
+  row-gap: 26px;
+}

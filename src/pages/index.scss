@@ -1,2 +1,16 @@
 @import "../vendor/normalize.scss";
 @import "../vendor/fonts.css";
+@import "../blocks/header/header.css";
+@import "../blocks/header/__menu-button/header__menu-button.css";
+@import "../blocks/popup/popup.css";
+@import "../blocks/popup/_opened/popup_opened.css";
+@import "../blocks/popup/__nav-container/popup__nav-container.css";
+@import "../blocks/popup/__container/popup__container.css";
+@import "../blocks/popup/__list/popup__list.css";
+@import "../blocks/popup/__list/_type/_about/popup__list_type_about.css";
+@import "../blocks/popup/__list/_type/_realm/popup__list_type_realm.css";
+@import "../blocks/popup/__list/_type/_service/popup__list_type_service.css";
+@import "../blocks/popup/__list/_type/_global/popup__list_type_global.css";
+@import "../blocks/popup/__heading/popup__heading.css";
+@import "../blocks/popup/__list-button/popup__list-button.css";
+@import "../blocks/popup/__link/popup__link.css";

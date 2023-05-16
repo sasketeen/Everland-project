@@ -11,14 +11,64 @@
 
 <body class="body">
 
-  <div class="page">
+  <div class="page" style="min-height: 1000px;"> 
 
     <header class="header">
-      <!-- Header Code -->
-    </header>
+        <img class="header__logo" src='<%=require("./images/Logo.png")%>' alt="Логотип Everland">
+        <button class="header__menu-button">
+          <img class="header__logo" src='<%=require("./images/Menu.svg")%>' alt="кнопка бургер меню">
+          <span class="header__menu-text">Меню</span>
+        </button>
+        <div class="header__buttons">
+          <!-- Добавить стили к кнопкам убрать style -->
+          <button class="header__nav-button" style="width: 180px; height: 48px">Платформа</button>
+          <button class="header__nav-button" style="width: 180px; height: 48px">Поддержать</button> 
+        </div>
+     </header>
+      
+      <section class="popup popup_opened">
+        <nav class="popup__nav-container">
+          <div class="popup__container">
+            <button class="popup__list-button"><a class="popup__heading" href="#">О проекте</a></button>
+            <ul class="popup__list popup__list_type_about">
+              <li><a class="popup__link" href="#">АНО Пространство равных возможностей</a></li>
+              <li><a class="popup__link" href="#">Новости</a></li>
+              <li><a class="popup__link" href="#">Сотрудничество</a></li>
+              <li><a class="popup__link" href="#">Инклюзия</a></li>
+              <li><a class="popup__link" href="#">Учебным заведениям</a></li>
+              <li><a class="popup__link" href="#">Годовые отчеты</a></li>
+            </ul>
+          </div>
+          <div class="popup__container">
+            <button class="popup__list-button"><a class="popup__heading" href="#">Людям с инвалидностью</a></button>
+            <ul class="popup__list popup__list_type_realm">
+              <li><a class="popup__link" href="#">Платформа</a></li>
+              <li><a class="popup__link" href="#">Курсы</a></li>
+              <li><a class="popup__link" href="#">Everland Profi</a></li>
+              <li><a class="popup__link" href="#">Бесплатное такси </a></li>
+            </ul>
+          </div>
+          <div class="popup__container">
+            <button class="popup__list-button"><a class="popup__heading" href="#">Услуги</a></button>
+            <ul class="popup__list popup__list_type_service">
+              <li><a class="popup__link" href="#">Услуги агентства</a></li>
+              <li><a class="popup__link" href="#">Готовые сайты </a></li>
+              <li><a class="popup__link" href="#">Доступность для людей с инвалидностью</a></li>
+              <li><a class="popup__link" href="#">Работодателям</a></li>
+              <li><a class="popup__link" href="#">Портфолио</a></li>
+            </ul>
+          </div>
+          <ul class="popup__list popup__list_type_global">
+            <a class="popup__heading" href="#">Мы благодарим</a>
+            <a class="popup__heading" href="#">Программы</a>
+            <a class="popup__heading" href="#">Наставникам</a>
+            <a class="popup__heading" href="#">Помочь</a>
+          </ul>
+        </nav>
+      </section>
 
-    <main class="content">
-
+      <main class="content">
+        
       <section class="first-slider">
         <!-- First Slider Code -->
       </section>

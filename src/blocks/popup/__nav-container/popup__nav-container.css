@@ -1,0 +1,21 @@
+.popup__nav-container {
+  padding-top: 40px;
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: repeat(4, fit-content(360px));
+  grid-template-rows: fit-content(355px);
+  grid-template-areas: 
+  "type_about type_realm type_service type_global";
+}
+
+@media (max-width: 1339px) {
+  .popup__nav-container {
+    max-width: calc(100% - 80px);
+  }
+}
+
+@media (max-width: 1199px) {
+  .popup__nav-container {
+    max-width: 670px;
+  }
+}

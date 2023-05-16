@@ -1,0 +1,8 @@
+.header__menu-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  column-gap: 12px;
+  align-items: center;
+}

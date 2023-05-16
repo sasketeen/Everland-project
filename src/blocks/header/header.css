@@ -1,0 +1,14 @@
+.header {
+  position: fixed;
+  top: 0;
+  min-height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* Убрать после добавления Section */
+  padding: 0 40px 0 40px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  /* Убрать после добавления Section */
+}

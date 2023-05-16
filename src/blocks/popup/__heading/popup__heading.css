@@ -1,0 +1,7 @@
+.popup__heading {
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
