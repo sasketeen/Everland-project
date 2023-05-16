@@ -29,3 +29,18 @@
 
 @import "../blocks/accardion-button/accardion-button.scss";
 @import "../blocks/accardion-button/_opened/accardion-button_opened.scss";
+
+@import "../blocks/intro/intro.scss";
+@import "../blocks/intro/__container/intro__container.scss";
+@import "../blocks/intro/__slider-list/intro__slider-list.scss";
+@import "../blocks/intro/__slider-item/intro__slider-item.scss";
+@import "../blocks/intro/__about/intro__about.scss";
+@import "../blocks/intro/__title/intro__title.scss";
+@import "../blocks/intro/__title-accent/intro__title-accent.scss";
+@import "../blocks/intro/__description/intro__description.scss";
+@import "../blocks/intro/__image-container/intro__image-container.scss";
+@import "../blocks/intro/__image-top/intro__image-top.scss";
+@import "../blocks/intro/__image-bottom/intro__image-bottom.scss";
+@import "../blocks/intro/__buttons-container/intro__buttons-container.scss";
+@import "../blocks/intro/__button/intro__button.scss";
+@import "../blocks/intro/__counter/intro__counter.scss";

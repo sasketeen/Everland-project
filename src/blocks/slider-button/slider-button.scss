@@ -10,6 +10,10 @@
     cursor: pointer;
     @include animation(background-color);
 
+    &_type_left::after {
+      transform: scale(-1, 1);
+    }
+
     &::after {
         @include arrow-icon;
         width: 17px;
@@ -37,5 +41,5 @@
         }
 
     }
-    
+
 }

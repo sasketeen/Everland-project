@@ -19,8 +19,29 @@
 
     <main class="content">
 
-      <section class="first-slider">
-        <!-- First Slider Code -->
+      <section class="intro">
+        <div class="intro__container">
+          <ul class="intro__slider-list">
+            <li class="intro__slider-item">
+              <div class="intro__about">
+                <h1 class="intro__title"><span class="intro__title-accent">Everland</span> — социальный
+                  предпринимательский проект</h1>
+                <p class="intro__description">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью
+                  устойчиво интегрироваться в
+                  открытый рынок труда</p>
+              </div>
+              <div class="intro__image-container">
+                <img src="<%=require('./images/firstSliderPhoto1.png')%>" alt="участник проекта" class="intro__image-top">
+                <img src="<%=require('./images/firstSliderPhoto2.png')%>" alt="участник проекта" class="intro__image-bottom">
+              </div>
+            </li>
+          </ul>
+          <div class="intro__buttons-container">
+            <button type="button" class="slider-button_type_light slider-button slider-button_type_left"></button>
+            <p class="intro__counter">1/6</p>
+            <button type="button" class="slider-button_type_light slider-button"></button>
+          </div>
+        </div>
       </section>
 
       <section class="audience">

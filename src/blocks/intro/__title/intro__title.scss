@@ -1,0 +1,8 @@
+.intro__title {
+  @include h1;
+  font-family: $base-font-family;
+  color: $black-card-text;
+  margin: 0;
+  letter-spacing: -0.03em;
+  width: 100%;
+}

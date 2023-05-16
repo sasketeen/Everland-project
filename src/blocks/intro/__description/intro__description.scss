@@ -1,0 +1,7 @@
+.intro__description {
+  @include main-text;
+  font-family: $base-font-family;
+  color: $black-card-text;
+  margin: 0;
+  max-width: 543px;
+}

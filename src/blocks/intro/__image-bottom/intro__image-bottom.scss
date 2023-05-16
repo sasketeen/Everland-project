@@ -1,0 +1,11 @@
+.intro__image-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  border-radius: 10px;
+  object-fit: cover;
+  overflow: hidden;
+  max-width: 392px;
+  max-height: 407px;
+}
