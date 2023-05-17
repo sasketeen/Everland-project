@@ -1,13 +1,15 @@
 .accordion {
     width: 46.5%;
+       padding: 0 20px;
     box-sizing: border-box;
     border: 2px solid $grey-outline;
     border-radius: 30px;
     overflow: hidden;
     cursor: pointer;
+    font-family: $base-font-family;
 
     &__header {
-        padding: 29.5px 20px;
+         padding: 27.5px 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -16,22 +18,19 @@
 
 
     &__title {
+        @include h4();
         margin: 0;
         width: calc(100% - 50px);
         overflow-wrap: break-word;
-        font-family: $base-font-family;
-        font-weight: $font-weight-bold;
-        line-height: $base-line-height;
     }
 
     &__body {
+        @include main-text();
         @include animation();
         margin: 0;
         max-height: 0;
-        padding: 0 20px;
-        box-sizing: content-box;
         overflow-wrap: break-word;
-        overflow-y: auto;
+        overflow-y: hidden;
 
         &::-webkit-scrollbar-track {
             border-radius: 4px;
@@ -50,24 +49,26 @@
 
 @media (max-width: 1440px) {
     .accordion {
-        width: 100%;
+        border-radius: 15px;
 
         &__header {
-            padding: 20, 5px 20px;
+            padding: 20px 20px;
         }
     }
 }
 
 @media (max-width: 768px) {
     .accordion {
+        margin-bottom: 15px;
+        width: 100%;
+        @include h3();
+        
         &__header {
-            padding: 18px 16px;
+            padding: 11px 18px;
         }
 
         &__body {
             padding: 0 16px;
         }
     }
-
-
 }

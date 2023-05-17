@@ -1,6 +1,27 @@
 .accordion_opened {
+    width: 46.5%;
     .accordion__body {
         padding-bottom: 20px;
-        max-height: 100px;
+        max-height: 150px;
+    }
+
+    .accardion-button {
+        background-color: $blue-card-text;
+        &::before {
+            background-color: $white-background;
+            transform: rotate(-45deg);
+        }
+    };
+}
+
+
+
+
+@media (max-width: 768px) {
+    .accordion_opened {
+        .accordion__body {
+            padding-bottom: 11px;
+            max-height: 150px;
+        }
     }
 }

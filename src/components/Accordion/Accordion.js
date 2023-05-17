@@ -16,7 +16,6 @@ export default class Accordion {
 
     _toggle() {
         this._element.classList.toggle("accordion_opened");
-        this._button.classList.toggle(".accardion-button_opened");
     }
 
     _setEventListeners() {
@@ -30,7 +29,6 @@ export default class Accordion {
        
         this._header = this._element.querySelector(".accordion__title");
         this._description = this._element.querySelector(".accordion__body");
-        this._button = this._element.querySelector(".accordion__button")
 
         this._header.textContent = this._title;
         this._description.textContent = this._text;
