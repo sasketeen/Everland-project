@@ -1,0 +1,13 @@
+.spec-projects__details-link {
+  @include button-text;
+  width: 250px;
+  height: 44px;
+  border: 1px solid $black-card-text;
+  color: $black-card-text;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}

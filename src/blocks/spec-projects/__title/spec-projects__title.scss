@@ -1,0 +1,8 @@
+.spec-projects__title {
+  @include h2;
+  color: $black-card-text;
+  letter-spacing: -0.01em;
+  width: 100%;
+  margin: 0;
+  padding-top: 20px;
+}
