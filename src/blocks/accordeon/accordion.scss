@@ -9,7 +9,7 @@
     font-family: $base-font-family;
 
     &__header {
-         padding: 27.5px 0;
+         padding: 30px 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -49,22 +49,23 @@
 
 @media (max-width: 1440px) {
     .accordion {
-        border-radius: 15px;
+        border-radius: 20px;
 
         &__header {
-            padding: 20px 20px;
+            padding: 20px 0;
         }
     }
 }
 
 @media (max-width: 768px) {
     .accordion {
-        margin-bottom: 15px;
+        border-radius: 15px;
+        padding: 0 16px;
         width: 100%;
         @include h3();
         
         &__header {
-            padding: 11px 18px;
+            padding: 12px 0;
         }
 
         &__body {
