@@ -4,17 +4,17 @@
   margin: 0;
   width: 100%;
   padding-top: 10px;
-  padding-bottom: 20px;
+  overflow: hidden;
+  max-height: 68px;
 
   @media screen and (min-width: 768px) {
     grid-area: description;
-    padding-top: 10px;
-    padding-bottom: 37px;
+    width: 92.92%;
+    max-height: 76px;
   }
 
   @media screen and (min-width: 1440px) {
-    grid-area: description;
-    padding-top: 10px;
-    padding-bottom: 37px;
+    width: 427px;
+    max-height: 100px;
   }
 }

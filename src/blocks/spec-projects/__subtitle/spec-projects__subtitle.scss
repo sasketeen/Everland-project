@@ -9,8 +9,9 @@
     padding-bottom: 12px;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1440px) {
     grid-area: subtitle;
+    font-size: 18px;
     padding-bottom: 19px;
   }
 }

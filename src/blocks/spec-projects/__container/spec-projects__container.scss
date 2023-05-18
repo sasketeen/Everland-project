@@ -1,13 +1,13 @@
 .spec-projects__container {
   width: 100%;
-  min-height: 496px;
+  height: 496px;
   position: relative;
 
   @media screen and (min-width: 768px) {
-    min-height: 344px;
+    height: calc((100vw - 80px) * .5);
   }
 
   @media screen and (min-width: 1440px) {
-    min-height: 452px;
+    height: 453px;
   }
 }
