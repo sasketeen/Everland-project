@@ -4,4 +4,17 @@
   object-fit: cover;
   overflow: hidden;
   align-self: center;
+  border-radius: 10px;
+
+  @media screen and (min-width: 768px) {
+    grid-area: photo;
+    width: 100%;
+    height: calc(100vw * .337 * 1.09);
+  }
+
+  @media screen and (min-width: 1440px) {
+    border-radius: 30px;
+    width: 555px;
+    height: 393px;
+  }
 }

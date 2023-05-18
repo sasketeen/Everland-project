@@ -1,4 +1,5 @@
 .spec-projects__slider-item {
+  width: 100%;
   list-style-type: none;
   background-color: $light-blue;
   border-radius: 20px;
@@ -6,4 +7,19 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+
+  @media screen and (min-width: 768px) {
+    padding: 30px;
+    display: grid;
+    grid-template-areas:
+      "subtitle . photo"
+      "title . photo"
+      "description . photo"
+      "details . photo";
+    grid-template-columns: 53.9% 1fr 41.2%;
+  }
+
+  @media screen and (min-width: 1440px) {
+    grid-template-columns: 603px 1fr 555px;
+  }
 }

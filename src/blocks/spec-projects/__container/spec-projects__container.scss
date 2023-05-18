@@ -2,4 +2,12 @@
   width: 100%;
   min-height: 496px;
   position: relative;
+
+  @media screen and (min-width: 768px) {
+    min-height: 344px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    min-height: 452px;
+  }
 }

@@ -1,6 +1,16 @@
 .spec-projects {
+  margin: auto;
   width: 100%;
   font-family: $base-font-family;
   padding: 64px 10px;
   box-sizing: border-box;
+
+  @media screen and (min-width: 768px) {
+    padding: 100px 40px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 1440px;
+    padding: 150px 40px;
+  }
 }
