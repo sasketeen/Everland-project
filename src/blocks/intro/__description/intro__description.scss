@@ -4,15 +4,15 @@
   margin: 0;
   width: 100%;
   overflow: hidden;
-  max-height: 30.9%;
+  max-height: 68px;
 
   @media screen and (min-width: 768px) {
     width: 94%;
-    max-height: 29.37%;
+    max-height: 57px;
   }
 
   @media screen and (min-width: 1440px) {
     max-width: 543px;
-    max-height: 40.88%;
+    max-height: 78px;
   }
 }
