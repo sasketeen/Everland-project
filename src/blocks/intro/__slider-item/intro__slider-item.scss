@@ -6,7 +6,7 @@
   row-gap: 26px;
   align-items: center;
 
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     align-items: normal;
     flex-direction: row;
     justify-content: space-between;

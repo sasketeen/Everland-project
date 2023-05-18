@@ -1,6 +1,5 @@
 .intro__counter {
   @include big-text;
-  font-family: $base-font-family;
   color: $black-card-text;
   margin: 0;
 }

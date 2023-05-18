@@ -7,6 +7,7 @@
     width: 35%;
     height: calc((100vw - 80px) * .39);
     padding: 0;
+    align-self: flex-end;
   }
 
   @media screen and (min-width: 1440px) {

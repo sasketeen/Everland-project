@@ -4,12 +4,12 @@
   row-gap: 16px;
   width: 100%;
 
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     row-gap: 20px;
-    width: 61%;
+    width: 61.64%;
   }
 
-  @media (min-width: 1440px) {
+  @media screen and (min-width: 1440px) {
     max-width: 826px;
   }
 }
