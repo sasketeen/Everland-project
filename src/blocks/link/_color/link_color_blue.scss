@@ -1,0 +1,16 @@
+.link_color_blue {
+    background-color: $light-blue;
+    color: $blue-card-text;
+
+    &::after {
+        background-color: $blue-card-text;
+    }
+
+    &:hover {
+        background-color: $blue-card-text;
+    }
+    
+    &:active {
+        background-color: $blue-pressed;
+    }
+}
