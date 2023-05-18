@@ -48,9 +48,10 @@
 
 @mixin button-text {
   @include text-styles(20px, 16px, 14px, $font-weight-medium);
+  @include animation('', undefined,)
 }
 
 // Mixin for animation
-@mixin animation($duration: $animation-transition-time, $easing: $animation-easing) {
-  transition: all $duration $easing;
+@mixin animation($property: all, $duration: $animation-transition-time, $easing: $animation-easing) {
+  transition: $property $duration $easing;
 }

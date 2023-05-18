@@ -1,0 +1,7 @@
+.accardion-button_opened {
+    background-color: $blue-card-text;
+    &::before {
+        background-color: $white-background;
+        transform: rotate(-45deg);
+    }
+};

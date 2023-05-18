@@ -1,0 +1,17 @@
+.link_color_green {
+    background-color: $light-green;
+    color: $green-card-text;
+    
+    &::after {
+        background-color: $green-card-text;
+    }
+
+
+    &:hover {
+        background-color: $green-card-text;
+    }
+
+    &:active {
+        background-color: $green-pressed;
+    }
+}

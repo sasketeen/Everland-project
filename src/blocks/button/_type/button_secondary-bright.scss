@@ -1,0 +1,14 @@
+.button_secondary-bright {
+    color: $black-card-text;
+    border: 1px solid $black-card-text;
+
+    &:hover {
+        padding: 11px 15px;
+        border: 2px solid $black-card-text;
+    }
+    
+    &:active {
+        color: $white-background;
+        background-color: $black-card-text;
+    }
+}
