@@ -1,5 +1,7 @@
 .card__date {
-  color: rgba(38, 38, 38, 0.5);
   @include small-text();
   max-width: 150px;
+  order: 2;
+  margin-top: auto;
+  color: $gray-disabled-icon;
 }

@@ -1,21 +1,7 @@
 //картинка для секции Новости
-
 .card__image {
-  width: 252px;
-  height: 192px;
+  width: 100%;
+  max-height: 50%;
+  object-fit: cover;
   border-radius: 30px;
-}
-
-@media screen and (min-width: 768px) {
-  .card__image {
-    width: 274px;
-    height: 212px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .card__image {
-    width: 380px;
-    height: 300px;
-  }
 }

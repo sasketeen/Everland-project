@@ -1,15 +1,25 @@
 .card_type_news {
-  width: 300px;
+  width: 100%;
+  max-width: 440px;
+  aspect-ratio: 1/1.82;
+  border: 1px solid $grey-outline;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
-@media screen and (min-width: 768px) {
-  .card_type_news {
-    width: 334px;
+@media (max-width: 1440px) {
+  .news {
+    aspect-ratio: 1/1.61;
+    gap: 10px;
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media (max-width: 768px) {
   .card_type_news {
-    width: 440px;
+    aspect-ratio: unset;
+    height: fit-content;
+    gap: 14px;
+    padding: 24px;
   }
 }

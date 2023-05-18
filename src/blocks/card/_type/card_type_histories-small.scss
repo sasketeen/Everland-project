@@ -1,15 +1,32 @@
 .card_type_histories-small {
-  width: 300px;
+  max-width: 670px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 33.58% max-content;
+  grid-template-rows: min-content 1fr min-content;
+  grid-template-areas: 
+  "avatar name"
+  "avatar slogan"
+  "avatar audio";
+  gap: 20px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1440px) {
   .card_type_histories-small {
-    width: 334px;
+    gap: 16px;
+    grid-template-columns: 35.9% max-content;
+   row-gap: 8px;
+   padding: 25px 20px;
+   
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 768px) {
   .card_type_histories-small {
-    width: 670px;
+    grid-template-columns: 26.67% max-content;
+    row-gap: 0;
+    padding: 16px;
   }
 }
+
+
