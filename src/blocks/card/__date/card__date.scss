@@ -1,20 +1,5 @@
 .card__date {
   color: rgba(38, 38, 38, 0.5);
-  font-size: 12px;
-  line-height: 120%;
-  font-weight: $font-weight-medium;
-}
-
-@media screen and (min-width: 768px) {
-  .card__date {
-    font-size: 14px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .card__date {
-    font-size: 18px;
-    line-height: 130%;
-    font-weight: $font-weight-regular;
-  }
+  @include small-text();
+  max-width: 150px;
 }

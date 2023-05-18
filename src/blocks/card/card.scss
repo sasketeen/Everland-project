@@ -1,8 +1,6 @@
 .card {
   border-radius: 30px;
-  background: #FFFFFF;
-  font-family: $base-font-family;
-  font-weight: $font-weight-regular;
+  background: #ffffff;
   color: $black-card-text;
-  line-height: $base-line-height;
+  @include main-text();
 }
