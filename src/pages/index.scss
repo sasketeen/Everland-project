@@ -3,3 +3,51 @@
 @import "../utils/variables.scss";
 @import "../utils/mixins.scss";
 @import "../blocks/section/section.scss";
+
+@import "../blocks/card/card.scss";
+@import "../blocks/card/_type/card_type_best-projects.scss";
+@import "../blocks/card/_type/card_type_directions.scss";
+@import "../blocks/card/_type/card_type_employers.scss";
+@import "../blocks/card/_type/card_type_histories-large.scss";
+@import "../blocks/card/_type/card_type_histories-small.scss";
+@import "../blocks/card/_type/card_type_news.scss";
+
+@import "../blocks/card/_light/card_light_blue.scss";
+@import "../blocks/card/_light/card_light_green.scss";
+@import "../blocks/card/_light/card_light_pink.scss";
+@import "../blocks/card/_light/card_light_purple.scss";
+
+@import "../blocks/card/__title/card__title.scss";
+@import "../blocks/card/__title/_type/card__title_type_news.scss";
+@import "../blocks/card/__title/_type/card__title_type_histories-small.scss";
+@import "../blocks/card/__title/_type/card__title_type_histories-large.scss";
+@import "../blocks/card/__title/_type/card__title_type_employers.scss";
+@import "../blocks/card/__title/_type/card__title_type_directions.scss";
+@import "../blocks/card/__title/_type/card__title_type_best-projects.scss";
+
+@import "../blocks/card/__theme/card__theme.scss";
+
+@import "../blocks/card/__subtitle/card__subtitle.scss";
+
+@import "../blocks/card/__paragraph/card__paragraph.scss";
+@import "../blocks/card/__paragraph/_type/card__paragraph_type_news.scss";
+@import "../blocks/card/__paragraph/_type/card__paragraph_type_histories-small.scss";
+@import "../blocks/card/__paragraph/_type/card__paragraph_type_histories-large.scss";
+@import "../blocks/card/__paragraph/_type/card__paragraph_type_employers.scss";
+@import "../blocks/card/__paragraph/_type/card__paragraph_type_directions.scss";
+@import "../blocks/card/__paragraph/_type/card__paragraph_type_best-projects.scss";
+
+@import "../blocks/card/__image/card__image.scss";
+@import "../blocks/card/__image/_type/card__image_type_best-projects.scss";
+
+@import "../blocks/card/__icon/card__icon.scss";
+@import "../blocks/card/__icon/_light/card__icon_light_pink.scss";
+@import "../blocks/card/__icon/_light/card__icon_light_green.scss";
+@import "../blocks/card/__icon/_light/card__icon_light_blue.scss";
+
+@import "../blocks/card/__icon-image/card__icon_image.scss";
+
+@import "../blocks/card/__date/card__date.scss";
+
+@import "../blocks/card/__avatar/card__avatar.scss";
+@import "../blocks/card/__avatar/_type/card__avatar_type_histories.scss";
