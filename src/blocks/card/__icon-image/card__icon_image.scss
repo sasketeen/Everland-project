@@ -1,0 +1,12 @@
+//иконки в секции для кого мы работаем
+.card__icon-image {
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (min-width: 1440px) {
+  .card__icon-image {
+    width: 32px;
+    height: 32px;
+  }
+}

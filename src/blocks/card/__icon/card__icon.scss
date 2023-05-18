@@ -1,5 +1,12 @@
 .card__icon {
-  width: 64px;
-  height: 64px;
+  width: 48px;
+  height: 48px;
   border-radius: 10px;
+}
+
+@media screen and (min-width: 1440px) {
+  .card__icon {
+    width: 64px;
+    height: 64px;
+  }
 }

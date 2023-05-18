@@ -1,10 +1,10 @@
-.card_employers {
+.card_type_employers {
   width: 300px;
   padding: 24px;
 }
 
 @media screen and (min-width: 768px) {
-  .card_employers {
+  .card_type_employers {
     width: 450px;
     padding: 30px;
 
@@ -12,7 +12,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .card_employers {
+  .card_type_employers {
     width: 440px;
   }
 }

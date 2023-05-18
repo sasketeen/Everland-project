@@ -1,17 +1,17 @@
-.card_directions {
-  width: 300px;
-  padding: 24px;
+.card_type_directions {
+  width: 250px;
+  padding: 25px;
 }
 
 @media screen and (min-width: 768px) {
-  .card_directions {
+  .card_type_directions {
     width: 334px;
     padding: 30px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .card_directions {
+  .card_type_directions {
     width: 440px;
   }
 }

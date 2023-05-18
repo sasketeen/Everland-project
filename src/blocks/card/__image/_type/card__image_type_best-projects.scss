@@ -1,18 +1,18 @@
-.card__image_best-projects {
+.card__image_type_best-projects {
   width: 300px;
   height: 300px;
   border-radius: 30px;
 }
 
 @media screen and (min-width: 768px) {
-  .card__image_best-projects {
+  .card__image_type_best-projects {
     width: 334px;
     height: 334px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .card__image_best-projects {
+  .card__image_type_best-projects {
     width: 440px;
     height: 460px;
   }
