@@ -1,7 +1,5 @@
 .spec-projects__details-link {
   @include button-text;
-  @extend .button;
-  @extend .button_secondary-bright;
   width: 250px;
   height: 44px;
   align-self: center;
