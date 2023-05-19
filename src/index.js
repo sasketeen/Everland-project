@@ -1,9 +1,9 @@
 import "./pages/index.scss";
 import {
-  popupMenu,
+  menu,
   headerMenuButton,
 } from "./utils/constants.js";
-import Popup from "./components/Menu.js";
+import Menu from "./components/Menu.js";
 
-const modal = new Popup(popupMenu, headerMenuButton);
+const modal = new Menu(menu, headerMenuButton);
 modal.setListeners();

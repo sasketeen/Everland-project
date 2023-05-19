@@ -1,7 +1,10 @@
-.popup__list-vector {
+.menu__list-vector {
   background: center / contain no-repeat url('./../images/Icon_shevron.svg');
   width: 24px;
   height: 24px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
 
   @media (min-width: 768px) {
     display: none;
