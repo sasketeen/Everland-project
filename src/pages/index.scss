@@ -78,13 +78,18 @@
 @import "../blocks/card/__date/card__date.scss";
 
 @import "../blocks/card/__avatar/card__avatar.scss";
-@import "../blocks/card/__avatar/_type/card__avatar_type_histories.scss";
+@import "../blocks/card/__avatar/_type/card__avatar_type_histories-large.scss";
+
 
 @import "../blocks/card/__link/card__link.scss";
 
 @import "../blocks/card/__audio/card__audio.scss";
 @import "../blocks/card/__audio-button/card__audio-button.scss";
 
+@import "../blocks/card/__histories-quotes/card__histroies-quotes.scss";
+@import "../blocks/card/__quote-img/card__quote-img.scss";
+@import "../blocks/card/__paragraph/_type/card__paragraph_type_histories-large.scss";
+@import "../blocks/card/__audio-button/card__audio-button.scss";
 
 @import "../blocks/intro/intro.scss";
 @import "../blocks/intro/__container/intro__container.scss";
