@@ -19,5 +19,6 @@
     grid-template-columns: repeat(1, max-content);
     grid-template-rows: repeat(6, max-content);
     row-gap: 16px;
+    justify-content: center;
   }
 }

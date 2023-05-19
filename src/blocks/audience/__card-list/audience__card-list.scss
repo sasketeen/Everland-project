@@ -1,0 +1,24 @@
+.audience__card-list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  grid-template-rows: repeat(1, max-content);
+  column-gap: 20px;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 1439px) {
+  .audience__card-list {
+    grid-template-columns: repeat(1, max-content);
+    grid-template-rows: repeat(3, max-content);
+    row-gap: 20px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .audience__card-list {
+    row-gap: 16px;
+  }
+}
