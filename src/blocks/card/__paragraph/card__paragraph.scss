@@ -1,0 +1,11 @@
+.card__paragraph {
+  @include main-text();
+  margin: 0;
+  margin-top: 20px ;
+}
+
+@media screen and (max-width: 768px) {
+  .card__image_type_best-projects {
+    margin-top: 16px;
+  }
+}

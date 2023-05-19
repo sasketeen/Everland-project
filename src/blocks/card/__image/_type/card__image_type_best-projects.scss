@@ -1,0 +1,10 @@
+.card__image_type_best-projects {
+  aspect-ratio: 1/1;
+  max-height: unset;
+}
+
+@media (max-width: 786px){
+  .card__image_type_best-projects {
+    border-radius: 20px;
+  }
+}

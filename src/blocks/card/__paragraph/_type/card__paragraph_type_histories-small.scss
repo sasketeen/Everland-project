@@ -1,0 +1,11 @@
+.card__paragraph_type_histories-small {
+    margin-top: 0;
+grid-area: name;
+}
+
+@media screen and (max-width: 768px) {
+    .card__paragraph_type_histories-small {
+      margin-top: 6px;
+    
+    }
+  }
