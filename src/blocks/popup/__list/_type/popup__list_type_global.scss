@@ -1,0 +1,19 @@
+.popup__list_type_global {
+  grid-area: type_global;
+  row-gap: 26px;
+
+  @media (max-width: 1439px) {
+    display: grid;
+    grid-template-columns: repeat(2, 158px);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px 78px;
+    max-height: 72px;
+    grid-auto-flow: column;
+  };
+
+  @media (max-width: 767px) {
+    display: flex;
+    gap: 20px 0;
+    max-height: 150px;
+  }
+}

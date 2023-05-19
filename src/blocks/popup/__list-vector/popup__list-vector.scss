@@ -1,0 +1,9 @@
+.popup__list-vector {
+  background: center / contain no-repeat url('./../images/Icon_shevron.svg');
+  width: 24px;
+  height: 24px;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}

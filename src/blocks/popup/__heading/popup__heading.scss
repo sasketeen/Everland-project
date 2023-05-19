@@ -1,0 +1,9 @@
+.popup__heading {
+  @include h4;
+  font-family: $base-font-family;
+  color: rgba(0, 0, 0, 1);
+
+  @media (max-width: 767px) {
+    @include h3;
+  };
+}
