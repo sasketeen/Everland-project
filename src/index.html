@@ -51,42 +51,47 @@
         <!-- Best Projects Section Code -->
       </section>
 
-      <section class="news-container section-container">
-        <h2 class="news-container__title">Новости</h2>
-        <button class="news-container__button button button_secondary">Все&nbsp;новости</button>
-        <div class="news-container__cards">
-          <div class="news">
-            <span class="news__theme">Тема</span>
-            <img src="<%=require('../src/images/newsImage1.png')%>" class="news__image">
-            <div class="news__text-container">
-              <h4 class="news__title">Ура! Новое партнерство — с PepsiCo</h4>
-              <p class="news__text">Everland совместно с PepsiCo приняли участие в акции «Благотворительность
-                вместо сувениров»</p>
+      <section class="news section-container">
+        <h2 class="news__title">Новости</h2>
+        <button class="news__button button button_secondary">Все&nbsp;новости</button>
+        <div class="news__cards">
+          <div class="card card_type_news">
+            <span class="card__theme">Тема</span>
+            <img class="card__image"
+              src="<%=require('../src/images/newsImage1.png')%>" class="news__image">
+            <div class="card__text-block">
+              <h2 class="card__title">Ура! Новое партнерство — с PepsiCo</h2>
+              <p class="card__paragraph card__paragraph_type_news">Everland совместно с PepsiCo приняли участие в акции «Благотворительность
+                вместо сувениров»
+              </p>
             </div>
-            <span class="news__date">20 сентября 2021</span>
+            <span class="card__date">20 сентября 2021</span>
           </div>
-          <div class="news news_type_text">
-            <span class="news__theme">Тема</span>
-            <div class="news__text-container">
-              <h4 class="news__title">Трехдневный интенсив для КСО-менеджеров «Бизнес и инклюзия:
-                как строить эффективные программы»</h4>
-              <p class="news__text">Эксперты с инвалидностью, представители бизнеса и некоммерческих
+          <div class="card card_type_news card_light_green">
+            <span class="card__theme">Тема</span>
+            <div class="card__text-block">
+              <h2 class="card__title">Трехдневный интенсив для КСО-менеджеров «Бизнес и инклюзия:
+                как строить эффективные программы»</h2>
+              <p class="card__paragraph card__paragraph_type_news">Эксперты с инвалидностью, представители бизнеса и некоммерческих
                 организаций поговорили о том, что такое инклюзия, рассмотрели подходы к трудоустройству
                 людей с инвалидностью, обсудили проблемы, к которым нужно быть готовым, и поделились
-                успешными кейсами</p>
+                успешными кейсами
+              </p>
             </div>
-            <span class="news__date">20 сентября 2021</span>
+            <span class="card__date">20 сентября 2021</span>
           </div>
-          <div class="news news_type_text news_type_text-image">
-            <span class="news__theme">Тема</span>
-            <img src="<%=require('../src/images/newsImage2.png')%>" class="news__image">
-            <div class="news__text-container">
-              <h4 class="news__title">Тестируем супермаркеты на доступность</h4>
-              <p class="news__text">Everland совместно с торговой сетью «Перекресток»
+          <div class="card card_type_news">
+            <span class="card__theme">Тема</span>
+            <div class="card__text-block">
+              <h2 class="card__title">Тестируем супермаркеты на доступность</h2>
+              <p class="card__paragraph card__paragraph_type_news">Everland совместно с торговой сетью «Перекресток»
                 провели аудит продуктовых магазинов на доступность для людей с разными
-                видами инвалидности</p>
+                видами инвалидности
+              </p>
             </div>
-            <span class="news__date">20 сентября 2021</span>
+            <img class="card__image"
+              src="<%=require('../src/images/newsImage2.png')%>" class="news__image">
+            <span class="card__date">20 сентября 2021</span>
           </div>
 
         </div>
