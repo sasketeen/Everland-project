@@ -1,0 +1,17 @@
+.card_type_directions {
+  max-width: 424px;
+  width: 100%;
+  aspect-ratio: 1/0.972;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .card_type_directions {
+    max-width:100%;
+    padding: 24px;
+  }
+}
+
+

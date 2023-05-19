@@ -1,0 +1,5 @@
+// "тема" из секции Новости
+.card__theme {
+  @include small-text();
+  max-width: 42px;
+}
