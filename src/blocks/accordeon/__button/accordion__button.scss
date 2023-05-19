@@ -1,4 +1,5 @@
-.accardion-button {
+.accardion__button {
+    @include animation();
     border: none;
     outline: unset;
     padding: 13px;
@@ -8,13 +9,13 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    @include animation();
+
     &::before {
         @include cross-icon;
+        @include animation;
         background-color: $blue-card-text;
         width: 19px;
         height: 19px;
-        @include animation();
     };
 
     &:hover {

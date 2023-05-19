@@ -26,7 +26,10 @@
 @import "../blocks/slider-button/_type/slider-button_type_light.scss";
 @import "../blocks/slider-button/_type/slider-button_type_dark.scss";
 
-@import "../blocks/accardion-button/accardion-button.scss";
-
 @import "/src/blocks/accordeon/accordion.scss";
+@import "/src/blocks/accordeon/__button/accordion__button.scss";
+@import "/src/blocks/accordeon/__header/accordion__header.scss";
+@import "/src/blocks/accordeon/__title/accordion__title.scss";
+@import "/src/blocks/accordeon/__body/accordion__body.scss";
 @import "/src/blocks/accordeon/_opened/accordion_opened.scss";
+

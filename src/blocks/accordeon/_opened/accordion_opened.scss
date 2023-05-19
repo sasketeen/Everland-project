@@ -5,7 +5,7 @@
         max-height: 150px;
     }
 
-    .accardion-button {
+    .accardion__button {
         background-color: $blue-card-text;
         &::before {
             background-color: $white-background;
@@ -13,8 +13,6 @@
         }
     };
 }
-
-
 
 
 @media (max-width: 768px) {
