@@ -1,0 +1,16 @@
+.card__link_type-histories-large {
+  margin-top: auto;
+  grid-area: button;
+}
+
+@media screen and (max-width: 1440px) {
+  .card__link_type-histories-large {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .card__link_type-histories-large {
+    margin-top: 16px;
+  }
+}
