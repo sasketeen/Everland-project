@@ -25,6 +25,9 @@ export default class Slider {
   _updateCounter() {
     if (this._counter) {
       this._counter.textContent = this._current + 1 + '/' + this._total;
+
+      this._prevButton.disabled = this._current === 0;
+      this._nextButton.disabled = this._current === this._total - 1;
     }
   }
 
