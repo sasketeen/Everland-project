@@ -1,0 +1,12 @@
+@media (max-width: 1440px) {
+    .stories__button {
+        margin: 0 auto;
+      width: 200px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .stories__button {
+      width: 100%;
+    }
+  }
