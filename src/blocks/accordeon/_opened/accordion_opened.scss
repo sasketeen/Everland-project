@@ -1,5 +1,4 @@
 .accordion_opened {
-    width: 46.5%;
     .accordion__body {
         padding-bottom: 20px;
         max-height: 150px;
@@ -15,11 +14,19 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1440px) {
     .accordion_opened {
         .accordion__body {
             padding-bottom: 11px;
             max-height: 150px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .accordion_opened {
+        .accordion__body {
+            padding-bottom: 16px;
         }
     }
 }

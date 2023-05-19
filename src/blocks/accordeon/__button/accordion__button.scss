@@ -1,7 +1,6 @@
 .accardion__button {
     @include animation();
     border: none;
-    outline: unset;
     padding: 13px;
     border-radius: 20px;
     background-color: $light-blue;
