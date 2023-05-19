@@ -1,0 +1,12 @@
+.stories__audio {
+    grid-area: audio;
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .stories__audio {
+      flex-direction: column;
+      gap: 16px;
+    }
+  }

@@ -1,0 +1,11 @@
+.stories {
+    font-family: $base-font-family;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+  "title button"
+  "text text"
+  "audio audio";
+  gap: 50px 20px;
+}

@@ -2,7 +2,7 @@
   max-width: 670px;
   width: 100%;
   display: grid;
-  grid-template-columns: 33.58% fit;
+  grid-template-columns: 1fr 2fr;
   grid-template-rows: min-content 1fr min-content;
   grid-template-areas: 
   "avatar name"
@@ -15,16 +15,16 @@
 @media screen and (max-width: 1440px) {
   .card_type_histories-small {
     gap: 16px;
-    grid-template-columns: 35.9% fit;
+    grid-template-columns: 41% 1fr;
    row-gap: 8px;
    padding: 25px 20px;
    
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .card_type_histories-small {
-    grid-template-columns: 26.67% fit;
+    grid-template-columns: 26% 1fr;
     row-gap: 0;
     padding: 16px;
   }
