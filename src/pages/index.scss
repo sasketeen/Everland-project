@@ -29,3 +29,13 @@
 
 @import "../blocks/accardion-button/accardion-button.scss";
 @import "../blocks/accardion-button/_opened/accardion-button_opened.scss";
+
+@import '../blocks/audience/audience.scss';
+@import '../blocks/audience/__title/audience__title.scss';
+@import '../blocks/audience/__card/audience__card.scss';
+@import '../blocks/audience/__card-list/audience__card-list.scss';
+@import '../blocks/audience/__card-text/audience__card-text.scss';
+@import '../blocks/audience/__card-title/audience__card-title.scss';
+@import '../blocks/audience/__card-image/audience__card-image.scss';
+@import '../blocks/audience/__text-container/audience__text-container.scss';
+@import '../blocks/audience/__card-link/audience__card-link.scss';

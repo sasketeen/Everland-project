@@ -1,0 +1,9 @@
+.audience__title {
+  @include h2;
+  max-height: 77px;
+  padding: 100px 0 50px 40px;
+  margin: 0;
+  font-family: $base-font-family;
+  line-height: $base-line-height;
+  white-space: nowrap;
+}
