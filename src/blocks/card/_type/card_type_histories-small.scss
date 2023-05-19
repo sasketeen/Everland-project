@@ -2,19 +2,20 @@
   max-width: 670px;
   width: 100%;
   display: grid;
-  grid-template-columns: 33.58% max-content;
+  grid-template-columns: 33.58% fit;
   grid-template-rows: min-content 1fr min-content;
   grid-template-areas: 
   "avatar name"
   "avatar slogan"
   "avatar audio";
   gap: 20px;
+  background-color: $light-purple;
 }
 
 @media screen and (max-width: 1440px) {
   .card_type_histories-small {
     gap: 16px;
-    grid-template-columns: 35.9% max-content;
+    grid-template-columns: 35.9% fit;
    row-gap: 8px;
    padding: 25px 20px;
    
@@ -23,7 +24,7 @@
 
 @media screen and (max-width: 768px) {
   .card_type_histories-small {
-    grid-template-columns: 26.67% max-content;
+    grid-template-columns: 26.67% fit;
     row-gap: 0;
     padding: 16px;
   }
