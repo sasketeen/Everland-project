@@ -4,16 +4,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0;
-    padding: 9px;
-    border-radius: 10px;
+    padding: 7px;
+    border-radius: 6px;
     cursor: pointer;
     @include animation(background-color);
 
     &::after {
         @include arrow-icon;
-        width: 17px;
-        height: 17px;
+        width: 10px;
+        height: 10px;
         background-color: $white-background;
         cursor: pointer;
     };
@@ -28,15 +27,14 @@
     }
 }
 
-@media (max-width: 1439px) {
+@media (min-width: 1440px) {
     .slider-button {
-        border-radius: 6px;
-        padding: 7px;
-        &::after {
-            width: 10px;
-            height: 10px;
-        }
+      padding: 9px;
+      border-radius: 10px;
 
+      &::after {
+        width: 17px;
+        height: 17px;
+      }
     }
-
 }
