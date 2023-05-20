@@ -1,0 +1,21 @@
+.footer__nav-links {
+  display: grid;
+  grid-template-columns: minmax(163px, 227px) minmax(118px, 188px);
+  gap: 11px 84px;
+  max-width: 499px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  @media (max-width: 1439px) {
+    grid-template-columns: minmax(142px, 163px) minmax(142px, 118px);
+    gap: 10px 53px;
+    padding-top: 8px;
+  }
+  @media (max-width: 767px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 25px;
+    padding-top: 40px;
+    max-width: 300px;
+  }
+}
