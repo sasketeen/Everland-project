@@ -11,6 +11,7 @@
   .directions__card-list {
     grid-template-columns: repeat(2, max-content);
     grid-template-rows: repeat(3, max-content);
+    justify-content: center;
   }
 }
 
