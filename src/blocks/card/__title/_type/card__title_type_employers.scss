@@ -9,6 +9,13 @@
 @media screen and (max-width: 1439px) {
   .card__title_type_employers {
     @include h3;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card__title_type_employers {
+    @include h3;
   }
 }
 
