@@ -1,0 +1,21 @@
+.intro__image-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  border-radius: 10px;
+  object-fit: cover;
+  overflow: hidden;
+  width: 170px;
+  height: 160px;
+
+  @media screen and (min-width: 768px) {
+    width: 69%;
+    height: 64%;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 392px;
+    height: 407px;
+  }
+}
