@@ -1,0 +1,21 @@
+.card__avatar_type_histories-large {
+  width: 80px;
+  height: 80px;
+  align-self: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .card__avatar_type_histories-large {
+    width: 204px;
+    height: 204px;
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card__avatar_type_histories-large {
+    width: 224px;
+    height: 224px;
+    margin-bottom: 16px;
+  }
+}

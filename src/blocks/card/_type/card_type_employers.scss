@@ -1,0 +1,24 @@
+.card_type_employers {
+  width: 440px;
+  aspect-ratio: 1/0.966;
+  // 1/0.966
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+@media screen and (max-width: 1439px) {
+  .card_type_employers {
+    width: 450px;
+    gap: 10px;
+    aspect-ratio: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card_type_employers {
+    max-width: 300px;
+    padding: 24px;
+    aspect-ratio: 0;
+  }
+}

@@ -1,0 +1,18 @@
+.intro__title {
+  @include h1;
+  color: $black-card-text;
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+  max-height: 136px;
+  letter-spacing: -0.03em;
+
+  @media screen and (min-width: 768px) {
+    max-height: 138px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    max-height: 258px;
+    letter-spacing: -0.02em;
+  }
+}

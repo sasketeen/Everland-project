@@ -1,0 +1,20 @@
+.intro__image-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 190px;
+  height: 144px;
+  border-radius: 10px;
+  object-fit: cover;
+  overflow: hidden;
+
+  @media screen and (min-width: 768px) {
+    width: 75%;
+    height: 55%;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 352px;
+    height: 315px;
+  }
+}

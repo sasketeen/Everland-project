@@ -1,0 +1,20 @@
+.spec-projects__buttons-container {
+  display: flex;
+  justify-content: space-between;
+  width: 56px;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+
+  @media screen and (min-width: 768px) {
+    width: 56px;
+    right: calc(50% - 28px);
+    bottom: 30px;
+    top: inherit;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 78px;
+    right: calc(50% - 39px);
+  }
+}

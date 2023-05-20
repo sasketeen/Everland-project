@@ -1,4 +1,6 @@
 .link {
+    @include button-text();
+    @include animation();
     padding: 12px 16px;
     border-radius: 10px;
     display: flex;
@@ -6,8 +8,7 @@
     align-items: center;
     width: fit-content;
     text-decoration: none;
-    @include animation(background-color);
-
+  
     &::after {
         @include arrow-icon;
         margin-left: 14px;
@@ -27,13 +28,13 @@
 }
 
 @media (max-width: 768px) {
-    .link {
+  .link {
 
-        &::after {
-            width: 13px;
-            height: 13px;
-        }
+      &::after {
+          width: 13px;
+          height: 13px;
+      }
 
-    }
-    
+  }
+
 }
