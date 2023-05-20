@@ -1,0 +1,22 @@
+.audience__card-text {
+  @include main-text;
+  max-width: 333px;
+  margin: 0;
+  font-family: $base-font-family;
+  line-height: $base-line-height;
+  padding-top: 20px;
+
+  @media screen and (max-width: 768px) {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+
+.audience__card-list .card:nth-child(2) .audience__card-text,
+.audience__card-list .card:nth-child(3) .audience__card-text {
+  padding-bottom: 37px;
+
+  @media screen and (max-width: 768px) {
+    padding-bottom: 14px;
+  }
+}

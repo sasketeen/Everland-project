@@ -8,8 +8,7 @@
     align-items: center;
     width: fit-content;
     text-decoration: none;
-    
-
+  
     &::after {
         @include arrow-icon;
         margin-left: 14px;
@@ -29,13 +28,13 @@
 }
 
 @media (max-width: 768px) {
-    .link {
+  .link {
 
-        &::after {
-            width: 13px;
-            height: 13px;
-        }
+      &::after {
+          width: 13px;
+          height: 13px;
+      }
 
-    }
-    
+  }
+
 }
