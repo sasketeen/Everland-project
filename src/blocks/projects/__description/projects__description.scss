@@ -1,0 +1,17 @@
+.projects__description {
+  @include h4;
+  margin: 0;
+  color: $black-card-text;
+  padding-bottom: 24px;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 22px;
+    max-width: 73.25%;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding-bottom: 50px;
+    max-width: 955px;
+  }
+}
