@@ -11,7 +11,7 @@
   top: 80px;
   transition: visibility .2s linear, opacity .2s linear;
   
-  @media (max-width: 400px) {
+  @media (max-width: 767px) {
     top: 54px;
     justify-content: flex-start;
   }
