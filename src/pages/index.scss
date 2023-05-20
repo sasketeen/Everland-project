@@ -91,6 +91,7 @@
 @import "../blocks/card/__paragraph/_type/card__paragraph_type_histories-large.scss";
 @import "../blocks/card/__audio-button/card__audio-button.scss";
 
+
 @import "../blocks/intro/intro.scss";
 @import "../blocks/intro/__container/intro__container.scss";
 @import "../blocks/intro/__slider-list/intro__slider-list.scss";
@@ -118,3 +119,25 @@
 @import "../blocks/spec-projects/__buttons-container/spec-projects__buttons-container.scss";
 
 @import "../blocks/slider-hidden/slider-hidden.scss";
+
+@import "../blocks/news/news.scss";
+@import "../blocks/news/__title/news__title.scss";
+@import "../blocks/news/__button/news__button.scss";
+@import "../blocks/news/__cards/news__cards.scss";
+
+@import '../blocks/audience/__icon_type/audience__icon_type_dis.scss';
+@import '../blocks/directions/directions.scss';
+@import '../blocks/directions/__title/direction__title.scss';
+@import '../blocks/directions/__card-list/directions__card-list.scss';
+@import '../blocks/directions/__card-title/directions__card-title.scss';
+@import '../blocks/directions/__card-text/directions__card-text.scss';
+@import '../blocks/directions/__card-link/directions__card-link.scss';
+@import '../blocks/directions/__title/_type/directions__title_type_mobile.scss';
+@import '../blocks/directions/__title/_type/directions__title_type_desktop.scss';
+@import '../blocks/audience/__icon_type/audience__icon_type_brief.scss';
+@import '../blocks/audience/__icon_type/audience__icon_type_pers.scss';
+@import '../blocks/audience/audience.scss';
+@import '../blocks/audience/__title/audience__title.scss';
+@import '../blocks/audience/__card-list/audience__card-list.scss';
+@import '../blocks/audience/__card-link/audience__card-link.scss';
+@import '../blocks/audience/__card-text/audience__card-text.scss';
