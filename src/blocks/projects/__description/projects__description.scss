@@ -8,10 +8,12 @@
   @media screen and (min-width: 768px) {
     padding-bottom: 22px;
     max-width: 73.25%;
+    font-size: calc(20px + 14 * ((100vw - 768px) / 672));
   }
 
   @media screen and (min-width: 1440px) {
     padding-bottom: 50px;
     max-width: 955px;
+    font-size: 34px;
   }
 }
