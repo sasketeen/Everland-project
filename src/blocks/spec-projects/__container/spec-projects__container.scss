@@ -4,7 +4,7 @@
   position: relative;
 
   @media screen and (min-width: 768px) {
-    height: calc((100vw - 80px) * .5);
+    height: calc(344px + 109 * ((100vw - 768px) / 672));
   }
 
   @media screen and (min-width: 1440px) {
