@@ -90,6 +90,11 @@
 @import "../blocks/card/__paragraph/_type/card__paragraph_type_histories-large.scss";
 @import "../blocks/card/__audio-button/card__audio-button.scss";
 
+@import "../blocks/news/news.scss";
+@import "../blocks/news/__title/news__title.scss";
+@import "../blocks/news/__button/news__button.scss";
+@import "../blocks/news/__cards/news__cards.scss";
+
 @import '../blocks/audience/__icon_type/audience__icon_type_dis.scss';
 @import '../blocks/directions/directions.scss';
 @import '../blocks/directions/__title/direction__title.scss';
@@ -106,3 +111,4 @@
 @import '../blocks/audience/__card-list/audience__card-list.scss';
 @import '../blocks/audience/__card-link/audience__card-link.scss';
 @import '../blocks/audience/__card-text/audience__card-text.scss';
+

@@ -1,5 +1,6 @@
 .link {
-    @include animation(background-color);
+    @include button-text();
+    @include animation();
     padding: 12px 16px;
     border-radius: 10px;
     display: flex;
@@ -7,24 +8,23 @@
     align-items: center;
     width: fit-content;
     text-decoration: none;
+  
+    &::after {
+        @include arrow-icon;
+        margin-left: 14px;
+        width: 16px;
+        height: 16px;
+    }
+    ;
 
+    &:hover,
+    &:active {
+        color: $white-background;
 
-  &::after {
-      @include arrow-icon;
-      margin-left: 14px;
-      width: 16px;
-      height: 16px;
-  }
-  ;
-
-  &:hover,
-  &:active {
-      color: $white-background;
-
-      &::after {
-          background-color: $white-background;
-      }
-  }
+        &::after {
+            background-color: $white-background;
+        }
+    }
 }
 
 @media (max-width: 768px) {
