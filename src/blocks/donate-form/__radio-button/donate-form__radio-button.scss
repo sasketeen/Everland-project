@@ -1,0 +1,17 @@
+.donate-form__radio-button {
+	box-sizing: border-box;
+	@include button-text;
+	height: 44px;
+	border: 1px solid $grey-outline;
+	padding: 13.5px 10px;
+	flex-basis: 122px;
+	flex-grow: 1;
+
+	&:hover {
+		border-color: #000;
+	}
+
+	@media (min-width: 1440px) {
+    height: 48px;
+  }
+}

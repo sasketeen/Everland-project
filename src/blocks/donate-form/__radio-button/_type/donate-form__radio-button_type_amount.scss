@@ -1,0 +1,13 @@
+.donate-form__radio-button_type_amount {
+	@media (min-width: 768px) {
+		flex-grow: 0;
+		flex-basis: 145px;
+		padding: 12.5px 41px;
+  }
+
+	@media (min-width: 1440px) {
+		flex-grow: 0;
+		flex-basis: 159px;
+		padding: 12.5px 41px;
+  }
+}

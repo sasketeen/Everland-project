@@ -1,0 +1,27 @@
+.charity__sum-buttons {
+	padding: 0;
+	margin: 0;
+	border: none;
+	display: flex;
+	gap: 16px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	@media (width: 768px) {
+		justify-content: flex-start;
+    flex-wrap: nowrap;
+		gap: 10px;
+  }
+
+	@media (min-width: 768px) {
+    flex-wrap: nowrap;
+		flex-grow: 1;
+		gap: 10px;
+  }
+
+  @media (min-width: 1440px) {
+		justify-content: flex-start;
+		flex-grow: 0;
+    gap: 40px;
+  }
+}

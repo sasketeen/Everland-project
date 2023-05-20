@@ -1,0 +1,16 @@
+.donate-form__submit-button {
+	@include button-text;
+	margin-top: 24px;
+	height: 44px;
+
+	@media (min-width: 768px) {
+    width: 200px;
+		margin: 24px auto 0;
+  }
+
+	@media (min-width: 1440px) {
+    margin-top: 23px;
+		width: 194px;
+		height: 48px;
+  }
+}

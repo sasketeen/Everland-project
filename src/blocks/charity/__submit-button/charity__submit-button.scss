@@ -1,0 +1,15 @@
+.charity__submit-button {
+	box-sizing: border-box;
+	text-decoration: none;
+	height: 44px;
+
+	@media (min-width: 768px) {
+		min-width: 143px;
+	}
+	
+	@media (min-width: 1440px) {
+		width: 179px;
+		height: 48px;
+	}
+}
+

@@ -1,0 +1,19 @@
+.donate-form__question-button {
+	margin-left: 4px;
+
+	&:hover path {
+		fill: #4183DC;
+	}
+
+	&:active path {
+		fill: #00275C;
+	}
+
+	&:disabled path {
+		fill: #C4C4C4;
+	}
+
+	@media (min-width: 768px) {
+    margin-left: 10px;
+  }
+}
