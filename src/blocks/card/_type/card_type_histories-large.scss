@@ -1,9 +1,16 @@
 .card_type_histories-large {
-  max-width: 1360px;
+  max-width: 300px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
+  padding: 0;
+
+}
+
+.card_type_histories-large:nth-of-type(2n) {
+  flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
@@ -12,17 +19,16 @@
   }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 768px) {
   .card_type_histories-large {
     max-width: 687px;
-    padding: 0;
+    flex-direction: row;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1440px) {
   .card_type_histories-large {
-    max-width: 300px;
-    padding: 0;
-    flex-direction: column;
+    max-width: 1360px;
+    padding: 30px;
   }
 }

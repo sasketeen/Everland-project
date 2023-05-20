@@ -19,16 +19,165 @@
 
     <main class="content">
 
-      <section class="first-slider">
-        <!-- First Slider Code -->
+      <section class="intro">
+        <div class="intro__container">
+          <ul class="intro__slider-list">
+            <li class="intro__slider-item">
+              <div class="intro__about">
+                <h1 class="intro__title"><span class="intro__title-accent">Everland</span> — социальный
+                  предпринимательский проект</h1>
+                <p class="intro__description">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью
+                  устойчиво интегрироваться в
+                  открытый рынок труда</p>
+              </div>
+              <div class="intro__image-container">
+                <img src="<%=require('./images/firstSliderPhoto1.png')%>" alt="участник проекта" class="intro__image-top">
+                <img src="<%=require('./images/firstSliderPhoto2.png')%>" alt="участник проекта" class="intro__image-bottom">
+              </div>
+            </li>
+            <li class="intro__slider-item slider-hidden">
+              <div class="intro__about">
+                <h1 class="intro__title"><span class="intro__title-accent">Lorem</span> ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                <p class="intro__description">Duis non mauris non sapien viverra vehicula.
+                  Mauris cursus gravida diam. Fusce tellus quam, eleifend in ipsum quis, varius dapibus arcu.
+                  Cras convallis sapien nisl, vel tincidunt nunc efficitur vitae</p>
+              </div>
+              <div class="intro__image-container">
+                <img src="<%=require('./images/bestProjectsImage2.png')%>" alt="участник проекта" class="intro__image-top">
+                <img src="<%=require('./images/bestProjectsImage3.png')%>" alt="участник проекта" class="intro__image-bottom">
+              </div>
+            </li>
+            <li class="intro__slider-item slider-hidden">
+              <div class="intro__about">
+                <h1 class="intro__title"><span class="intro__title-accent">Everland</span> — социальный
+                  предпринимательский проект</h1>
+                <p class="intro__description">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью
+                  устойчиво интегрироваться в
+                  открытый рынок труда</p>
+              </div>
+              <div class="intro__image-container">
+                <img src="<%=require('./images/firstSliderPhoto1.png')%>" alt="участник проекта" class="intro__image-top">
+                <img src="<%=require('./images/firstSliderPhoto2.png')%>" alt="участник проекта" class="intro__image-bottom">
+              </div>
+            </li>
+            <li class="intro__slider-item slider-hidden">
+              <div class="intro__about">
+                <h1 class="intro__title"><span class="intro__title-accent">Mauris</span> efficitur luctus sodales</h1>
+                <p class="intro__description">Vestibulum feugiat nunc magna, tempus sollicitudin enim blandit interdum.
+                  Cras euismod tellus ac pulvinar facilisis</p>
+              </div>
+              <div class="intro__image-container">
+                <img src="<%=require('./images/firstSliderPhoto1.png')%>" alt="участник проекта" class="intro__image-top">
+                <img src="<%=require('./images/firstSliderPhoto2.png')%>" alt="участник проекта" class="intro__image-bottom">
+              </div>
+            </li>
+            <li class="intro__slider-item slider-hidden">
+              <div class="intro__about">
+                <h1 class="intro__title"><span class="intro__title-accent">Everland</span> — социальный
+                  предпринимательский проект</h1>
+                <p class="intro__description">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью
+                  устойчиво интегрироваться в
+                  открытый рынок труда</p>
+              </div>
+              <div class="intro__image-container">
+                <img src="<%=require('./images/firstSliderPhoto1.png')%>" alt="участник проекта" class="intro__image-top">
+                <img src="<%=require('./images/firstSliderPhoto2.png')%>" alt="участник проекта" class="intro__image-bottom">
+              </div>
+            </li>
+            <li class="intro__slider-item slider-hidden">
+              <div class="intro__about">
+                <h1 class="intro__title"><span class="intro__title-accent">Orci</span> varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</h1>
+                <p class="intro__description">Phasellus dolor dui, aliquet id rutrum sed, commodo vel tortor.</p>
+              </div>
+              <div class="intro__image-container">
+                <img src="<%=require('./images/firstSliderPhoto1.png')%>" alt="участник проекта" class="intro__image-top">
+                <img src="<%=require('./images/firstSliderPhoto2.png')%>" alt="участник проекта" class="intro__image-bottom">
+              </div>
+            </li>
+          </ul>
+          <div class="intro__buttons-container">
+            <button type="button" class="slider-button_type_light slider-button slider-button_direction_left" aria-label="intro slider prev"></button>
+            <p class="intro__counter">1/6</p>
+            <button type="button" class="slider-button_type_light slider-button slider-button_direction_right" aria-label="intro slider next"></button>
+          </div>
+        </div>
       </section>
 
       <section class="audience">
-        <!-- Audience Section Code (Для кого мы работаем) -->
+        <div class="audience section-container">
+          <h2 class="audience__title">Для кого мы работаем</h2>
+          <div class="audience__card-list">
+            <div class="card card_type_employers">
+              <div class="card__icon card__icon_light_blue">
+                <div class="card__icon-image audience__icon_type_dis"></div>
+              </div>
+              <div class="card__text-block">
+                  <h3 class="card__title card__title_type_employers">Для людей с инвалидностью</h3>
+                  <p class="card__paragraph audience__card-text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
+              </div>
+              <a class="card__link link link_color_blue audience__card-link" href="#">Подробнее</a>
+            </div>
+            <div class="card card_type_employers">
+              <div class="card__icon card__icon_light_pink">
+                <div class="card__icon-image audience__icon_type_brief"></div>
+              </div>
+              <div class="card__text-block">
+                  <h3 class="card__title card__title_type_employers">Для работодателей</h3>
+                  <p class="card__paragraph audience__card-text">Помогаем создать устойчивые инклюзивные команды, вовлекаем интеллектуальных волонтеров</p>
+              </div>
+              <a class="card__link link link_color_orange audience__card-link" href="#">Подробнее</a>
+            </div>
+            <div class="card card_type_employers">
+              <div class="card__icon card__icon_light_green">
+                <div class="card__icon-image audience__icon_type_pers"></div>
+              </div>
+              <div class="card__text-block">
+                  <h3 class="card__title card__title_type_employers">Для КСО-партнеров</h3>
+                  <p class="card__paragraph audience__card-text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
+              </div>
+              <a class="card__link link link_color_green audience__card-link" href="#">Подробнее</a>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="directions">
-        <!-- Directions Section Code (Наши направления) -->
+        <div class="directions section-container">
+          <h2 class="directions__title directions__title_type_desktop">Наши направления</h2>
+          <h2 class="directions__title directions__title_type_mobile">В каких направлениях мы работаем?</h2>
+          <div class="directions__card-list">
+            <div class="card card_type_directions card_light_pink">
+              <h3 class="card__title card__title_type_directions">Доступность услуг DisQuestion</h3>
+              <p class="card__paragraph directions__card-text">Сервисы для бизнеса по повышению доступности услуг для маломобильных клиентов ― контракты с крупнейшими компаниями в России</p>
+              <a class="card__link link link_color_white directions__card-link" href="#">Подробнее</a>
+            </div>
+            <div class="card card_type_directions card_light_blue">
+              <h3 class="card__title card__title_type_directions">Трудоустройство</h3>
+              <p class="card__paragraph directions__card-text">Решение социальной проблемы с использованием предпринимательских инструментов: оказываем услуги разным компаниям и НКО, таким образом зарабатываем и даем работу людям с инвалидностью</p>
+              <a class="card__link link link_color_white directions__card-link" href="#">Подробнее</a>
+            </div>
+            <div class="card card_type_directions card_light_green">
+              <h3 class="card__title card__title_type_directions">Биржа проектов и готовые решения</h3>
+              <p class="card__paragraph directions__card-text">ИТ-система для интеграции в открытый рынок труда людей с инвалидностью  в качестве самозанятых и в рамках трудоустройства в другие компании</p>
+              <a class="card__link link link_color_white directions__card-link" href="#">Подробнее</a>
+            </div>
+            <div class="card card_type_directions card_light_blue">
+              <h3 class="card__title card__title_type_directions">Агентство</h3>
+              <p class="card__paragraph directions__card-text">Услуги специалистов с инвалидностью для крупных компаний (дизайн, право, контент и другие)</p>
+              <a class="card__link link link_color_white directions__card-link" href="#">Подробнее</a>
+            </div>
+            <div class="card card_type_directions card_light_green">
+              <h3 class="card__title card__title_type_directions">Коворкинг</h3>
+              <p class="card__paragraph directions__card-text">Уникальное пространство, в котором специалисты с инвалидностью могут работать и офлайн – приходить, участвовать в образовательных мероприятиях, встречаться с заказчиками, работать в команде</p>
+              <a class="card__link link link_color_white directions__card-link" href="#">Подробнее</a>
+            </div>
+            <div class="card card_type_directions card_light_pink">
+              <h3 class="card__title card__title_type_directions">Для людей c инвалидностью</h3>
+              <p class="card__paragraph directions__card-text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
+              <a class="card__link link link_color_white directions__card-link" href="#">Подробнее</a>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="accordion">
@@ -39,8 +188,49 @@
         <!-- Numbers Section Code (Everland в цифрах) -->
       </section>
 
-      <section class="second-slider">
-        <!-- Second Slider Code -->
+      <section class="spec-projects">
+        <div class="spec-projects__container">
+          <ul class="spec-projects__slider-list">
+            <li class="card card_light_blue spec-projects__slider-item">
+              <p class="spec-projects__subtitle">Наши спецпроекты</p>
+              <img src="<%=require('./images/seconsSliderPhoto.png')%>" alt="фотограф" class="spec-projects__image">
+              <h2 class="spec-projects__title">Фотопроект «Семья&nbsp;как&nbsp;семья»</h2>
+              <p class="spec-projects__description">Фотопроект Алексея Горшенина включает в себя восемь историй людей и семей,
+                где один или оба супруга имеют инвалидность</p>
+              <a href="#" class="button button_secondary-bright spec-projects__details-link">Посмотреть</a>
+            </li>
+            <li class="card card_light_green spec-projects__slider-item slider-hidden">
+              <p class="spec-projects__subtitle">Наши спецпроекты</p>
+              <img src="<%=require('./images/seconsSliderPhoto.png')%>" alt="фотограф" class="spec-projects__image">
+              <h2 class="spec-projects__title">Etiam quis&nbsp;finibus&nbsp;turpis</h2>
+              <p class="spec-projects__description">Pellentesque pulvinar, erat et posuere posuere, leo lorem hendrerit eros, vel fringilla urna sem sed nunc.
+                Sed in ante fermentum, cursus nisi quis, aliquet velit.
+                Maecenas vel felis in enim finibus consequat. Aliquam erat volutpat</p>
+              <a href="#" class="button button_secondary-bright spec-projects__details-link">Посмотреть</a>
+            </li>
+            <li class="card card_light_pink spec-projects__slider-item slider-hidden">
+              <p class="spec-projects__subtitle">Наши спецпроекты</p>
+              <img src="<%=require('./images/seconsSliderPhoto.png')%>" alt="фотограф" class="spec-projects__image">
+              <h2 class="spec-projects__title">Фотопроект «Семья&nbsp;как&nbsp;семья»</h2>
+              <p class="spec-projects__description">Фотопроект Алексея Горшенина включает в себя восемь историй людей и семей,
+                где один или оба супруга имеют инвалидность</p>
+              <a href="#" class="button button_secondary-bright spec-projects__details-link">Посмотреть</a>
+            </li>
+            <li class="card card_light_purple spec-projects__slider-item slider-hidden">
+              <p class="spec-projects__subtitle">Наши спецпроекты</p>
+              <img src="<%=require('./images/bestProjectsImage2.png')%>" alt="фотограф" class="spec-projects__image">
+              <h2 class="spec-projects__title">Class aptent taciti sociosqu</h2>
+              <p class="spec-projects__description">Proin scelerisque pulvinar purus, in porta tellus consequat eget.
+                Maecenas suscipit tempor dui eu euismod.
+                Etiam non metus a tellus ornare condimentum. Praesent suscipit ipsum ligula</p>
+              <a href="#" class="button button_secondary-bright spec-projects__details-link">Посмотреть</a>
+            </li>
+          </ul>
+          <div class="spec-projects__buttons-container">
+            <button type="button" class="slider-button_type_dark slider-button slider-button_direction_left" aria-label="spec-projects slider prev"></button>
+            <button type="button" class="slider-button_type_dark slider-button slider-button_direction_right" aria-label="spec-projects slider next"></button>
+          </div>
+        </div>
       </section>
 
       <section class="stories">
@@ -51,14 +241,51 @@
         <!-- Best Projects Section Code -->
       </section>
 
-      <section class="news">
-        <div class="">
-          <h2></h2>
-          <h3></h3>
-          <p></p>
-          <img src="https://avatars.mds.yandex.net/get-lpc/1220100/b8affdb9-1286-4aa0-ab97-9c629959b12f/orig">
+
+      <section class="news section-container">
+        <h2 class="news__title">Новости</h2>
+        <button class="news__button button button_secondary">Все&nbsp;новости</button>
+        <div class="news__cards">
+          <div class="card card_type_news">
+            <span class="card__theme">Тема</span>
+            <img class="card__image"
+              src="<%=require('../src/images/newsImage1.png')%>" class="news__image">
+            <div class="card__text-block">
+              <h2 class="card__title">Ура! Новое партнерство — с PepsiCo</h2>
+              <p class="card__paragraph card__paragraph_type_news">Everland совместно с PepsiCo приняли участие в акции «Благотворительность
+                вместо сувениров»
+              </p>
+            </div>
+            <span class="card__date">20 сентября 2021</span>
+          </div>
+          <div class="card card_type_news card_light_green">
+            <span class="card__theme">Тема</span>
+            <div class="card__text-block">
+              <h2 class="card__title">Трехдневный интенсив для КСО-менеджеров «Бизнес и инклюзия:
+                как строить эффективные программы»</h2>
+              <p class="card__paragraph card__paragraph_type_news">Эксперты с инвалидностью, представители бизнеса и некоммерческих
+                организаций поговорили о том, что такое инклюзия, рассмотрели подходы к трудоустройству
+                людей с инвалидностью, обсудили проблемы, к которым нужно быть готовым, и поделились
+                успешными кейсами
+              </p>
+            </div>
+            <span class="card__date">20 сентября 2021</span>
+          </div>
+          <div class="card card_type_news">
+            <span class="card__theme">Тема</span>
+            <div class="card__text-block">
+              <h2 class="card__title">Тестируем супермаркеты на доступность</h2>
+              <p class="card__paragraph card__paragraph_type_news">Everland совместно с торговой сетью «Перекресток»
+                провели аудит продуктовых магазинов на доступность для людей с разными
+                видами инвалидности
+              </p>
+            </div>
+            <img class="card__image"
+              src="<%=require('../src/images/newsImage2.png')%>" class="news__image">
+            <span class="card__date">20 сентября 2021</span>
+          </div>
         </div>
-    
+      </section>
 
       <section class="donate">
         <!-- Donate Section Code -->
