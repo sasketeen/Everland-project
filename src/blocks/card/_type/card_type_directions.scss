@@ -1,5 +1,5 @@
 .card_type_directions {
-  max-width: 424px;
+  max-width: 440px;
   width: 100%;
   aspect-ratio: 1/0.972;
   display: flex;
@@ -7,10 +7,19 @@
   gap: 20px;
 }
 
+@media screen and (max-width: 1439px) {
+  .card_type_directions {
+    max-width: 334px;
+    gap: 10px;
+    aspect-ratio: 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .card_type_directions {
-    max-width:100%;
+    max-width: 300px;
     padding: 24px;
+    aspect-ratio: 0;
   }
 }
 
