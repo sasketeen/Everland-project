@@ -18,3 +18,10 @@
     @include h3;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .card__title_type_employers {
+    @include h3;
+    padding-top: 10px;
+  }
+}

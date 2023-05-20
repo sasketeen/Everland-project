@@ -1,21 +1,26 @@
 .card__paragraph_type_histories-large {
   grid-area: paragraph-quote;
-  margin: 0;
   padding: 0;
-  max-width: 877px;
   width: 100%;
+  font-size: 14px;
+  line-height: 120%;
+  max-width: 300px;
+  margin-top: 16px;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 768px) {
   .card__paragraph_type_histories-large {
     max-width: 444px;
     margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1440px) {
   .card__paragraph_type_histories-large {
-    max-width: 300px;
-    margin-top: 16px;
+    margin: 0;
+    max-width: 877px;
+    font-size: 20px;
   }
 }
