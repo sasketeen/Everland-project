@@ -1,0 +1,31 @@
+.form__checkbox-label {
+	@include small-text;
+	display: inline-flex;
+	align-items: center;
+	justify-content: flex-start;
+
+	&::before {
+		box-sizing: border-box;
+		content: '';
+		flex-shrink: 0;
+		display: inline-block;
+		width: 25px;
+		height: 25px;
+		margin-right: 9px;
+		border-radius: 10px;
+		background-color: #DADADA;
+		background-repeat: no-repeat;
+  	background-position: center;
+	}
+
+	&:hover {
+		cursor: pointer;
+		&::before {
+			border: 1px solid #000;
+		}
+	}
+
+	@media (min-width: 1440px) {
+		@include main-text;
+  }
+}

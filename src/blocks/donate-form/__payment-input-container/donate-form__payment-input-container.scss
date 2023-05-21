@@ -1,0 +1,16 @@
+.donate-form__payment-input-container {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	gap: 16px;
+
+	@media (min-width: 768px) {
+		flex-direction: row;
+		justify-content: space-between;
+  }
+
+	@media (min-width: 1440px) {
+		gap: 18px;
+		padding-left: 29px;
+  }
+}

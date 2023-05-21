@@ -1,0 +1,14 @@
+.menu__container_type_service {
+  grid-area: type_service;
+  margin-right: 96px;
+  
+  @media (min-width: 768px) {
+    max-width: 243px;
+  };
+  @media (max-width: 1439px) {
+    margin-right: 0;
+  };
+  @media (max-width: 767px) {
+    width: 100%;
+  };
+}

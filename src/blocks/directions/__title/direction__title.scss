@@ -3,7 +3,7 @@
   max-height: 77px;
   padding: 0 0 50px 0;
   margin: 0;
-  font-family: $base-font-family;
+  
   line-height: $base-line-height;
 }
 
@@ -27,7 +27,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .directions__title {
     max-height: 62px;
     max-width: 300px;

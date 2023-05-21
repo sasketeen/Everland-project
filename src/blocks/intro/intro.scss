@@ -1,17 +1,19 @@
 .intro {
   width: 100%;
-  font-family: $base-font-family;
-  margin: auto;
+  
+  margin: 50px auto 0;
   padding: 50px 10px 40px;
   box-sizing: border-box;
 
   @media screen and (min-width: 768px) {
+    margin-top: 80px;
     padding: 56px 40px 50px;
   }
 
   @media screen and (min-width: 1440px) {
+    margin-top: 0;
     max-width: 1440px;
     padding-top: 50px;
-    padding-bottom: 90px;
+    padding-bottom: 45px;
   }
 }

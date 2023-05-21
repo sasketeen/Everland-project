@@ -1,0 +1,19 @@
+.accordion-container__column {
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .accordion-container {
+        flex-direction: column;
+        gap: 18px;
+
+        &__column {
+            width: 100%;
+            gap: 18px;
+        }
+    }
+}

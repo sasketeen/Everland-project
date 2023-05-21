@@ -1,0 +1,8 @@
+.donate-form__slider-arrow {
+	width: 20px;
+	cursor: pointer;
+
+	@media (min-width: 768px) {
+		transform: rotate(-90deg);
+  }
+}

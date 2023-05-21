@@ -1,11 +1,21 @@
 .directions {
-  margin: 0 auto;
+  max-width: 1440px;
+  margin: auto;
 }
 
 @media screen and (max-width: 1439px) {
   .directions {
+    padding: 50px 40px 50px;
     display: flex;
     flex-direction: column;
   }
-  
 }
+
+@media screen and (max-width: 767px) {
+  .directions {
+    width: 100%;
+    padding: 32px 0;
+    box-sizing: border-box;
+  }
+}
+

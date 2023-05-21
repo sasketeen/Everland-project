@@ -2,7 +2,7 @@
   @include h4;
   max-height: 77px;
   margin: 0;
-  font-family: $base-font-family;
+  
   line-height: $base-line-height;
 }
 
@@ -13,13 +13,13 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .card__title_type_employers {
     @include h3;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .card__title_type_employers {
     @include h3;
     padding-top: 10px;

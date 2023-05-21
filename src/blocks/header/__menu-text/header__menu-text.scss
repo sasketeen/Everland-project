@@ -1,0 +1,8 @@
+.header__menu-text {
+  @include big-text;
+  
+  
+  @media (max-width: 767px) {
+    display: none;
+  }
+}

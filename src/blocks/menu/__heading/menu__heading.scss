@@ -1,0 +1,10 @@
+.menu__heading {
+  @include h4;
+  
+  color: rgba(0, 0, 0, 1);
+  margin: 0;
+
+  @media (max-width: 767px) {
+    @include h3;
+  };
+}

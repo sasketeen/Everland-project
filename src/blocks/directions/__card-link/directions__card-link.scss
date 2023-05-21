@@ -1,6 +1,6 @@
 .directions__card-link {
   @include button-text;
-  font-family: $base-font-family;
+  
   line-height: $base-line-height;
   grid-area: button;
   cursor: pointer;
@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .directions__card-link {
     margin-top: auto;
   }

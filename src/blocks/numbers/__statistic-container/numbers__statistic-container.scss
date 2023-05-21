@@ -1,0 +1,25 @@
+.numbers__statistic-container {
+  display: grid;
+  gap: 16px;
+  order: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .numbers__statistic-container {
+    grid-template-columns: max-content max-content;
+    grid-template-rows: max-content max-content;
+    grid-template-areas:
+      "status community"
+      "earnings pumping";
+    gap: 33px 27px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .numbers__statistic-container {
+    max-width: 670px;
+    width: 100%;
+    gap: 30px 20px;
+  }
+}

@@ -1,0 +1,10 @@
+.donators {
+	display: flex;
+	flex-direction: column;
+	gap: 36px;
+
+	@media (min-width: 1440px) {
+    gap: 74px;
+		padding: 36px 0;
+  }
+}

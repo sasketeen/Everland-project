@@ -2,4 +2,5 @@
   @include big-text;
   color: $black-card-text;
   margin: 0;
+  font-feature-settings: 'pnum' on, 'lnum' on;
 }

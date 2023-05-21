@@ -1,0 +1,25 @@
+.form__input_type_text {
+	@include main-text;
+	box-sizing: border-box;
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: 1px solid $grey-outline;
+	height: 44px;
+
+	&::placeholder {
+		color: #DADADA;
+	}
+
+	&:focus {
+		outline: none;
+		border: 1px solid #000;
+	}
+
+	@media (min-width: 768px) {
+		width: 455px;
+  }
+
+	@media (min-width: 1440px) {
+		height: 48px;
+  }
+}
