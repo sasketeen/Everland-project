@@ -1,0 +1,10 @@
+.ref {
+  text-decoration: none;
+  transition: .82s;
+  cursor: pointer;
+
+  &:hover {
+    opacity: .5;
+  };
+}
+
