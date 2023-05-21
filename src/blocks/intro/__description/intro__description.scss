@@ -1,0 +1,18 @@
+.intro__description {
+  @include main-text;
+  color: $black-card-text;
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+  max-height: 68px;
+
+  @media screen and (min-width: 768px) {
+    width: 94%;
+    max-height: 57px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 543px;
+    max-height: 76px;
+  }
+}

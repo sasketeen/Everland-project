@@ -1,0 +1,11 @@
+.directions {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+  .directions {
+    display: flex;
+    flex-direction: column;
+  }
+  
+}

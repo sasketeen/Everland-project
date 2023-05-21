@@ -1,5 +1,6 @@
 .button {
-    @include animation(background-color);
+    @include button-text();
+    @include animation();
     background-color: unset;
     border: none;
     padding: 12px 16px;
@@ -8,9 +9,11 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
+    box-sizing: border-box;
     grid-area: "button";
     height: 48px;
-    
+
     &:disabled {
         border: 2px solid $grey-disabled;
         color: $grey-disabled;

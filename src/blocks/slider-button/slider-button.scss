@@ -28,8 +28,9 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1439px) {
     .slider-button {
+        border-radius: 6px;
         padding: 7px;
         &::after {
             width: 10px;
@@ -37,5 +38,5 @@
         }
 
     }
-    
+
 }
