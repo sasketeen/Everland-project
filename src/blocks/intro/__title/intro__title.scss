@@ -4,15 +4,18 @@
   margin: 0;
   width: 100%;
   overflow: hidden;
-  max-height: 136px;
   letter-spacing: -0.03em;
+  max-height: calc(136px + 2 * ((100vw - 320px) / 448));
+  font-size: calc(28px + 10 * ((100vw - 320px) / 448));
 
   @media screen and (min-width: 768px) {
-    max-height: 138px;
+    max-height: calc(138px + 120 * ((100vw - 768px) / 672));
+    font-size: calc(38px + 34 * ((100vw - 768px) / 672));
   }
 
   @media screen and (min-width: 1440px) {
     max-height: 258px;
     letter-spacing: -0.02em;
+    font-size: 72px;
   }
 }

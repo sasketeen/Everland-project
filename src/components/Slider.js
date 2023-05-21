@@ -1,12 +1,13 @@
 export default class Slider {
   constructor(config) {
-    this._slider = document.querySelector(config.slider);
+    this._section = document.querySelector(config.section);
+    this._slider = this._section.querySelector(config.slider);
     this._slides = Array.from(this._slider.querySelectorAll(config.slides));
-    this._prevButton = this._slider.querySelector(config.prevButton);
-    this._nextButton = this._slider.querySelector(config.nextButton);
+    this._prevButton = this._section.querySelector(config.prevButton);
+    this._nextButton = this._section.querySelector(config.nextButton);
 
     if (config.counter) {
-      this._counter = this._slider.querySelector(config.counter);
+      this._counter = this._section.querySelector(config.counter);
     }
 
     this._total = this._slides.length;
@@ -31,14 +32,21 @@ export default class Slider {
     }
   }
 
+  _updateCurrent() {
+    const width = this._slides[this._current].offsetWidth;
+    this._slider.style.transform = 'translateX(-' + width * this._current + 'px)';
+
+    this._showSlide(this._slides[this._current]);
+    this._updateCounter();
+  }
+
   _gotoPrevSlide() {
     this._hideSlide(this._slides[this._current]);
     const nextSlide = this._current - 1;
 
     this._current = nextSlide < 0 ? this._total - 1 : nextSlide;
 
-    this._showSlide(this._slides[this._current]);
-    this._updateCounter();
+    this._updateCurrent();
   }
 
   _gotoNextSlide() {
@@ -47,8 +55,7 @@ export default class Slider {
 
     this._current = nextSlide < this._total ? nextSlide : 0;
 
-    this._showSlide(this._slides[this._current]);
-    this._updateCounter();
+    this._updateCurrent();
   }
 
   init() {
@@ -58,5 +65,7 @@ export default class Slider {
 
     this._prevButton.addEventListener('click', this._gotoPrevSlide.bind(this));
     this._nextButton.addEventListener('click', this._gotoNextSlide.bind(this));
+
+    window.addEventListener('resize', this._updateCurrent.bind(this));
   }
 }

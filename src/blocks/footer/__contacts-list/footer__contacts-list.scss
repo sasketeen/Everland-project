@@ -1,0 +1,16 @@
+.footer__contacts-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  @media (max-width: 1439px) {
+    row-gap: 16px;
+  }
+  @media (max-width: 767px) {
+    flex-direction: row;
+    column-gap: 16px;
+  }
+}

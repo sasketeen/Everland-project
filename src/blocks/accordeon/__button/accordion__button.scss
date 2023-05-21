@@ -1,0 +1,49 @@
+.accardion__button {
+    @include animation();
+    border: none;
+    padding: 13px;
+    border-radius: 20px;
+    background-color: $light-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &::before {
+        @include cross-icon;
+        @include animation;
+        background-color: $blue-card-text;
+        width: 19px;
+        height: 19px;
+    };
+
+    &:hover {
+        background-color: $blue-card-text;
+
+        &::before {
+            background-color: $white-background;
+        }
+
+    };
+
+    &[disabled] {
+        background-color: $grey-disabled;
+
+        &::before {
+            background-color: $gray-disabled-icon;
+            opacity: 0.5;
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    
+    .accardion-button {
+        padding: 10px;
+        &::before {
+            width: 12px;
+            height: 12px;
+        }
+    }
+    
+}

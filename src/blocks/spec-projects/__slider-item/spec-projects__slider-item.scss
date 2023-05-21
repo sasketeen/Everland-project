@@ -5,6 +5,8 @@
   padding: 27px 24px 24px;
   display: flex;
   flex-direction: column;
+  opacity: 1;
+  transition: opacity 1.5s linear;
 
   @media screen and (min-width: 768px) {
     padding: 30px;
@@ -15,6 +17,7 @@
       "description . photo"
       "details . photo";
     grid-template-columns: 53.98% 1fr 41.24%;
+    grid-template-rows: auto auto auto 1fr;
   }
 
   @media screen and (min-width: 1440px) {

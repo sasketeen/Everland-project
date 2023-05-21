@@ -1,0 +1,15 @@
+.footer__support-img_type_fond {
+  width: 100px;
+  height: 48px;
+  background: center / cover no-repeat url('./../images/footerFond.svg');
+
+  @media (max-width: 1439px) {
+    width: 88px;
+    height: 30px;
+    background: center / cover no-repeat url('./../images/footerFond.svg');
+  }
+  @media (max-width: 767px) {
+    width: 73px;
+    height: 25px;
+  }
+}
