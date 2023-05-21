@@ -1,0 +1,5 @@
+.intro__counter {
+  @include big-text;
+  color: $black-card-text;
+  margin: 0;
+}

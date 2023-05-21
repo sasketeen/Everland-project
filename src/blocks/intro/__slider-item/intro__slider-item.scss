@@ -1,0 +1,16 @@
+.intro__slider-item {
+  list-style-type: none;
+  display: flex;
+  min-width: 100%;
+  flex-direction: column;
+  row-gap: 26px;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 1.5s linear;
+
+  @media screen and (min-width: 768px) {
+    align-items: normal;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

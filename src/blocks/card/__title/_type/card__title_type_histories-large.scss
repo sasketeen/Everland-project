@@ -2,20 +2,24 @@
   grid-area: title-quote;
   margin: 0;
   padding: 0;
-  max-width: 877px;
   width: 100%;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 120%;
+  max-width: 300px;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 768px) {
   .card__title_type_histories-large {
     max-width: 444px;
-    /* margin-top: 20px; */
+    font-size: 26px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1440px) {
   .card__title_type_histories-large {
-    max-width: 300px;
-    /* margin-top: 16px; */
+    max-width: 877px;
+    font-size: 36px;
   }
 }

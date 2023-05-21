@@ -11,10 +11,11 @@
   .directions__card-list {
     grid-template-columns: repeat(2, max-content);
     grid-template-rows: repeat(3, max-content);
+    justify-content: center;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .directions__card-list {
     grid-template-columns: repeat(1, max-content);
     grid-template-rows: repeat(6, max-content);

@@ -1,0 +1,27 @@
+.news {
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    grid-template-rows: 120px 1fr;
+    grid-template-areas:
+        "title button"
+        "card card";
+    font-family: $base-font-family;
+}
+
+@media (max-width: 1440px) {
+    .news {
+        gap: 32px;
+        grid-template-columns: 1fr;
+        grid-template-rows: min-content min-content min-content;
+        grid-template-areas:
+            "title"
+            "card"
+            "button";
+    }
+}
+
+@media (max-width: 768px) {
+    .news {
+        gap: 20px;
+    }
+}

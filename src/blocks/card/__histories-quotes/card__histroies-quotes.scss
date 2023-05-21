@@ -1,16 +1,17 @@
 .card__histories-quotes {
   display: grid;
-  grid-template-columns: 60px max-content;
-  grid-template-rows: min-content min-content min-content;
-  grid-template-areas:
-    "quote title-quote"
-    "quote paragraph-quote"
-    "quote button";
-  gap: 20px 20px;
+  grid-template-rows: 24px min-content min-content min-content;
   outline: 1px solid red;
+  grid-template-columns: max-content;
+  grid-template-areas:
+    "quote"
+    "title-quote"
+    "paragraph-quote"
+    "button";
+  gap: 0;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 768px) {
   .card__histories-quotes {
     grid-template-columns: max-content;
     grid-template-rows: 28px min-content min-content min-content;
@@ -23,8 +24,14 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1440px) {
   .card__histories-quotes {
-    grid-template-rows: 24px min-content min-content min-content;
+    grid-template-columns: 60px max-content;
+    grid-template-rows: min-content min-content min-content;
+    grid-template-areas:
+      "quote title-quote"
+      "quote paragraph-quote"
+      "quote button";
+    gap: 20px 20px;
   }
 }
