@@ -1,5 +1,6 @@
 .card__title {
   @include h3();
   margin: 0;
+  grid-area: title;
 }
 

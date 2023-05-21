@@ -1,12 +1,21 @@
 .card_type_histories-large {
-  max-width: 300px;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  padding: 0;
+  display: grid;
+  grid-template-columns: 16.5% 60px 1fr;
+  grid-template-rows: min-content min-content min-content;
+  grid-template-areas: 
+  "avatar quote title"
+  "avatar quote text"
+  "avatar quote button";
+  gap: 31px;
+  background-color: $light-purple;
+}
 
+
+@media screen and (max-width: 1440px) {
+  .card_type_histories-large {
+    padding: 0;
+  }
 }
 
 .card_type_histories-large:nth-of-type(2n) {
@@ -21,14 +30,8 @@
 
 @media screen and (min-width: 768px) {
   .card_type_histories-large {
-    max-width: 687px;
     flex-direction: row;
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .card_type_histories-large {
-    max-width: 1360px;
-    padding: 30px;
-  }
-}
+
