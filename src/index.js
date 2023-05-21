@@ -105,6 +105,7 @@ function charityFormSubmit(inputValues) {
 			toggleSumInputVisibility(item);
 		}
     donateForm.scrollIntoView();
+    item.focus();
 	})
 }
 
