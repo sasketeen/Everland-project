@@ -25,6 +25,7 @@
 @import "../blocks/slider-button/slider-button.scss";
 @import "../blocks/slider-button/_type/slider-button_type_light.scss";
 @import "../blocks/slider-button/_type/slider-button_type_dark.scss";
+@import "../blocks/slider-button/_direction/slider-button_direction_left.scss";
 
 
 @import "../blocks/card/card.scss";
@@ -86,13 +87,40 @@
 @import "../blocks/card/__paragraph/_type/card__paragraph_type_histories-large.scss";
 @import "../blocks/card/__audio-button/card__audio-button.scss";
 
+@import "../blocks/intro/intro.scss";
+@import "../blocks/intro/__container/intro__container.scss";
+@import "../blocks/intro/__slider-list/intro__slider-list.scss";
+@import "../blocks/intro/__slider-item/intro__slider-item.scss";
+@import "../blocks/intro/__about/intro__about.scss";
+@import "../blocks/intro/__title/intro__title.scss";
+@import "../blocks/intro/__title-accent/intro__title-accent.scss";
+@import "../blocks/intro/__description/intro__description.scss";
+@import "../blocks/intro/__image-container/intro__image-container.scss";
+@import "../blocks/intro/__image-top/intro__image-top.scss";
+@import "../blocks/intro/__image-bottom/intro__image-bottom.scss";
+@import "../blocks/intro/__buttons-container/intro__buttons-container.scss";
+@import "../blocks/intro/__button/intro__button.scss";
+@import "../blocks/intro/__counter/intro__counter.scss";
+
+@import "../blocks/spec-projects/spec-projects.scss";
+@import "../blocks/spec-projects/__container/spec-projects__container.scss";
+@import "../blocks/spec-projects/__slider-list/spec-projects__slider-list.scss";
+@import "../blocks/spec-projects/__slider-item/spec-projects__slider-item.scss";
+@import "../blocks/spec-projects/__subtitle/spec-projects__subtitle.scss";
+@import "../blocks/spec-projects/__title/spec-projects__title.scss";
+@import "../blocks/spec-projects/__description/spec-projects__description.scss";
+@import "../blocks/spec-projects/__details-link/spec-projects__details-link.scss";
+@import "../blocks/spec-projects/__image/spec-projects__image.scss";
+@import "../blocks/spec-projects/__buttons-container/spec-projects__buttons-container.scss";
+
+@import "../blocks/slider-hidden/slider-hidden.scss";
+
 @import "/src/blocks/accordeon/accordion.scss";
 @import "/src/blocks/accordeon/__button/accordion__button.scss";
 @import "/src/blocks/accordeon/__header/accordion__header.scss";
 @import "/src/blocks/accordeon/__title/accordion__title.scss";
 @import "/src/blocks/accordeon/__body/accordion__body.scss";
 @import "/src/blocks/accordeon/_opened/accordion_opened.scss";
-
 @import "../blocks/news/news.scss";
 @import "../blocks/news/__title/news__title.scss";
 @import "../blocks/news/__button/news__button.scss";

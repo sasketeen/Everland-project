@@ -1,0 +1,17 @@
+.intro__image-container {
+  width: 300px;
+  height: 200px;
+  position: relative;
+
+  @media screen and (min-width: 768px) {
+    width: 35%;
+    height: calc((100vw - 80px) * .39);
+    padding: 0;
+    align-self: flex-end;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 520px;
+    height: 565px;
+  }
+}
