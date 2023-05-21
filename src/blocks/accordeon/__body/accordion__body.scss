@@ -6,18 +6,18 @@
     overflow-wrap: break-word;
     overflow-y: hidden;
 
-    &::-webkit-scrollbar-track {
-        border-radius: 4px;
-    }
+    // &::-webkit-scrollbar-track {
+    //     border-radius: 4px;
+    // }
 
-    &::-webkit-scrollbar {
-        width: 6px;
-    }
+    // &::-webkit-scrollbar {
+    //     width: 6px;
+    // }
 
-    &::-webkit-scrollbar-thumb {
-        border-radius: 4px;
-        background: $light-grey;
-    }
+    // &::-webkit-scrollbar-thumb {
+    //     border-radius: 4px;
+    //     background: $light-grey;
+    // }
 }
 
 
