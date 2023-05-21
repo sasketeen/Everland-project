@@ -1,0 +1,17 @@
+.footer__support-list {
+  list-style: none;
+  padding: 19px 0 0 0;
+  margin: 0;
+  display: flex;
+  column-gap: 50px;
+  align-items: center;
+
+  @media (max-width: 1439px) {
+   column-gap: 21px;
+   padding: 19px 0 0 14px;
+  }
+  @media (max-width: 767px) {
+    column-gap: 19px;
+    padding: 19px 0 0 12px;
+   }
+}

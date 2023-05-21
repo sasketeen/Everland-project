@@ -1,0 +1,15 @@
+.footer__support-img_type_beeline {
+  width: 100px;
+  height: 52px;
+  background: center / cover no-repeat url('./../images/footerBeeline.svg');
+
+  @media (max-width: 1439px) {
+    width: 56px;
+    height: 40px;
+    background: center / cover no-repeat url('./../images/footerBeeline2.svg');
+  }
+  @media (max-width: 767px) {
+    width: 47px;
+    height: 34px;
+  }
+}
