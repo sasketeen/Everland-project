@@ -3,7 +3,8 @@
 
 @import "../utils/variables.scss";
 @import "../utils/mixins.scss";
-@import "../blocks/section/section.scss";
+
+@import "../blocks/section-container/section-container.scss";
 
 @import "../blocks/icon/_type/icon_type_arrow.scss";
 @import "../blocks/icon/_type/icon_type_cross.scss";
@@ -207,3 +208,47 @@
 @import '../blocks/audience/__container/audience__container.scss';
 @import '../blocks/audience/__background/audience__background.scss';
 @import '../blocks/directions/__container/directions__container.scss';
+
+@import "../blocks/form/__input/_type/form__input_type_checkbox.scss";
+@import "../blocks/form/__input/_type/form__input_type_radio.scss";
+@import "../blocks/form/__input/_type/form__input_type_text.scss";
+@import "../blocks/form/__input/_type/form__input_type_text-hidden.scss";
+@import "../blocks/form/__checkbox-label/form__checkbox-label.scss";
+
+@import "../blocks/charity/charity.scss";
+@import "../blocks/charity/__form/charity__form.scss";
+@import "../blocks/charity/__sum-buttons/charity__sum-buttons.scss";
+@import "../blocks/charity/__radio-button/charity__radio-button.scss";
+@import "../blocks/charity/__submit-button/charity__submit-button.scss";
+
+@import "../blocks/donate/donate.scss";
+@import "../blocks/donate/__header/donate__header.scss";
+@import "../blocks/donate/__container/donate__container.scss";
+
+@import "../blocks/donate-form/donate-form.scss";
+@import "../blocks/donate-form/__input-header/donate-form__input-header.scss";
+@import "../blocks/donate-form/__input-header-container/donate-form__input-header-container.scss";
+@import "../blocks/donate-form/__radio-button/donate-form__radio-button.scss";
+@import "../blocks/donate-form/__radio-button/_type/donate-form__radio-button_type_payment.scss";
+@import "../blocks/donate-form/__radio-button/_type/donate-form__radio-button_type_amount.scss";
+@import "../blocks/donate-form/__question-button/donate-form__question-button.scss";
+@import "../blocks/donate-form/__amount-input-container/donate-form__amount-input-container.scss";
+@import "../blocks/donate-form/__regularity-input-container/donate-form__regularity-input-container.scss";
+@import "../blocks/donate-form/__text/donate-form__text.scss";
+@import "../blocks/donate-form/__payment-slider/donate-form__payment-slider.scss";
+@import "../blocks/donate-form/__payment-input-container/donate-form__payment-input-container.scss";
+@import "../blocks/donate-form/__slider-arrow/donate-form__slider-arrow.scss";
+@import "../blocks/donate-form/__donator-input-container/donate-form__donator-input-container.scss";
+@import "../blocks/donate-form/__policy-input-container/donate-form__policy-input-container.scss";
+@import "../blocks/donate-form/__link/donate-form__link.scss";
+@import "../blocks/donate-form/__submit-button/donate-form__submit-button.scss";
+
+@import "../blocks/donators/donators.scss";
+@import "../blocks/donators/__header/donators__header.scss";
+@import "../blocks/donators/__list/donators__list.scss";
+@import "../blocks/donators/__list-item/donators__list-item.scss";
+@import "../blocks/donators/__name/donators__name.scss";
+@import "../blocks/donators/__dotted-border/donators__dotted-border.scss";
+@import "../blocks/donators/__sum-time-container/donators__sum-time-container.scss";
+@import "../blocks/donators/__sum/donators__sum.scss";
+@import "../blocks/donators/__time/donators__time.scss";

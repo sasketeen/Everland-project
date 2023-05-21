@@ -1,0 +1,8 @@
+.donate-form__radio-button_type_payment {
+	flex-basis: auto;
+
+	@media (min-width: 768px) {
+		flex-basis: 190px;
+		height: 48px;
+  }
+}

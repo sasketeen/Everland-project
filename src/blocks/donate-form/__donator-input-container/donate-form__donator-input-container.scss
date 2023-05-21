@@ -1,0 +1,16 @@
+.donate-form__donator-input-container {
+	margin-top: 25px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+
+	@media (min-width: 768px) {
+		margin-top: 24px;
+		align-items: flex-start;
+  }
+
+	@media (min-width: 768px) {
+		margin-top: 28px;
+		gap: 21px;
+  }
+}
