@@ -11,13 +11,87 @@
 
 <body class="body">
 
-  <div class="page">
+  <header class="header">
+    <div class="header__container">
+      <a class="header__logo-link" href="#">
+        <img class="header__logo" src="<%=require('./images/Logo.svg')%>" alt="Логотип Everland">
+      </a>
+      <button class="header__menu-button">
+        <span class="header__menu-vector"></span>
+        <span class="header__menu-text">Меню</span>
+      </button>
+      <div class="header__buttons-container">
+        <a class="header__button button button_secondary" href="#">Платформа</a>
+        <a class="header__button button button_primary" href="#">Поддержать</a> 
+      </div>
+    </div>
+    <section class="menu">
+      <nav class="menu__nav-container">
+        <div class="menu__container menu__container_type_about">
+          <div class="menu__list-button">
+            <h2 class="menu__heading" href="#">О проекте</h2>
+            <button class="menu__list-vector"></button>
+          </div>
+          <ul class="menu__list">
+            <li><a class="menu__link ref" href="#">АНО&nbsp;Пространство равных&nbsp;возможностей</a></li>
+            <li><a class="menu__link ref" href="#">Новости</a></li>
+            <li><a class="menu__link ref" href="#">Сотрудничество</a></li>
+            <li><a class="menu__link ref" href="#">Инклюзия</a></li>
+            <li><a class="menu__link ref" href="#">Учебным&nbsp;заведениям</a></li>
+            <li><a class="menu__link ref" href="#">Годовые отчеты</a></li>
+          </ul>
+        </div>
+        <div class="menu__container menu__container_type_realm">
+          <div class="menu__list-button">
+            <h2 class="menu__heading" href="#">Людям с&nbsp;инвалидностью</h2>
+            <button class="menu__list-vector"></button>
+          </div>
+          <ul class="menu__list">
+            <li><a class="menu__link ref" href="#">Платформа</a></li>
+            <li><a class="menu__link ref" href="#">Курсы</a></li>
+            <li><a class="menu__link ref" href="#">Everland Profi</a></li>
+            <li><a class="menu__link ref" href="#">Бесплатное такси </a></li>
+          </ul>
+        </div>
+        <div class="menu__container menu__container_type_service">
+          <div class="menu__list-button">
+            <h2 class="menu__heading" href="#">Услуги</h2>
+            <button class="menu__list-vector"></button>
+          </div>
+          <ul class="menu__list">
+            <li><a class="menu__link ref" href="#">Услуги агентства</a></li>
+            <li><a class="menu__link ref" href="#">Готовые сайты </a></li>
+            <li><a class="menu__link ref" href="#">Доступность&nbsp;для&nbsp;людей с&nbsp;инвалидностью</a></li>
+            <li><a class="menu__link ref" href="#">Работодателям</a></li>
+            <li><a class="menu__link ref" href="#">Портфолио</a></li>
+          </ul>
+        </div>
+        <div class="menu__list menu__list_type_global">
+          <a class="menu__heading ref" href="#">Мы благодарим</a>
+          <a class="menu__heading ref" href="#">Программы</a>
+          <a class="menu__heading ref" href="#">Наставникам</a>
+          <a class="menu__heading ref" href="#">Помочь</a>
+        </div>
+      </nav>
+    </section>
+  </header>
 
-    <header class="header">
-      <!-- Header Code -->
-    </header>
+  <div class="page"> 
 
+    
     <main class="content">
+      <nav class="navigation">
+        <ul class="navigation__list">
+         <li><a class="navigation__link ref">Для кого</a></li>
+         <li><a class="navigation__link ref">Направления работы</a></li>
+         <li><a class="navigation__link ref">Преимущества</a></li>
+         <li><a class="navigation__link ref">Основные цифры</a></li>
+         <li><a class="navigation__link ref">Спецпроект</a></li>
+         <li><a class="navigation__link ref">Истории</a></li>
+         <li><a class="navigation__link ref">Агенство</a></li>
+         <li><a class="navigation__link ref">Новости</a></li>
+        </ul>
+      </nav>
 
       <section class="intro">
         <div class="intro__container">
@@ -142,7 +216,7 @@
           </div>
         </div>
       </section>
-
+      
       <section class="directions">
         <div class="directions__container">
           <h2 class="directions__title directions__title_type_desktop">Наши направления</h2>
@@ -185,7 +259,7 @@
       <section class="accordions section-container">
 
       </section>
-
+      
       <section class="numbers">
         <!-- Numbers Section Code (Everland в цифрах) -->
       </section>
@@ -234,11 +308,11 @@
           </div>
         </div>
       </section>
-
+      
       <section class="stories">
         <!-- Stories Section Code -->
       </section>
-
+      
       <section class="projects">
         <div class="section-container projects__container">
           <h2 class="projects__title">Лучшие проекты нашего&nbsp;агентства</h2>
@@ -359,7 +433,7 @@
           </div>
       </footer>
     </main>
-
+    
   </div>
   <template class="accordion__template">
     <div class="accordion">
