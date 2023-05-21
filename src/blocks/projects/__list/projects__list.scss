@@ -17,7 +17,7 @@
   }
 
   @media screen  and (min-width: 1440px) {
-    grid-template-columns: repeat(minmax(430px, auto));
+    grid-template-columns: repeat(3, minmax(430px, auto));
   }
 }
 
