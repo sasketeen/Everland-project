@@ -1,0 +1,15 @@
+.header__button {
+  @include button-text;
+  font-family: $base-font-family;
+  box-sizing: border-box;
+  text-decoration: none;
+  width: 180px;
+  height: 48px;
+  
+}
+.header__button {
+@media (max-width: 1439px) {
+  width: 132px;
+  height: 44px;
+}
+}

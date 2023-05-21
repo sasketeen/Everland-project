@@ -1,0 +1,9 @@
+.footer__logo {
+  width: 263px;
+  height: 46px;
+  
+  @media (max-width: 1439px) {
+    width: 137px;
+    height: 24px;
+  }
+}

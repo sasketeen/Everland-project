@@ -1,0 +1,9 @@
+.menu__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  
+  @media (max-width: 1439px) {
+    row-gap: 24px;
+  }
+}
