@@ -99,6 +99,7 @@ function charityFormSubmit(inputValues) {
 			item.checked = true;
 			toggleSumInputVisibility(item);
 		}
+    donateForm.scrollIntoView();
 	})
 }
 
