@@ -5,10 +5,11 @@
     grid-template-areas:
         "title button"
         "card card";
-    
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
     .news {
         gap: 32px;
         grid-template-columns: 1fr;
@@ -17,11 +18,15 @@
             "title"
             "card"
             "button";
+            padding-top: 50px;
+            padding-bottom: 50px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .news {
         gap: 20px;
+        padding-top: 32px;
+        padding-bottom: 32px;
     }
 }

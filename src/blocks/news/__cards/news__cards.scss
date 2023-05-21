@@ -7,7 +7,7 @@
     gap: 20px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
     .news__cards {
         grid-template-columns: 1fr 1fr;
         gap: 16px;
@@ -19,7 +19,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .news__cards {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, min-content);
