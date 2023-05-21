@@ -1,10 +1,12 @@
 .donators__list {
 	position: relative;
+	padding: 0;
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 	max-height: 265px;
 	overflow: hidden;
+	list-style: none;
 
 	&::before {
 		content: '';
