@@ -1,14 +1,6 @@
 import "./pages/index.scss"
 import Accordion from "./components/Accordion/Accordion"
-import {
-  menu,
-  headerMenuButton,
-} from "./utils/constants.js";
-import Menu from "./components/Menu.js";
 import Slider from "./components/Slider";
-
-const modal = new Menu(menu, headerMenuButton);
-modal.setListeners();
 
 const accordions = document.querySelector(".accordions");
 
