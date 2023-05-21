@@ -1,0 +1,15 @@
+.intro__about {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    row-gap: 20px;
+    width: 61.64%;
+  }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 826px;
+  }
+}

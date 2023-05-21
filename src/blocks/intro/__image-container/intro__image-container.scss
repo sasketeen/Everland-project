@@ -1,0 +1,19 @@
+.intro__image-container {
+  height: calc(200px + 40 * ((100vw - 320px) / 448));
+  aspect-ratio: 3/2;
+  position: relative;
+
+  @media screen and (min-width: 768px) {
+    height: unset;
+    width: 35%;
+    aspect-ratio: 0.88/1;
+    padding: 0;
+    align-self: flex-end;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 520px;
+    height: 565px;
+    aspect-ratio: unset;
+  }
+}

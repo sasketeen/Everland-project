@@ -1,0 +1,21 @@
+.news__button {
+    grid-area: button;
+    align-items: center;
+    width: 194px;
+    height: 48px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1440px) {
+    .news__button {
+        width: 200px;
+        justify-self: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .news__button {
+        margin-top: 12px;
+        width: 100%;
+    }
+}

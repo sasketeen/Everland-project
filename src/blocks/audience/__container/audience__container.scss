@@ -1,0 +1,12 @@
+.audience__container {
+  max-width: 1360px;
+  margin: 0;
+  padding: 100px 40px 100px 40px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+  .audience__container {
+    padding: 0px;
+  }
+}
