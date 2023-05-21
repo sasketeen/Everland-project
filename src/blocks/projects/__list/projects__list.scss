@@ -7,7 +7,7 @@
   grid-row-gap: 30px;
 
   @media screen  and (min-width: 768px) {
-    grid-template-columns: repeat(2, minmax(334px, auto));
+    grid-template-columns: repeat(2, minmax(320px, auto));
     grid-template-rows: 1fr;
     overflow-y: hidden;
     grid-row-gap: 0;
@@ -17,7 +17,7 @@
   }
 
   @media screen  and (min-width: 1440px) {
-    grid-template-columns: repeat(3, max-content);
+    grid-template-columns: repeat(minmax(430px, auto));
   }
 }
 

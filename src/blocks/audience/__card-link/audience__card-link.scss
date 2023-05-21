@@ -1,6 +1,6 @@
 .audience__card-link {
   @include button-text;
-  font-family: $base-font-family;
+  
   line-height: $base-line-height;
   grid-area: button;
   cursor: pointer;

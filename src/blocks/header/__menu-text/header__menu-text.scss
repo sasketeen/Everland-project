@@ -1,6 +1,6 @@
 .header__menu-text {
   @include big-text;
-  font-family: $base-font-family;
+  
   
   @media (max-width: 767px) {
     display: none;

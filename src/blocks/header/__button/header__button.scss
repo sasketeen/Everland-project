@@ -1,6 +1,6 @@
 .header__button {
   @include button-text;
-  font-family: $base-font-family;
+  
   box-sizing: border-box;
   text-decoration: none;
   width: 180px;
