@@ -151,6 +151,20 @@
 @import "../blocks/spec-projects/__image/spec-projects__image.scss";
 @import "../blocks/spec-projects/__buttons-container/spec-projects__buttons-container.scss";
 
+@import "../blocks/numbers/numbers.scss";
+@import "../blocks/numbers/__container/numbers__container.scss";
+@import "../blocks/numbers/__image/numbers__image.scss";
+@import "../blocks/numbers/__statistic-container/numbers__statistic-container.scss";
+@import "../blocks/numbers/__statistic/numbers__statistic.scss";
+@import "../blocks/numbers/__statistic/_type/numbers__statistic_type_community.scss";
+@import "../blocks/numbers/__statistic/_type/numbers__statistic_type_earnings.scss";
+@import "../blocks/numbers/__statistic/_type/numbers__statistic_type_pumping.scss";
+@import "../blocks/numbers/__statistic/_type/numbers__statistic_type_status.scss";
+@import "../blocks/numbers/__statistic-title/numbers__statistic-title.scss";
+@import "../blocks/numbers/__statistic-paragraph/numbers__statistic-paragraph.scss";
+@import "../blocks/numbers/__title/numbers__title.scss";
+@import "../blocks/numbers/__title-accent/numbers__title-accent.scss";
+
 @import "../blocks/slider-hidden/slider-hidden.scss";
 
 @import "../blocks/projects/projects.scss";
@@ -181,29 +195,6 @@
 @import '../blocks/audience/__card-list/audience__card-list.scss';
 @import '../blocks/audience/__card-link/audience__card-link.scss';
 @import '../blocks/audience/__card-text/audience__card-text.scss';
-
-@import "../blocks/footer/footer.scss";
-@import "../blocks/footer/__logo/footer__logo.scss";
-@import "../blocks/footer/__heading/footer__heading.scss";
-@import "../blocks/footer/__about/footer__about.scss";
-@import "../blocks/footer/__main-text/footer__main-text.scss";
-@import "../blocks/footer/__nav-links/footer__nav-links.scss";
-@import "../blocks/footer/__nav-link/footer__nav-link.scss";
-@import "../blocks/footer/__support/footer__support.scss";
-@import "../blocks/footer/__support-list/footer__support-list.scss";
-@import "../blocks/footer/__support-img/footer__support-img.scss";
-@import "../blocks/footer/__support-img/_type/footer__support-img_type_beeline.scss";
-@import "../blocks/footer/__support-img/_type/footer__support-img_type__fond.scss";
-@import "../blocks/footer/__follow/footer__follow.scss";
-@import "../blocks/footer/__follow-list/footer__follow-list.scss";
-@import "../blocks/footer/__follow-img/footer__follow-img.scss";
-@import "../blocks/footer/__contacts/footer__contacts.scss";
-@import "../blocks/footer/__contacts-list/footer__contacts-list.scss";
-@import "../blocks/footer/__contact/footer__contact.scss";
-@import "../blocks/footer/__main-text/_type/footer__contact_type_color.scss";
-@import "../blocks/footer/__partner/footer__partner.scss";
-@import "../blocks/footer/__attendee/footer__attendee.scss";
-@import "../blocks/footer/__partner-img/footer__partner-img.scss";
 
 @import '../blocks/audience/__container/audience__container.scss';
 @import '../blocks/audience/__background/audience__background.scss';
@@ -252,3 +243,26 @@
 @import "../blocks/donators/__sum-time-container/donators__sum-time-container.scss";
 @import "../blocks/donators/__sum/donators__sum.scss";
 @import "../blocks/donators/__time/donators__time.scss";
+
+@import "../blocks/footer/footer.scss";
+@import "../blocks/footer/__logo/footer__logo.scss";
+@import "../blocks/footer/__heading/footer__heading.scss";
+@import "../blocks/footer/__about/footer__about.scss";
+@import "../blocks/footer/__main-text/footer__main-text.scss";
+@import "../blocks/footer/__nav-links/footer__nav-links.scss";
+@import "../blocks/footer/__nav-link/footer__nav-link.scss";
+@import "../blocks/footer/__support/footer__support.scss";
+@import "../blocks/footer/__support-list/footer__support-list.scss";
+@import "../blocks/footer/__support-img/footer__support-img.scss";
+@import "../blocks/footer/__support-img/_type/footer__support-img_type_beeline.scss";
+@import "../blocks/footer/__support-img/_type/footer__support-img_type__fond.scss";
+@import "../blocks/footer/__follow/footer__follow.scss";
+@import "../blocks/footer/__follow-list/footer__follow-list.scss";
+@import "../blocks/footer/__follow-img/footer__follow-img.scss";
+@import "../blocks/footer/__contacts/footer__contacts.scss";
+@import "../blocks/footer/__contacts-list/footer__contacts-list.scss";
+@import "../blocks/footer/__contact/footer__contact.scss";
+@import "../blocks/footer/__main-text/_type/footer__contact_type_color.scss";
+@import "../blocks/footer/__partner/footer__partner.scss";
+@import "../blocks/footer/__attendee/footer__attendee.scss";
+@import "../blocks/footer/__partner-img/footer__partner-img.scss";

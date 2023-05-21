@@ -1,0 +1,6 @@
+.numbers__statistic-title {
+  width: max-content;
+  margin: 0;
+  @include h3;
+  font-family: $base-font-family;
+}
