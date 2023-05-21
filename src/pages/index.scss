@@ -3,7 +3,6 @@
 
 @import "../utils/variables.scss";
 @import "../utils/mixins.scss";
-
 @import "../blocks/section/section.scss";
 
 @import "../blocks/icon/_type/icon_type_arrow.scss";
@@ -27,9 +26,6 @@
 @import "../blocks/slider-button/_type/slider-button_type_light.scss";
 @import "../blocks/slider-button/_type/slider-button_type_dark.scss";
 @import "../blocks/slider-button/_direction/slider-button_direction_left.scss";
-
-@import "../blocks/accardion-button/accardion-button.scss";
-@import "../blocks/accardion-button/_opened/accardion-button_opened.scss";
 
 
 @import "../blocks/card/card.scss";
@@ -91,6 +87,12 @@
 @import "../blocks/card/__paragraph/_type/card__paragraph_type_histories-large.scss";
 @import "../blocks/card/__audio-button/card__audio-button.scss";
 
+@import "/src/blocks/accordeon/accordion.scss";
+@import "/src/blocks/accordeon/__button/accordion__button.scss";
+@import "/src/blocks/accordeon/__header/accordion__header.scss";
+@import "/src/blocks/accordeon/__title/accordion__title.scss";
+@import "/src/blocks/accordeon/__body/accordion__body.scss";
+@import "/src/blocks/accordeon/_opened/accordion_opened.scss";
 
 @import "../blocks/intro/intro.scss";
 @import "../blocks/intro/__container/intro__container.scss";

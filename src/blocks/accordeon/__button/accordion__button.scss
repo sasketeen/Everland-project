@@ -1,6 +1,6 @@
-.accardion-button {
+.accardion__button {
+    @include animation();
     border: none;
-    outline: unset;
     padding: 13px;
     border-radius: 20px;
     background-color: $light-blue;
@@ -8,13 +8,13 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    @include animation(background-color);
+
     &::before {
         @include cross-icon;
+        @include animation;
         background-color: $blue-card-text;
         width: 19px;
         height: 19px;
-        @include animation(transform);
     };
 
     &:hover {
@@ -36,13 +36,13 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1440px) {
     
     .accardion-button {
-        padding: 12px;
+        padding: 10px;
         &::before {
-            width: 14px;
-            height: 14px;
+            width: 12px;
+            height: 12px;
         }
     }
     
