@@ -1,5 +1,9 @@
 .donate-form__radio-button_type_payment {
 	flex-basis: auto;
+	line-height: 0;
+	font-size: 0;
+	background-repeat: no-repeat;
+	background-position: center;
 
 	@media (min-width: 768px) {
 		flex-basis: 190px;
