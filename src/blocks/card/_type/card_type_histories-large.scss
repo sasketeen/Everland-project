@@ -1,26 +1,59 @@
 .card_type_histories-large {
   width: 100%;
   display: grid;
-  grid-template-columns: 16.5% 60px 1fr;
-  grid-template-rows: min-content min-content min-content;
-  grid-template-areas: 
-  "avatar quote title"
-  "avatar quote text"
-  "avatar quote button";
-  gap: 31px;
-  background-color: $light-purple;
+  grid-template-columns: 16.5% min-content 1fr;
+  grid-template-rows: max-content max-content min-content;
+  grid-template-areas:
+    "avatar quote title"
+    "avatar quote text"
+    "avatar quote button";
+  gap: 20px;
+  &:nth-child(2) {
+    grid-template-columns: min-content 1fr auto;
+    grid-template-areas:
+      "quote title avatar"
+      "quote text avatar"
+      "quote button avatar";
+  
+    .card__quote-img {
+      margin: 0;
+  
+    }
+  }
 }
+
+
 
 
 @media screen and (max-width: 1440px) {
   .card_type_histories-large {
-    padding: 0;
+    grid-template-columns: 29% 1fr;
+    grid-template-rows: max-content max-content min-content min-content;
+    grid-template-areas:
+    "avatar quote "
+    "avatar title"
+    "avatar text"
+    "avatar button";
+    &:nth-child(2) {
+      grid-template-columns: min-content 1fr auto;
+      grid-template-columns: 1fr 29%;
+      grid-template-areas:
+      "quote"
+      "title avatar"
+      "text avatar"
+      "button";
+    
+    }
+
+    .card__quote-img {
+      margin: 0;
+    }
+    
+    
+
   }
 }
 
-.card_type_histories-large:nth-of-type(2n) {
-  flex-direction: column;
-}
 
 @media screen and (min-width: 768px) {
   .card_type_histories-large:nth-of-type(2n) {
@@ -33,5 +66,3 @@
     flex-direction: row;
   }
 }
-
-

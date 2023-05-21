@@ -1,9 +1,6 @@
 .card__paragraph_type_histories-large {
-  grid-area: paragraph-quote;
   padding: 0;
   width: 100%;
-  font-size: 14px;
-  line-height: 120%;
   max-width: 300px;
   margin-top: 16px;
 }
@@ -12,8 +9,6 @@
   .card__paragraph_type_histories-large {
     max-width: 444px;
     margin-top: 20px;
-    font-weight: 400;
-    font-size: 16px;
   }
 }
 
@@ -24,3 +19,5 @@
     font-size: 20px;
   }
 }
+
+
