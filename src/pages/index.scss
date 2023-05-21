@@ -122,6 +122,13 @@
 
 @import "../blocks/slider-hidden/slider-hidden.scss";
 
+@import "../blocks/projects/projects.scss";
+@import "../blocks/projects/__container/projects__container.scss";
+@import "../blocks/projects/__title/projects__title.scss";
+@import "../blocks/projects/__description/projects__description.scss";
+@import "../blocks/projects/__list/projects__list.scss";
+@import "../blocks/projects/__button/projects__button.scss";
+
 @import "../blocks/news/news.scss";
 @import "../blocks/news/__title/news__title.scss";
 @import "../blocks/news/__button/news__button.scss";
