@@ -2,19 +2,20 @@
   position: absolute;
   top: 0;
   right: 0;
-  width: 190px;
-  height: 144px;
+  width: 63.33%;
+  aspect-ratio: 1.3194/1;
   border-radius: 10px;
   object-fit: cover;
   overflow: hidden;
 
   @media screen and (min-width: 768px) {
     width: 75%;
-    height: 55%;
+    aspect-ratio: 1.2105/1;
   }
 
   @media screen and (min-width: 1440px) {
     width: 352px;
     height: 315px;
+    aspect-ratio: unset;
   }
 }

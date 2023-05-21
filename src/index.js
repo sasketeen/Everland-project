@@ -43,7 +43,8 @@ const renderAccordion = (() => {
 renderAccordion();
 
 const introSlider = new Slider({
-  slider: '.intro',
+  section: '.intro',
+  slider: '.intro__slider-list',
   slides: '.intro__slider-item',
   prevButton: '.slider-button_direction_left',
   nextButton: '.slider-button_direction_right',
@@ -52,7 +53,8 @@ const introSlider = new Slider({
 });
 
 const specProjectsSlider = new Slider({
-  slider: '.spec-projects',
+  section: '.spec-projects',
+  slider: '.spec-projects__slider-list',
   slides: '.spec-projects__slider-item',
   prevButton: '.slider-button_direction_left',
   nextButton: '.slider-button_direction_right',
