@@ -1,0 +1,6 @@
+.accardions-container__title {
+    @include h2();
+    margin: 0;
+    padding-bottom: 50px;
+    width: 100%;
+}

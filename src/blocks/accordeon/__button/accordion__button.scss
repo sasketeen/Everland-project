@@ -10,8 +10,8 @@
     cursor: pointer;
 
     &::before {
-        @include cross-icon;
-        @include animation;
+        @include cross-icon();
+        @include animation();
         background-color: $blue-card-text;
         width: 19px;
         height: 19px;
