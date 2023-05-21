@@ -3,18 +3,11 @@
   width: fit-content;
   word-wrap: break-word;
   @include h4();
-
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1440px) {
   .card__title_type_histories-large {
-    
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .card__title_type_histories-large {
-    
+    max-width: 660px;
   }
 }
 

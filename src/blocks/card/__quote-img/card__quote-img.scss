@@ -1,19 +1,18 @@
 .card__quote-img {
   width: 35px;
-  
-  padding: 15px;
   grid-area: quote;
-  margin-left: 57px;
+  margin-left: 78px;
+  padding-top: 12px;
 }
 
 @media screen and (min-width: 768px) {
   .card__quote-img {
-   
+
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .card__quote-img {
-   
+
   }
 }
