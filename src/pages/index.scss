@@ -233,6 +233,9 @@
 @import "../blocks/donate-form/__radio-button/donate-form__radio-button.scss";
 @import "../blocks/donate-form/__radio-button/_type/donate-form__radio-button_type_payment.scss";
 @import "../blocks/donate-form/__radio-button/_type/donate-form__radio-button_type_amount.scss";
+@import "../blocks/donate-form/__radio-button/_payment-type/donate-form__radio-button_payment-type_card.scss";
+@import "../blocks/donate-form/__radio-button/_payment-type/donate-form__radio-button_payment-type_webmoney.scss";
+@import "../blocks/donate-form/__radio-button/_payment-type/donate-form__radio-button_payment-type_youmoney.scss";
 @import "../blocks/donate-form/__question-button/donate-form__question-button.scss";
 @import "../blocks/donate-form/__amount-input-container/donate-form__amount-input-container.scss";
 @import "../blocks/donate-form/__regularity-input-container/donate-form__regularity-input-container.scss";
