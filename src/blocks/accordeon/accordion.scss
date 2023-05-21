@@ -1,0 +1,25 @@
+.accordion {
+    width: 46.5%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border: 2px solid $grey-outline;
+    border-radius: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: $base-font-family;
+}
+
+@media (max-width: 1440px) {
+    .accordion {
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .accordion {
+        @include h3();
+        border-radius: 15px;
+        padding: 0 16px;
+        width: 100%;
+    }
+}
