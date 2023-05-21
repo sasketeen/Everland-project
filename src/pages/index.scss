@@ -21,45 +21,12 @@
 @import "../blocks/link/_color/link_color_green.scss";
 @import "../blocks/link/_color/link_color_violete.scss";
 
-@import "../blocks/ref/ref.scss";
 
 @import "../blocks/slider-button/slider-button.scss";
 @import "../blocks/slider-button/_type/slider-button_type_light.scss";
 @import "../blocks/slider-button/_type/slider-button_type_dark.scss";
 @import "../blocks/slider-button/_direction/slider-button_direction_left.scss";
 
-@import "../blocks/accardion-button/accardion-button.scss";
-@import "../blocks/accardion-button/_opened/accardion-button_opened.scss";
-
-@import "../blocks/header/header.scss";
-@import "../blocks/header/__container/header__container.scss";
-@import "../blocks/header/__logo/header__logo.scss";
-@import "../blocks/header/__menu-button/header__menu-button.scss";
-@import "../blocks/header/__menu-vector/header__menu-vector.scss";
-@import "../blocks/header/__menu-vector/_opened/header__menu-vector_opened.scss";
-@import "../blocks/header/__menu-text/header__menu-text.scss";
-@import "../blocks/header/__buttons-container/header__buttons-container.scss";
-@import "../blocks/header/__button/header__button.scss";
-
-@import "../blocks/navigation/navigation.scss";
-@import "../blocks/navigation/__list/navigation__list.scss";
-@import "../blocks/navigation/__link/navigation__link.scss";
-
-@import "../blocks/menu/menu.scss";
-@import "../blocks/menu/_opened/menu_opened.scss";
-@import "../blocks/menu/__nav-container/menu__nav-container.scss";
-@import "../blocks/menu/__container/menu__container.scss";
-@import "../blocks/menu/__container/_type/menu__container_type_about.scss";
-@import "../blocks/menu/__container/_type/menu__container_type_realm.scss";
-@import "../blocks/menu/__container/_type/menu__container_type_service.scss";
-@import "../blocks/menu/__list/menu__list.scss";
-@import "../blocks/menu/__list/_opened/menu__list_opened.scss";
-@import "../blocks/menu/__list/_type/menu__list_type_global.scss";
-@import "../blocks/menu/__heading/menu__heading.scss";
-@import "../blocks/menu/__list-button/menu__list-button.scss";
-@import "../blocks/menu/__list-vector/menu__list-vector.scss";
-@import "../blocks/menu/__list-vector/_opened/menu__list-vector_opened.scss";
-@import "../blocks/menu/__link/menu__link.scss";
 
 @import "../blocks/card/card.scss";
 @import "../blocks/card/_type/card_type_best-projects.scss";
