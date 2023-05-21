@@ -22,7 +22,7 @@
       </button>
       <div class="header__buttons-container">
         <a class="header__button button button_secondary" href="#">Платформа</a>
-        <a class="header__button button button_primary" href="#">Поддержать</a> 
+        <a class="header__button button button_primary" href="#">Поддержать</a>
       </div>
     </div>
     <section class="menu">
@@ -76,9 +76,9 @@
     </section>
   </header>
 
-  <div class="page"> 
+  <div class="page">
 
-    
+
     <main class="content">
       <nav class="navigation">
         <ul class="navigation__list">
@@ -234,7 +234,7 @@
           </div>
         </div>
       </section>
-      
+
       <section class="directions">
         <div class="directions__container">
           <h2 class="directions__title directions__title_type_desktop">Наши направления</h2>
@@ -282,7 +282,7 @@
         </div>
 
       </section>
-      
+
       <section class="numbers section-container">
         <h2 class="numbers__title">Everland в цифрах</h2>
         <div class="numbers__container">
@@ -369,6 +369,60 @@
         </div>
       </section>
 
+      <section class="stories section-container">
+        <h2 class="stories__title">Истории</h2>
+        <button class="button button_secondary stories__button">Все истории</button>
+        <div class="stories__text">
+          <div class="card card_type_histories-large">
+            <img class="card__avatar card__avatar_type_histories-large" src="<%=require('/src/images/storiesPhoto1.png')%>" />
+            <img class="card__quote-img card__quote-img_type_histories-large" src="<%=require('/src/images/quoteIcon.png')%>" alt="кавычки" />
+            <h2 class="card__title card__title_type_histories-large">
+              Мне интересно слушать интервью с людьми. Это мотивация и вдохновение,
+              которых так не хватает
+            </h2>
+            <p class="card__paragraph card__paragraph_type_histories-large">
+              Максиму Гильфанову из Узбекистана 41 год. Диплом программиста и курсы
+              по веб-дизайну не решили проблему с трудоустройством
+            </p>
+            <a href="#" class="card__link card__link_type-histories-large link link_color_blue">История Максима</a>
+          </div>
+
+          <div class="card card_type_histories-large">
+            <img class="card__quote-img card__quote-img_type_histories-large" src="<%=require('/src/images/quoteIcon.png')%>" alt="кавычки" />
+            <h2 class="card__title card__title_type_histories-large">
+              Платформа дала надежду: кто-то заинтересован в трудоустройстве инвалидов
+            </h2>
+            <p class="card__paragraph card__paragraph_type_histories-large">
+              Максиму Чернышову из Набережных Челнов 32 года. В детстве он неудачно сделал
+              сальто и повредил позвоночник. С тех пор ему тяжело передвигаться на большие расстояния
+            </p>
+            <a href="#" class="card__link card__link_type-histories-large link link_color_blue">История Максима</a>
+            <img class="card__avatar card__avatar_type_histories-large"
+              src="<%=require('/src/images/storiesPhoto2.png')%>" />
+          </div>
+
+        </div>
+        <div class="stories__audio">
+          <div class="card card_type_histories-small">
+            <img class="card__avatar" src="<%=require('/src/images/storiesPhoto3.png')%>"/>
+            <p class="card__paragraph card__paragraph_type_histories-small">
+              Айслу Асан
+            </p>
+            <h2 class="card__title card__title_type_histories-small">Когда хочется жить</h2>
+            <span class="card__audio">История&nbsp;Айслу<button class="card__audio-button"></button></span>
+          </div>
+
+          <div class="card card_type_histories-small">
+            <img class="card__avatar card__avatar_type_histories-large" src="<%=require('/src/images/storiesPhoto4.png')%>" />
+            <p class="card__paragraph card__paragraph_type_histories-small">
+              Артём Плаксин
+            </p>
+            <h2 class="card__title card__title_type_histories-small">Не видеть и смотреть в будущее</h2>
+            <span class="card__audio">История&nbsp;Артёма<button class="card__audio-button"></button></span>
+          </div>
+        </div>
+      </section>
+
       <section class="projects">
         <div class="section-container projects__container">
           <h2 class="projects__title">Лучшие проекты нашего&nbsp;агентства</h2>
@@ -400,7 +454,8 @@
             <img class="card__image" src="<%=require('../src/images/newsImage1.png')%>" alt="Коллаборация с PepsiCo">
             <div class="card__text-block">
               <h2 class="card__title">Ура! Новое партнерство — с PepsiCo</h2>
-              <p class="card__paragraph card__paragraph_type_news">Everland совместно с PepsiCo приняли участие в акции «Благотворительность
+              <p class="card__paragraph card__paragraph_type_news">Everland совместно с PepsiCo приняли участие в акции
+                «Благотворительность
                 вместо сувениров»
               </p>
             </div>
@@ -411,7 +466,8 @@
             <div class="card__text-block">
               <h2 class="card__title">Трехдневный интенсив для КСО-менеджеров «Бизнес и инклюзия:
                 как строить эффективные программы»</h2>
-              <p class="card__paragraph card__paragraph_type_news">Эксперты с инвалидностью, представители бизнеса и некоммерческих
+              <p class="card__paragraph card__paragraph_type_news">Эксперты с инвалидностью, представители бизнеса и
+                некоммерческих
                 организаций поговорили о том, что такое инклюзия, рассмотрели подходы к трудоустройству
                 людей с инвалидностью, обсудили проблемы, к которым нужно быть готовым, и поделились
                 успешными кейсами
@@ -433,7 +489,7 @@
           </div>
         </div>
       </section>
-      
+
       <section class="donate">
         <div class="section-container">
           <h2 class="donate__header">Поддержите нас</h2>

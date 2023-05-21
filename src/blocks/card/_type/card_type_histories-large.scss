@@ -1,34 +1,76 @@
 .card_type_histories-large {
-  max-width: 300px;
+  padding: 50px 0;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  padding: 0;
+  display: grid;
+  grid-template-columns: 224px min-content 1fr;
+  grid-template-rows: max-content max-content min-content;
+  grid-template-areas:
+    "avatar quote title"
+    "avatar quote text"
+    "avatar quote button";
+  gap: 30px;
 
-}
+  &:nth-child(2) {
+    grid-template-columns: min-content 1fr 224px;
+    grid-template-areas:
+      "quote title avatar"
+      "quote text avatar"
+      "quote button avatar";
+  }
 
-.card_type_histories-large:nth-of-type(2n) {
-  flex-direction: column;
-}
-
-@media screen and (min-width: 768px) {
-  .card_type_histories-large:nth-of-type(2n) {
-    flex-direction: row-reverse;
+  .card__quote-img {
+    margin-left: 0;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1440px) {
   .card_type_histories-large {
-    max-width: 687px;
-    flex-direction: row;
+    grid-template-columns: 204px 1fr;
+    grid-template-rows: max-content max-content min-content min-content;
+    grid-template-areas:
+    "avatar quote"
+    "avatar title"
+    "avatar text"
+    "avatar button";
+    gap: 20px 30px;
+
+    &:nth-child(2) {
+      grid-template-columns: 1fr 224px;
+      grid-template-areas:
+      "quote avatar"
+      "title avatar"
+      "text avatar"
+      "button avatar";
+    }
+
+    .card__quote-img {
+      margin: 0;
+    }
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 768px) {
   .card_type_histories-large {
-    max-width: 1360px;
-    padding: 30px;
+    padding: 15px 0;
+    grid-template-rows: repeat(5, auto);
+    grid-template-columns: auto;
+    grid-template-areas:
+    "avatar"
+    "quote"
+    "title"
+    "text"
+    "button";
+
+    gap: 16px;
+
+    &:nth-child(2) {
+      grid-template-columns: auto;
+      grid-template-areas:
+        "avatar"
+        "quote"
+        "title"
+        "text"
+        "button";
+    }
   }
 }

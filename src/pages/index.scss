@@ -116,6 +116,7 @@
 
 @import "../blocks/card/__histories-quotes/card__histroies-quotes.scss";
 @import "../blocks/card/__quote-img/card__quote-img.scss";
+@import "../blocks/card/__quote-img/_type/card__quote-img_type_histories-large.scss";
 @import "../blocks/card/__paragraph/_type/card__paragraph_type_histories-large.scss";
 @import "../blocks/card/__audio-button/card__audio-button.scss";
 
@@ -199,6 +200,12 @@
 @import '../blocks/audience/__card-list/audience__card-list.scss';
 @import '../blocks/audience/__card-link/audience__card-link.scss';
 @import '../blocks/audience/__card-text/audience__card-text.scss';
+
+@import "../blocks/stories/stories.scss";
+@import "../blocks/stories/__title/stories__title.scss";
+@import "../blocks/stories/__text/stories__text.scss";
+@import "../blocks/stories/__audio/stories__audio.scss";
+@import "../blocks/stories/__button/stories__button.scss";
 
 @import '../blocks/audience/__container/audience__container.scss';
 @import '../blocks/audience/__background/audience__background.scss';
