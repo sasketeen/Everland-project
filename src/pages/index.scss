@@ -150,6 +150,30 @@
 @import '../blocks/audience/__card-list/audience__card-list.scss';
 @import '../blocks/audience/__card-link/audience__card-link.scss';
 @import '../blocks/audience/__card-text/audience__card-text.scss';
+
+@import "../blocks/footer/footer.scss";
+@import "../blocks/footer/__logo/footer__logo.scss";
+@import "../blocks/footer/__heading/footer__heading.scss";
+@import "../blocks/footer/__about/footer__about.scss";
+@import "../blocks/footer/__main-text/footer__main-text.scss";
+@import "../blocks/footer/__nav-links/footer__nav-links.scss";
+@import "../blocks/footer/__nav-link/footer__nav-link.scss";
+@import "../blocks/footer/__support/footer__support.scss";
+@import "../blocks/footer/__support-list/footer__support-list.scss";
+@import "../blocks/footer/__support-img/footer__support-img.scss";
+@import "../blocks/footer/__support-img/_type/footer__support-img_type_beeline.scss";
+@import "../blocks/footer/__support-img/_type/footer__support-img_type__fond.scss";
+@import "../blocks/footer/__follow/footer__follow.scss";
+@import "../blocks/footer/__follow-list/footer__follow-list.scss";
+@import "../blocks/footer/__follow-img/footer__follow-img.scss";
+@import "../blocks/footer/__contacts/footer__contacts.scss";
+@import "../blocks/footer/__contacts-list/footer__contacts-list.scss";
+@import "../blocks/footer/__contact/footer__contact.scss";
+@import "../blocks/footer/__main-text/_type/footer__contact_type_color.scss";
+@import "../blocks/footer/__partner/footer__partner.scss";
+@import "../blocks/footer/__attendee/footer__attendee.scss";
+@import "../blocks/footer/__partner-img/footer__partner-img.scss";
+
 @import '../blocks/audience/__container/audience__container.scss';
 @import '../blocks/audience/__background/audience__background.scss';
 @import '../blocks/directions/__container/directions__container.scss';
