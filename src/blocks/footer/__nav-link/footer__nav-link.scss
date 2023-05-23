@@ -1,4 +1,10 @@
 .footer__nav-link {
-  
+
   @include main-text;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__nav-link {
+    line-height: 130%;
+  }
 }

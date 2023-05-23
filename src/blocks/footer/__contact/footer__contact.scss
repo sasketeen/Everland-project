@@ -1,6 +1,12 @@
 .footer__contact {
-  
+
   @include small-text;
   margin: 0;
   color: rgba(0, 0, 0, 1);
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__contact {
+    line-height: 130%;
+  }
 }
