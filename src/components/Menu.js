@@ -25,7 +25,7 @@ export default class Menu {
     this._closeList();
   }
   
-  toggleModal() {
+  _toggleModal() {
     if (this._menuOpened) {
       this._closeModal();
     } else {
@@ -41,7 +41,11 @@ export default class Menu {
 
   setListeners() {
     this._headerMenuButton.addEventListener('click', () => {
-      this.toggleModal()
+      this._toggleModal()
+    })
+
+    this._headerMenuButton.addEventListener('mouseenter', () => {
+      this._openModal()
     })
 
     this._listMenuButton.forEach(item => {
