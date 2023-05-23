@@ -44,6 +44,10 @@ export default class Menu {
       this.toggleModal()
     })
 
+    this._headerMenuButton.addEventListener('mouseenter', () => {
+      this._openModal()
+    })
+
     this._listMenuButton.forEach(item => {
       item.addEventListener('click', evt => {
         if (!evt.currentTarget.nextElementSibling.classList.contains('menu__list_opened')) {
