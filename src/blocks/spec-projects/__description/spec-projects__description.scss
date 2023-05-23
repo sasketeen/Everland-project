@@ -4,14 +4,14 @@
   margin: 0;
   width: 100%;
   padding-top: 10px;
-  overflow: hidden;
+  // overflow: hidden;
   max-height: 68px;
   flex-shrink: 0;
 
   @media screen and (min-width: 768px) {
     grid-area: description;
     width: 92.92%;
-    max-height: calc(76px + 24 * ((100vw - 768px) / 672));
+    min-height: calc(76px + 24 * ((100vw - 768px) / 672));
     font-size: calc(16px + 4 * ((100vw - 768px) / 672));
   }
 

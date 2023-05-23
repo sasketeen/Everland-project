@@ -1,7 +1,7 @@
 .card_type_directions {
   max-width: 440px;
   width: 100%;
-  aspect-ratio: 1/0.972;
+  min-height: 428px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -11,7 +11,7 @@
   .card_type_directions {
     max-width: 334px;
     gap: 10px;
-    aspect-ratio: 0;
+    min-height: 298px;
   }
 }
 
@@ -19,7 +19,7 @@
   .card_type_directions {
     max-width: 300px;
     padding: 24px;
-    aspect-ratio: 0;
+    min-height: 260px;
   }
 }
 

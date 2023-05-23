@@ -2,22 +2,9 @@
     @include main-text();
     @include animation();
     margin: 0;
-    max-height: 0;
-    overflow-wrap: break-word;
-    overflow-y: hidden;
-
-    // &::-webkit-scrollbar-track {
-    //     border-radius: 4px;
-    // }
-
-    // &::-webkit-scrollbar {
-    //     width: 6px;
-    // }
-
-    // &::-webkit-scrollbar-thumb {
-    //     border-radius: 4px;
-    //     background: $light-grey;
-    // }
+    overflow:hidden;
+    transition:height 0.3s ease-out;
+    height:0;
 }
 
 

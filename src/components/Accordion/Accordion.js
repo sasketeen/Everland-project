@@ -18,9 +18,42 @@ export default class Accordion {
         this._element.classList.toggle("accordion_opened");
     }
 
+    _collapseSection(element) {
+        var sectionHeight = element.scrollHeight;
+        var elementTransition = element.style.transition;
+        element.style.transition = '';
+    
+        requestAnimationFrame(function() {
+          element.style.height = sectionHeight + 'px';
+          element.style.transition = elementTransition;
+          
+          requestAnimationFrame(function() {
+            element.style.height = 0 + 'px';
+          });
+        });
+      }
+      
+      _expandSection(element) {
+        var sectionHeight = element.scrollHeight;
+    
+        element.style.height = sectionHeight + 'px';
+      
+        element.addEventListener('transitionend', function(e) {
+          element.removeEventListener('transitionend', arguments.callee);
+          element.style.height = null;
+        });
+      }
+    
+
     _setEventListeners() {
         this._element.addEventListener("click", () => {
-            this._toggle()
+            if (this._element.classList.contains("accordion_opened")) {
+                this._toggle()
+                this._collapseSection(this._description)
+            } else {
+                this._toggle()
+                this._expandSection(this._description)
+            }
         })
     }
 
@@ -38,3 +71,4 @@ export default class Accordion {
         return this._element;
     }
 }
+

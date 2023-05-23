@@ -1,9 +1,6 @@
 .card__title_type_directions {
   @include h4;
-  max-height: 77px;
   margin: 0;
-  
-  line-height: $base-line-height;
 }
 
 @media screen and (max-width: 1439px) {
