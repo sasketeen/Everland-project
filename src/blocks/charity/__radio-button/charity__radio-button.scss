@@ -4,8 +4,11 @@
 	background-color: #fff;
 	flex-basis: 122px;
 	flex-grow: 1;
-
+	border: 1px solid rgba(0, 0, 0, 0);
 	
+	&:hover {
+		border-color: $blue-pressed;
+	}
 
 	@media (width: 768px) {
     flex-grow: 0;
