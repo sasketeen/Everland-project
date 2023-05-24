@@ -15,8 +15,8 @@ import Form from "./components/Form";
 const modal = new Menu(menu, headerMenuButton);
 modal.setListeners();
 
-const accordionColumLeft = document.querySelector(".accordion-container__column-left");
-const accordionColumRight = document.querySelector(".accordion-container__column-right");
+const accordionColumLeft = document.querySelector(".accordions__column-left");
+const accordionColumRight = document.querySelector(".accordions__column-right");
 
 const arr = [
     {
@@ -48,7 +48,7 @@ const arr = [
 
 const renderAccordion = (() => {
   arr.forEach((element, index) => {
-    const accordion = new Accordion('.accordion__template', element);
+    const accordion = new Accordion('.accordion-template', element);
     const accordionElement = accordion.generate();
     if(index%2 === 0) {
       accordionColumLeft.append(accordionElement);
