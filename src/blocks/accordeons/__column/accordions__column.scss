@@ -1,4 +1,5 @@
 .accordions__column {
+    margin: 0;
     padding: 0;
     width: calc(50% - 10px);
     box-sizing: border-box;
@@ -7,14 +8,11 @@
     gap: 20px;
 }
 
-@media screen and (max-width: 768px) {
-    .accordions__container {
-        flex-direction: column;
-        gap: 18px;
 
-        &__column {
-            width: 100%;
-            gap: 18px;
-        }
+
+@media screen and (max-width: 767px) {
+    .accordions__column {
+        width: 100%;
+        gap: 18px;
     }
 }
