@@ -6,8 +6,13 @@
   margin-left: 409px;
   border: none;
   background: none;
+  transition: opacity .4s;
   cursor: pointer;
   
+  &:hover {
+    opacity: .5;
+  }
+
   @media (max-width: 1439px) {
     margin-left: 24px;
     order: 1;
