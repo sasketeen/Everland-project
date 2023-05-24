@@ -1,20 +1,20 @@
 .spec-projects__image {
-  aspect-ratio: 1/0.7086;
+  width: 100%;
+  aspect-ratio: 1.4111/1;
   object-fit: cover;
   overflow: hidden;
   align-self: center;
   border-radius: 10px;
-  flex-grow: 1;
 
   @media screen and (min-width: 768px) {
     grid-area: photo;
-    height: 100%;
-    aspect-ratio: 0.912/1;
+    aspect-ratio: 0.9119/1;
+    max-height: 100%;
     justify-self: self-end;
   }
 
   @media screen and (min-width: 1440px) {
     border-radius: 30px;
-    aspect-ratio: 1/0.7081;
+    aspect-ratio: 1.4122/1;
   }
 }

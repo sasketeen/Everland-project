@@ -4,23 +4,23 @@
   margin: 0;
   width: 100%;
   padding-top: 10px;
-  overflow: hidden;
-  max-height: 68px;
-  flex-shrink: 0;
+  padding-bottom: 20px;
   line-height: $base-line-height;
 
   @media screen and (min-width: 768px) {
+    padding: 0;
     grid-area: description;
     width: 92.92%;
-    max-height: calc(76px + 24 * ((100vw - 768px) / 672));
     font-size: calc(16px + 4 * ((100vw - 768px) / 672));
+    padding-top: 10px;
+    padding-bottom: 37px;
   }
 
   @media screen and (min-width: 1440px) {
     width: 427px;
-    max-height: 100px;
     font-size: 20px;
     padding-top: 20px;
+    padding-bottom: 47px;
     line-height: 130%;
   }
 }

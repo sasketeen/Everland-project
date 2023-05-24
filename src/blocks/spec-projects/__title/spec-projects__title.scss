@@ -5,20 +5,15 @@
   width: 100%;
   margin: 0;
   padding-top: 20px;
-  overflow: hidden;
-  max-height: 62px;
-  flex-shrink: 0;
   letter-spacing: $title-letter-spacing;
 
   @media screen and (min-width: 768px) {
     grid-area: title;
     padding-top: 0;
-    max-height: calc(86px + 68 * ((100vw - 768px) / 672));
     font-size: calc(36px + 28 * ((100vw - 768px) / 672));
   }
 
   @media screen and (min-width: 1440px) {
-    max-height: 154px;
     font-size: 64px;
   }
 }
