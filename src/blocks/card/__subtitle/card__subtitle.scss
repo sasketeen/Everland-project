@@ -2,11 +2,5 @@
 
 .card__subtitle {
   @include big-text();
-  max-width: 172px;
-}
-
-@media screen and (min-width: 1440px) {
-  .card__subtitle {
-    max-width: 366px;
-  }
+  max-width: 80%;
 }

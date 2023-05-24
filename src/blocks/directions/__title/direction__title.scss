@@ -3,19 +3,8 @@
   padding: 0 0 50px 0;
 }
 
-.directions__title_type_mobile {
-  display: none;
-}
 
 @media screen and (max-width: 1439px) {
-  .directions__title_type_desktop {
-    display: none;
-  }
-
-  .directions__title_type_mobile {
-    display: block;
-  }
-
   .directions__title {
     max-height: 86px;
     max-width: 420px;

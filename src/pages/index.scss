@@ -102,7 +102,7 @@
 @import "../blocks/card/__icon/_light/card__icon_light_green.scss";
 @import "../blocks/card/__icon/_light/card__icon_light_blue.scss";
 
-@import "../blocks/card/__icon-image/card__icon_image.scss";
+@import "../blocks/card/__icon-image/card__icon-image.scss";
 
 @import "../blocks/card/__date/card__date.scss";
 
@@ -130,7 +130,9 @@
 @import "/src/blocks/accordeon/__header/accordion__header.scss";
 @import "/src/blocks/accordeon/__title/accordion__title.scss";
 @import "/src/blocks/accordeon/__body/accordion__body.scss";
-@import "/src/blocks/accordeon/_opened/accordion_opened.scss";
+@import "/src/blocks/accordeon/__button/_opened/accordion__button_opened.scss";
+@import "/src/blocks/accordeon/__body/_opened/accordion__body_opened.scss";
+
 
 @import "../blocks/intro/intro.scss";
 @import "../blocks/intro/__container/intro__container.scss";
@@ -186,7 +188,7 @@
 @import "../blocks/news/__button/news__button.scss";
 @import "../blocks/news/__cards/news__cards.scss";
 
-@import '../blocks/audience/__icon_type/audience__icon_type_dis.scss';
+@import '../blocks/audience/__icon/_type/audience__icon_type_dis.scss';
 @import '../blocks/directions/directions.scss';
 @import '../blocks/directions/__title/direction__title.scss';
 @import '../blocks/directions/__card-list/directions__card-list.scss';
@@ -195,8 +197,8 @@
 @import '../blocks/directions/__card-link/directions__card-link.scss';
 @import '../blocks/directions/__title/_type/directions__title_type_mobile.scss';
 @import '../blocks/directions/__title/_type/directions__title_type_desktop.scss';
-@import '../blocks/audience/__icon_type/audience__icon_type_brief.scss';
-@import '../blocks/audience/__icon_type/audience__icon_type_pers.scss';
+@import '../blocks/audience/__icon/_type/audience__icon_type_brief.scss';
+@import '../blocks/audience/__icon/_type/audience__icon_type_pers.scss';
 @import '../blocks/audience/audience.scss';
 @import '../blocks/audience/__title/audience__title.scss';
 @import '../blocks/audience/__card-list/audience__card-list.scss';
