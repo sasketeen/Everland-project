@@ -47,10 +47,6 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: './src/index.html'
         }),
-        new HtmlWebpackPlugin({
-            filename: 'ui-kit.html',
-            template: './src/ui-kit/ui-kit.html'
-        }),
         new CleanWebpackPlugin(),
         new MiniCssExtractPlugin()
     ]
