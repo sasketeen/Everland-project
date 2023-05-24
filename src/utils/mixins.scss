@@ -5,11 +5,11 @@
   font-weight: $weight;
   line-height: $base-line-height;
 
-  @media (max-width: 1440px) {
+  @media (max-width: 1339px) {
     font-size: $tablet;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     font-size: $mobile;
   }
 }

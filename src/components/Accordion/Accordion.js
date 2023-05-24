@@ -32,7 +32,6 @@ export default class Accordion {
         this._header = this._element.querySelector(".accordion__title");
         this._description = this._element.querySelector(".accordion__body");
         this._button = this._element.querySelector(".accordion__button");
-        console.log(this._button)
 
         this._header.textContent = this._title;
         this._description.textContent = this._text;
