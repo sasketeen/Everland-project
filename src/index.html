@@ -432,8 +432,8 @@
       <section class="stories section-container">
         <h2 class="section-title stories__title">Истории</h2>
         <button class="button button_type_secondary stories__button">Все истории</button>
-        <div class="stories__text">
-          <div class="card card_type_histories-large">
+        <ul class="stories__text">
+          <li class="card card_type_histories-large">
             <img class="card__avatar card__avatar_type_histories-large"
               src="<%=require('/src/images/storiesPhoto1.png')%>" alt="аватар" />
             <!-- <img class="card__quote-img card__quote-img_type_histories-large"
@@ -441,10 +441,10 @@
               <div class="card__histories-quotes">
               <div class="card__quote-img card__quote-img_type_histories-large"></div>
               <div class="card__histories-text">
-            <h2 class="card__title card__title_type_histories-large">
+            <q class="card__title card__title_type_histories-large">
               Мне интересно слушать интервью с людьми. Это мотивация и вдохновение,
               которых так не хватает
-            </h2>
+            </q>
             <p class="card__paragraph card__paragraph_type_histories-large">
               Максиму Гильфанову из Узбекистана 41 год. Диплом программиста и курсы
               по веб-дизайну не решили проблему с трудоустройством
@@ -452,17 +452,17 @@
             <a href="#" class="card__link button-link button-link_color_blue card__link_type-histories-large">История Максима</a>
           </div>
           </div>
-          </div>
+        </li>
 
-          <div class="card card_type_histories-large">
+          <li class="card card_type_histories-large">
             <img class="card__avatar card__avatar_type_histories-large"
               src="<%=require('/src/images/storiesPhoto2.png')%>" alt="аватар" />
               <div class="card__histories-quotes">
               <div class="card__quote-img card__quote-img_type_histories-large"></div>
               <div class="card__histories-text">
-            <h2 class="card__title card__title_type_histories-large">
+            <q class="card__title card__title_type_histories-large">
               Платформа дала надежду: кто-то заинтересован в трудоустройстве инвалидов
-            </h2>
+            </q>
             <p class="card__paragraph card__paragraph_type_histories-large">
               Максиму Чернышову из Набережных Челнов 32 года. В детстве он неудачно сделал сальто и повредил позвоночник.
                С тех пор ему тяжело передвигаться на большие расстояния
@@ -470,9 +470,9 @@
             <a href="#" class="card__link button-link button-link_color_blue card__link_type-histories-large">История Максима</a>
           </div>
           </div>
-          </div>
+          </li>
 
-        </div>
+        </ul>
         <div class="stories__audio">
           <div class="card card_type_histories-small">
             <img class="card__avatar" src="<%=require('/src/images/storiesPhoto3.png')%>"  alt="аватар"/>
