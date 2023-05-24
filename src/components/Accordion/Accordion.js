@@ -16,44 +16,13 @@ export default class Accordion {
 
     _toggle() {
         this._element.classList.toggle("accordion_opened");
+        this._button.classList.toggle("accordion__button_opened");
+        this._description.classList.toggle("accordion__body_opened");
     }
-
-    _collapseSection(element) {
-        var sectionHeight = element.scrollHeight;
-        var elementTransition = element.style.transition;
-        element.style.transition = '';
-    
-        requestAnimationFrame(function() {
-          element.style.height = sectionHeight + 'px';
-          element.style.transition = elementTransition;
-          
-          requestAnimationFrame(function() {
-            element.style.height = 0 + 'px';
-          });
-        });
-      }
-      
-      _expandSection(element) {
-        var sectionHeight = element.scrollHeight;
-    
-        element.style.height = sectionHeight + 'px';
-      
-        element.addEventListener('transitionend', function(e) {
-          element.removeEventListener('transitionend', arguments.callee);
-          element.style.height = null;
-        });
-      }
-    
 
     _setEventListeners() {
         this._element.addEventListener("click", () => {
-            if (this._element.classList.contains("accordion_opened")) {
-                this._toggle()
-                this._collapseSection(this._description)
-            } else {
-                this._toggle()
-                this._expandSection(this._description)
-            }
+            this._toggle()
         })
     }
 
@@ -62,6 +31,7 @@ export default class Accordion {
        
         this._header = this._element.querySelector(".accordion__title");
         this._description = this._element.querySelector(".accordion__body");
+        this._button = this._element.querySelector(".accordion__button");
 
         this._header.textContent = this._title;
         this._description.textContent = this._text;
@@ -71,4 +41,3 @@ export default class Accordion {
         return this._element;
     }
 }
-
