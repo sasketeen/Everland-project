@@ -1,15 +1,16 @@
 // Mixins for text styles
 @mixin text-styles($desktop, $tablet, $mobile, $weight: $font-weight-regular) {
-  font-size: $mobile;
+  font-size: $desktop;
+  
   font-weight: $weight;
   line-height: $base-line-height;
 
-  @media (min-width: 768px) {
+  @media (max-width: 1440px) {
     font-size: $tablet;
   }
 
-  @media (min-width: 1440px) {
-    font-size: $desktop;
+  @media (max-width: 768px) {
+    font-size: $mobile;
   }
 }
 
