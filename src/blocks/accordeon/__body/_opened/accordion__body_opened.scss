@@ -1,0 +1,15 @@
+.accordion__body_opened {
+    max-height: 200px;
+}
+
+@media (max-width: 1439px) {
+    .accordion__body_opened {
+        padding-bottom: 11px;
+    }
+}
+
+@media (max-width: 767px) {
+    .accordion__body_opened {
+        padding-bottom: 16px;
+    }
+}

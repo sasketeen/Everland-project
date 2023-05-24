@@ -1,11 +1,11 @@
 .charity {
 	@include button-text;
-	max-width: calc(100% - 20px);
 	margin: 0 auto;
+	padding: 0 10px 32px;
 	box-sizing: border-box;
 	
 	@media (min-width: 768px) {
-		max-width: calc(100% - 80px);
+		padding: 0 40px 50px;
 	}
 
 	@media (min-width: 1440px) {
