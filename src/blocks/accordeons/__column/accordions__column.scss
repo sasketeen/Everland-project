@@ -1,4 +1,4 @@
-.accordion-container__column {
+.accordions__column {
     padding: 0;
     width: calc(50% - 10px);
     box-sizing: border-box;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .accordion-container {
+    .accordions__container {
         flex-direction: column;
         gap: 18px;
 

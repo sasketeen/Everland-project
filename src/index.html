@@ -211,7 +211,7 @@
       </section>
 
       <section class="charity">
-        <form action="#" class="charity__form">
+        <form action="#" class="charity__form form">
           <div class="charity__sum-buttons">
             <input class="form__input form__input_type_radio" name="sum" type="radio" id="250r" value="250" required>
             <label class="button charity__radio-button" for="250r">250₽</label>
@@ -229,14 +229,13 @@
       </section>
 
 
-      <section class="audience__background">
-        <div class="audience">
+      <section class="audience">
           <div class="audience__container">
             <h2 class="audience__title">Для кого мы работаем</h2>
             <ul class="audience__card-list">
               <li class="card card_type_employers">
                 <div class="card__icon card__icon_light_blue">
-                  <div class="card__icon-image audience__icon_type_dis"></div>
+                  <div class="card__icon-image audience__icon audience__icon_type_dis"></div>
                 </div>
                 <div class="card__text-block">
                   <h3 class="card__title card__title_type_employers">Для людей с инвалидностью</h3>
@@ -250,7 +249,7 @@
               </li>
               <li class="card card_type_employers">
                 <div class="card__icon card__icon_light_pink">
-                  <div class="card__icon-image audience__icon_type_brief"></div>
+                  <div class="card__icon-image audience__icon audience__icon_type_brief"></div>
                 </div>
                 <div class="card__text-block">
                   <h3 class="card__title card__title_type_employers">Для работодателей</h3>
@@ -264,7 +263,7 @@
               </li>
               <li class="card card_type_employers">
                 <div class="card__icon card__icon_light_green">
-                  <div class="card__icon-image audience__icon_type_pers"></div>
+                  <div class="card__icon-image audience__icon audience__icon_type_pers"></div>
                 </div>
                 <div class="card__text-block">
                   <h3 class="card__title card__title_type_employers">Для КСО-партнеров</h3>
@@ -278,7 +277,6 @@
               </li>
             </ul>
           </div>
-        </div>
       </section>
 
       <section class="directions">
@@ -329,10 +327,10 @@
       </section>
 
       <section class="accordions section-container">
-        <h2 class="accardions-container__title">Главное в нашей работе</h2>
-        <div class="accordion-container">
-          <ul class="accordion-container__column accordion-container__column-left"></ul>
-          <ul class="accordion-container__column accordion-container__column-right"></ul>
+        <h2 class="accordions__title">Главное в нашей работе</h2>
+        <div class="accordions__container">
+          <ul class="accordions__column accordions__column-left"></ul>
+          <ul class="accordions__column accordions__column-right"></ul>
         </div>
 
       </section>
@@ -591,7 +589,7 @@
                 <label class="button donate-form__radio-button" for="once">Разово</label>
               </div>
               <div class="donate-form__input-header-container">
-                <h5 class="donate-form__input-header">Размер пожертвования</h5>
+                <h4 class="donate-form__input-header">Размер пожертвования</h4>
               </div>
               <div class="donate-form__amount-input-container">
                 <input class="form__input form__input_type_radio" name="sum" type="radio" id="250" value="250" required>
@@ -618,7 +616,7 @@
                 указанная вами сумма.
               </p>
               <div class="donate-form__input-header-container">
-                <h5 class="donate-form__input-header">Способ оплаты</h5>
+                <h4 class="donate-form__input-header">Способ оплаты</h4>
               </div>
               <div class="donate-form__payment-slider">
                 <div class="donate-form__payment-input-container">
@@ -635,7 +633,7 @@
                 <img class="donate-form__slider-arrow" src='<%=require("./images/iconShevron.svg")%>' alt="Листать">
               </div>
               <div class="donate-form__input-header-container">
-                <h5 class="donate-form__input-header">Ваши данные</h5>
+                <h4 class="donate-form__input-header">Ваши данные</h4>
               </div>
               <div class="donate-form__donator-input-container">
                 <input class="form__input form__input_type_text" name="name" type="text" placeholder="Иван Иванов"
@@ -786,7 +784,7 @@
       </footer>
     </main>
   </div>
-  <template class="accordion__template">
+  <template class="accordion-template">
     <li class="accordion">
       <div class="accordion__header">
         <h3 class="accordion__title">gfd</h3>

@@ -120,10 +120,11 @@
 @import "../blocks/card/__paragraph/_type/card__paragraph_type_histories-large.scss";
 @import "../blocks/card/__audio-button/card__audio-button.scss";
 
-@import "../blocks/accordions/accordions.scss";
-@import "/src/blocks/accardeon-container/accardeon-contaoner.scss";
-@import "/src/blocks/accardeon-container/__column/accordion-container__column.scss";
-@import "/src/blocks/accardeon-container/__title/accordion-container__title.scss";
+@import "../blocks/accordeons/accordions.scss";
+@import "/src/blocks/accordeons/__container/accardeons__container.scss";
+@import "/src/blocks/accordeons/__column/accordions__column.scss";
+@import "/src/blocks/accordeons/__title/accordions__title.scss";
+
 @import "/src/blocks/accordeon/accordion.scss";
 @import "/src/blocks/accordeon/__button/accordion__button.scss";
 @import "/src/blocks/accordeon/__header/accordion__header.scss";
@@ -209,7 +210,6 @@
 @import "../blocks/stories/__button/stories__button.scss";
 
 @import '../blocks/audience/__container/audience__container.scss';
-@import '../blocks/audience/__background/audience__background.scss';
 @import '../blocks/directions/__container/directions__container.scss';
 
 @import "../blocks/form/__input/_type/form__input_type_checkbox.scss";

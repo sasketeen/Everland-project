@@ -1,6 +1,7 @@
 .audience {
-  max-width: 1440px;
+  width: 100%;
   margin: auto;
+  background-color: $light-grey;
 
   @media screen and (max-width: 1439px) {
     padding: 50px 40px 50px;
