@@ -1,8 +1,4 @@
 .audience__title {
-  @include h2;
-  
-  line-height: $base-line-height;
-  margin: 0;
   padding-bottom: 50px;
   max-width: 1360px;
 }
