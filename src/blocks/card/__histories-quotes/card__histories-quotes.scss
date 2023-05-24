@@ -1,0 +1,13 @@
+.card__histories-quotes {
+  display: flex;
+  justify-content: space-between;
+  gap: 31px;
+}
+
+@media screen and (max-width: 1439px) {
+  .card__histories-quotes {
+    flex-direction: column;
+    justify-content: start;
+    gap: 8px;
+  }
+}

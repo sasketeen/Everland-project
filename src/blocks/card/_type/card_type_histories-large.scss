@@ -1,76 +1,45 @@
 .card_type_histories-large {
   padding: 50px 0;
   width: 100%;
-  display: grid;
-  grid-template-columns: 224px min-content 1fr;
-  grid-template-rows: max-content max-content min-content;
-  grid-template-areas:
-    "avatar quote title"
-    "avatar quote text"
-    "avatar quote button";
-  gap: 30px;
+  display: flex;
+  gap: 92px;
+}
 
-  &:nth-child(2) {
-    grid-template-columns: min-content 1fr 224px;
-    grid-template-areas:
-      "quote title avatar"
-      "quote text avatar"
-      "quote button avatar";
-  }
+.card_type_histories-large:nth-of-type(2n) {
+  flex-direction: row-reverse;
+  margin-top: 50px;
+}
 
-  .card__quote-img {
-    margin-left: 0;
+@media screen and (max-width: 1439px) {
+  .card_type_histories-large {
+    gap: 32px;
+    align-items: center;
+    padding: 0 0 16px 0;
   }
 }
 
-@media screen and (max-width: 1440px) {
-  .card_type_histories-large {
-    grid-template-columns: 204px 1fr;
-    grid-template-rows: max-content max-content min-content min-content;
-    grid-template-areas:
-    "avatar quote"
-    "avatar title"
-    "avatar text"
-    "avatar button";
-    gap: 20px 30px;
-
-    &:nth-child(2) {
-      grid-template-columns: 1fr 224px;
-      grid-template-areas:
-      "quote avatar"
-      "title avatar"
-      "text avatar"
-      "button avatar";
-    }
-
-    .card__quote-img {
-      margin: 0;
-    }
+@media screen and (max-width: 1439px) {
+  .card_type_histories-large:nth-of-type(2n) {
+    margin-top: 0;
+    padding: 16px 0 0 0;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .card_type_histories-large {
-    padding: 15px 0;
-    grid-template-rows: repeat(5, auto);
-    grid-template-columns: auto;
-    grid-template-areas:
-    "avatar"
-    "quote"
-    "title"
-    "text"
-    "button";
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 0 16px 0;
+  }
+}
 
-    gap: 16px;
-
-    &:nth-child(2) {
-      grid-template-columns: auto;
-      grid-template-areas:
-        "avatar"
-        "quote"
-        "title"
-        "text"
-        "button";
-    }
+@media screen and (max-width: 767px) {
+  .card_type_histories-large:nth-of-type(2n) {
+    flex-direction: column;
+    margin-top: 0;
+    padding: 16px 0 0 0;
+    gap: 20px;
   }
 }

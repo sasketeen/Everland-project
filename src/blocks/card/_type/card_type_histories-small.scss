@@ -9,13 +9,15 @@
   "avatar audio";
   gap: 20px;
   background-color: $light-purple;
+  box-sizing: border-box;
+  
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439px) {
   .card_type_histories-small {
     gap: 16px;
-    grid-template-columns: 41% 1fr;
-   row-gap: 8px;
+    grid-template-columns: 120px 1fr;
+   row-gap: 6px;
    padding: 25px 20px;
    
   }
@@ -26,6 +28,7 @@
     grid-template-columns: 26% 1fr;
     row-gap: 0;
     padding: 16px;
+    grid-template-columns: 80px 1fr;
   }
 }
 
