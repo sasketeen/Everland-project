@@ -1,4 +1,6 @@
 .card__title_type_histories-small {
     word-wrap: break-word;
     grid-area: slogan;
+    @include h4;
 }
+

@@ -1,4 +1,4 @@
-.accardion__button {
+.accordion__button {
     @include animation();
     border: none;
     padding: 13px;
@@ -38,7 +38,7 @@
 
 @media (max-width: 1439px) {
     
-    .accardion-button {
+    .accordion__button {
         padding: 10px;
         &::before {
             width: 12px;

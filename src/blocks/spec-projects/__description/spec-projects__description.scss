@@ -5,6 +5,7 @@
   width: 100%;
   padding-top: 10px;
   padding-bottom: 20px;
+  line-height: $base-line-height;
 
   @media screen and (min-width: 768px) {
     padding: 0;
@@ -20,5 +21,6 @@
     font-size: 20px;
     padding-top: 20px;
     padding-bottom: 47px;
+    line-height: 130%;
   }
 }

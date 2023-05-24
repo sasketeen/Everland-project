@@ -1,6 +1,8 @@
 .numbers__title {
   width: max-content;
   margin: 0 0 24px 0;
+  @include h2;
+  letter-spacing: $title-letter-spacing;
 }
 
 @media screen and (min-width: 768px) {
