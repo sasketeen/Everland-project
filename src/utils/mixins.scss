@@ -40,6 +40,9 @@
 
 @mixin main-text {
   @include text-styles(20px, 16px, 14px, $font-weight-regular);
+  @media (min-width: 1440px) {
+    line-height: 130%;
+  }
 }
 
 @mixin small-text {
