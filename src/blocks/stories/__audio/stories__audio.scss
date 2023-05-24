@@ -8,9 +8,16 @@
     gap: 20px;
 }
 
+@media screen and (max-width: 1439px) {
+  .stories__audio {
+    grid-template-rows: 170px;
+  }
+}
+
 @media screen and (max-width: 767px) {
     .stories__audio {
-      flex-direction: column;
+      grid-template-columns: 100%;
+      grid-template-rows: 1fr 1fr;
       gap: 16px;
     }
   }
