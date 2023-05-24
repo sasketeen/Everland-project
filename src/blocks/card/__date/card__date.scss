@@ -1,6 +1,5 @@
 .card__date {
   @include small-text();
-  max-width: 150px;
   order: 2;
   margin-top: auto;
   color: $gray-disabled-icon;

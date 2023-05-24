@@ -1,8 +1,8 @@
 .menu__list-button {
   text-align: left;
-  cursor: pointer;
   
   @media (max-width: 767px) {
+    cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
