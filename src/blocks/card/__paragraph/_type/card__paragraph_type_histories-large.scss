@@ -1,8 +1,11 @@
 .card__paragraph_type_histories-large {
   padding: 0;
   width: 100%;
-  margin-top: 16px;
+  margin: 0;
+  // margin-top: 16px;
+  // @include main-text;
 }
+
 
 @media screen and (max-width: 768px) {
   .card__paragraph_type_histories-large {
@@ -11,11 +14,11 @@
   }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439px) {
   .card__paragraph_type_histories-large {
     margin: 0;
     max-width: 660px;
-    font-size: 16px;
+    // font-size: 16px;
   }
 }
 

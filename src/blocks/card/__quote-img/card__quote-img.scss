@@ -1,6 +1,21 @@
 .card__quote-img {
-  width: 35px;
-  grid-area: quote;
-  margin-left: 78px;
-  padding-top: 12px;
+  min-width: 35px;
+  align-self: flex-start;
+  background: center / contain no-repeat url(./../images/quoteIcon.png);
+  height: 60px;
 }
+
+@media screen and (max-width: 1439px) {
+  .card__quote-img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card__quote-img {
+    width: 24px;
+    height: 24px;
+  }
+}
+

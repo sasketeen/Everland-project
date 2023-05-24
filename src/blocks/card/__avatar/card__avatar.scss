@@ -1,5 +1,7 @@
 .card__avatar {
   width: 100%;
+  align-self: center;
+  justify-self: center;
   aspect-ratio: 1/1;
   border-radius: 50%;
   grid-area: avatar;
