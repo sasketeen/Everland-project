@@ -1,10 +1,6 @@
 .directions__title {
-  @include h2;
   max-height: 77px;
   padding: 0 0 50px 0;
-  margin: 0;
-  
-  line-height: $base-line-height;
 }
 
 .directions__title_type_mobile {
