@@ -1,4 +1,10 @@
 .footer__attendee {
-  
+
   @include small-text;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__attendee {
+    line-height: 130%;
+  }
 }

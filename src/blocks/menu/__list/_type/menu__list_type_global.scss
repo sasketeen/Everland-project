@@ -5,9 +5,9 @@
   @media (max-width: 1439px) {
     display: grid;
     grid-template-columns: repeat(2, 158px);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, min-content);
     gap: 24px 78px;
-    max-height: 72px;
+    
     grid-auto-flow: column;
   };
 

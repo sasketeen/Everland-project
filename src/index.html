@@ -84,9 +84,9 @@
         <li><a class="navigation__link link">Направления работы</a></li>
         <li><a class="navigation__link link">Преимущества</a></li>
         <li><a class="navigation__link link">Основные цифры</a></li>
-        <li><a class="navigation__link link">Спецпроект</a></li>
+        <li><a class="navigation__link link">Спецпроекты</a></li>
         <li><a class="navigation__link link">Истории</a></li>
-        <li><a class="navigation__link link">Агенство</a></li>
+        <li><a class="navigation__link link">Агентство</a></li>
         <li><a class="navigation__link link">Новости</a></li>
       </ul>
     </nav>
@@ -142,7 +142,7 @@
             <div class="intro__about">
               <h2 class="intro__title"><span class="intro__title-accent">Mauris</span> efficitur luctus sodales</h2>
               <p class="intro__description">Vestibulum feugiat nunc magna, tempus sollicitudin enim blandit interdum.
-                Cras euismod tellus ac pulvinar facilisis</p>
+                Cras euismod tellus ac pulvinar facilisis Vestibulum feugiat nunc magna.</p>
             </div>
             <div class="intro__image-container">
               <img src="<%=require('./images/firstSliderPhoto1.png')%>" alt="участник проекта" class="intro__image-top">
@@ -167,9 +167,9 @@
           <li class="intro__slider-item slider-hidden">
             <div class="intro__about">
               <h2 class="intro__title"><span class="intro__title-accent">Orci</span> varius natoque penatibus et
-
                 magnis dis parturient montes, nascetur ridiculus mus.</h2>
-              <p class="intro__description">Phasellus dolor dui, aliquet id rutrum sed, commodo vel tortor.</p>
+              <p class="intro__description">Phasellus dolor dui, aliquet
+                  magnis dis montes mus id rutrum sed, commodo vel tortor.</p>
             </div>
             <div class="intro__image-container">
               <img src="<%=require('./images/firstSliderPhoto1.png')%>" alt="участник проекта" class="intro__image-top">
@@ -188,224 +188,217 @@
       </div>
     </section>
 
-    <section class="charity">
-      <form action="#" class="charity__form form">
-        <div class="charity__sum-buttons">
-          <input class="form__input form__input_type_radio" name="sum" type="radio" id="250r" value="250" required>
-          <label class="button charity__radio-button" for="250r">250₽</label>
-          <input class="form__input form__input_type_radio" name="sum" type="radio" id="500r" value="500">
-          <label class="button charity__radio-button" for="500r">500₽</label>
-          <input class="form__input form__input_type_radio" name="sum" type="radio" id="750r" value="750">
-          <label class="button charity__radio-button" for="750r">750₽</label>
-          <input class="form__input form__input_type_radio" name="sum" type="radio" id="1000r" value="1000">
-          <label class="button charity__radio-button" for="1000r">1000₽</label>
-          <input class="form__input form__input_type_radio" name="sum" type="radio" id="otherr" value="other">
-          <label class="button charity__radio-button" for="otherr">Другая&nbsp;сумма</label>
+      <section class="charity">
+        <form action="#" class="charity__form form">
+          <div class="charity__sum-buttons">
+            <input class="form__input form__input_type_radio" name="sum" type="radio" id="250r" value="250" required>
+            <label class="button charity__radio-button" for="250r">250₽</label>
+            <input class="form__input form__input_type_radio" name="sum" type="radio" id="500r" value="500">
+            <label class="button charity__radio-button" for="500r">500₽</label>
+            <input class="form__input form__input_type_radio" name="sum" type="radio" id="750r" value="750">
+            <label class="button charity__radio-button" for="750r">750₽</label>
+            <input class="form__input form__input_type_radio" name="sum" type="radio" id="1000r" value="1000">
+            <label class="button charity__radio-button" for="1000r">1000₽</label>
+            <input class="form__input form__input_type_radio" name="sum" type="radio" id="otherr" value="other">
+            <label class="button charity__radio-button" for="otherr">Другая&nbsp;сумма</label>
+          </div>
+          <button type="submit" class="button button_type_primary charity__submit-button">Поддержать</button>
+        </form>
+      </section>
+
+
+      <section class="audience">
+          <div class="section-container">
+            <h2 class="section-title audience__title">Для кого мы работаем</h2>
+            <ul class="audience__card-list">
+              <li class="card card_type_employers">
+                <div class="card__icon card__icon_light_blue">
+                  <div class="card__icon-image audience__icon audience__icon_type_dis"></div>
+                </div>
+                <div class="card__text-block">
+                  <h3 class="card__title card__title_type_employers">Для людей с инвалидностью</h3>
+                  <p class="card__paragraph audience__card-text">Помогаем найти работу, пройти обучение, предоставляем
+                    разные виды поддержки</p>
+                </div>
+                <a class="card__link button-link button-link_color_blue audience__card-link" href="#">Подробнее</a>
+              </li>
+              <li class="card card_type_employers">
+                <div class="card__icon card__icon_light_pink">
+                  <div class="card__icon-image audience__icon audience__icon_type_brief"></div>
+                </div>
+                <div class="card__text-block">
+                  <h3 class="card__title card__title_type_employers">Для работодателей</h3>
+                  <p class="card__paragraph audience__card-text">Помогаем создать устойчивые инклюзивные команды,
+                    вовлекаем интеллектуальных волонтеров</p>
+                </div>
+                <a class="card__link button-link button-link_color_orange audience__card-link" href="#">Подробнее</a>
+              </li>
+              <li class="card card_type_employers">
+                <div class="card__icon card__icon_light_green">
+                  <div class="card__icon-image audience__icon audience__icon_type_pers"></div>
+                </div>
+                <div class="card__text-block">
+                  <h3 class="card__title card__title_type_employers">Для КСО-партнеров</h3>
+                  <p class="card__paragraph audience__card-text">Помогаем найти работу, пройти обучение, предоставляем
+                    разные виды поддержки</p>
+                </div>
+                <a class="card__link button-link button-link_color_green audience__card-link" href="#">Подробнее</a>
+              </li>
+            </ul>
+          </div>
+      </section>
+
+      <section class="directions">
+        <div class="directions__container">
+          <h2 class="section-title directions__title directions__title_type_desktop">Наши направления</h2>
+          <h2 class="directions__title directions__title_type_mobile">В каких направлениях мы работаем?</h2>
+          <ul class="directions__card-list">
+            <li class="card card_type_directions card_light_pink">
+              <h3 class="card__title card__title_type_directions">Доступность услуг DisQuestion</h3>
+              <p class="card__paragraph directions__card-text">Сервисы для бизнеса по повышению доступности услуг для
+                маломобильных клиентов ― контракты с крупнейшими компаниями в России</p>
+              <a class="card__link button-link button-link_color_white directions__card-link" href="#">Подробнее</a>
+            </li>
+            <li class="card card_type_directions card_light_blue">
+              <h3 class="card__title card__title_type_directions">Трудоустройство</h3>
+              <p class="card__paragraph directions__card-text">Решение социальной проблемы с использованием
+                предпринимательских инструментов: оказываем услуги разным компаниям и НКО, таким образом зарабатываем и
+                даем работу людям с инвалидностью</p>
+              <a class="card__link button-link button-link_color_white directions__card-link" href="#">Подробнее</a>
+            </li>
+            <li class="card card_type_directions card_light_green">
+              <h3 class="card__title card__title_type_directions">Биржа проектов и готовые решения</h3>
+              <p class="card__paragraph directions__card-text">ИТ-система для интеграции в открытый рынок труда людей с
+                инвалидностью в качестве самозанятых и в рамках трудоустройства в другие компании</p>
+              <a class="card__link button-link button-link_color_white directions__card-link" href="#">Подробнее</a>
+            </li>
+            <li class="card card_type_directions card_light_blue">
+              <h3 class="card__title card__title_type_directions">Агентство</h3>
+              <p class="card__paragraph directions__card-text">Услуги специалистов с инвалидностью для крупных компаний
+                (дизайн, право, контент и другие)</p>
+              <a class="card__link button-link button-link_color_white directions__card-link" href="#">Подробнее</a>
+            </li>
+            <li class="card card_type_directions card_light_green">
+              <h3 class="card__title card__title_type_directions">Коворкинг</h3>
+              <p class="card__paragraph directions__card-text">Уникальное пространство, в котором специалисты с
+                инвалидностью могут работать и офлайн – приходить, участвовать в образовательных мероприятиях,
+                встречаться с заказчиками, работать в команде</p>
+              <a class="card__link button-link button-link_color_white directions__card-link" href="#">Подробнее</a>
+            </li>
+            <li class="card card_type_directions card_light_pink">
+              <h3 class="card__title card__title_type_directions">Для людей c инвалидностью</h3>
+              <p class="card__paragraph directions__card-text">Помогаем найти работу, пройти обучение, предоставляем
+                разные виды поддержки</p>
+              <a class="card__link button-link button-link_color_white directions__card-link" href="#">Подробнее</a>
+            </li>
+          </ul>
         </div>
-        <button type="submit" class="button button_type_primary charity__submit-button">Поддержать</button>
-      </form>
-    </section>
+      </section>
 
+      <section class="accordions section-container">
+        <h2 class="accordions__title">Главное в нашей работе</h2>
+        <div class="accordions__container">
+          <ul class="accordions__column accordions__column-left"></ul>
+          <ul class="accordions__column accordions__column-right"></ul>
+        </div>
 
-    <section class="audience">
-      <div class="audience__container">
-        <h2 class="section-title audience__title">Для кого мы работаем</h2>
-        <ul class="audience__card-list">
-          <li class="card card_type_employers">
-            <div class="card__icon card__icon_light_blue">
-              <div class="card__icon-image audience__icon audience__icon_type_dis"></div>
-            </div>
-            <div class="card__text-block">
-              <h3 class="card__title card__title_type_employers">Для людей с инвалидностью</h3>
-              <p class="card__paragraph audience__card-text">Помогаем найти работу, пройти обучение, предоставляем
-                разные виды поддержки</p>
-              <h3 class="card__title card__title_type_employers">Для людей с инвалидностью</h3>
-              <p class="card__paragraph audience__card-text">Помогаем найти работу, пройти обучение, предоставляем
-                разные виды поддержки</p>
-            </div>
-            <a class="card__link button-link button-link_color_blue audience__card-link" href="#">Подробнее</a>
-          </li>
-          <li class="card card_type_employers">
-            <div class="card__icon card__icon_light_pink">
-              <div class="card__icon-image audience__icon audience__icon_type_brief"></div>
-            </div>
-            <div class="card__text-block">
-              <h3 class="card__title card__title_type_employers">Для работодателей</h3>
-              <p class="card__paragraph audience__card-text">Помогаем создать устойчивые инклюзивные команды,
-                вовлекаем интеллектуальных волонтеров</p>
-              <h3 class="card__title card__title_type_employers">Для работодателей</h3>
-              <p class="card__paragraph audience__card-text">Помогаем создать устойчивые инклюзивные команды,
-                вовлекаем интеллектуальных волонтеров</p>
-            </div>
-            <a class="card__link button-link button-link_color_orange audience__card-link" href="#">Подробнее</a>
-          </li>
-          <li class="card card_type_employers">
-            <div class="card__icon card__icon_light_green">
-              <div class="card__icon-image audience__icon audience__icon_type_pers"></div>
-            </div>
-            <div class="card__text-block">
-              <h3 class="card__title card__title_type_employers">Для КСО-партнеров</h3>
-              <p class="card__paragraph audience__card-text">Помогаем найти работу, пройти обучение, предоставляем
-                разные виды поддержки</p>
-              <h3 class="card__title card__title_type_employers">Для КСО-партнеров</h3>
-              <p class="card__paragraph audience__card-text">Помогаем найти работу, пройти обучение, предоставляем
-                разные виды поддержки</p>
-            </div>
-            <a class="card__link button-link button-link_color_green audience__card-link" href="#">Подробнее</a>
-          </li>
-        </ul>
-      </div>
-    </section>
+      </section>
 
-    <section class="directions">
-      <div class="directions__container">
-        <h2 class="section-title directions__title directions__title_type_desktop">Наши направления</h2>
-        <h2 class="directions__title directions__title_type_mobile">В каких направлениях мы работаем?</h2>
-        <ul class="directions__card-list">
-          <li class="card card_type_directions card_light_pink">
-            <h3 class="card__title card__title_type_directions">Доступность услуг DisQuestion</h3>
-            <p class="card__paragraph directions__card-text">Сервисы для бизнеса по повышению доступности услуг для
-              маломобильных клиентов ― контракты с крупнейшими компаниями в России</p>
-            <a class="card__link button-link button-link_color_white directions__card-link" href="#">Подробнее</a>
-          </li>
-          <li class="card card_type_directions card_light_blue">
-            <h3 class="card__title card__title_type_directions">Трудоустройство</h3>
-            <p class="card__paragraph directions__card-text">Решение социальной проблемы с использованием
-              предпринимательских инструментов: оказываем услуги разным компаниям и НКО, таким образом зарабатываем и
-              даем работу людям с инвалидностью</p>
-            <a class="card__link button-link button-link_color_white directions__card-link" href="#">Подробнее</a>
-          </li>
-          <li class="card card_type_directions card_light_green">
-            <h3 class="card__title card__title_type_directions">Биржа проектов и готовые решения</h3>
-            <p class="card__paragraph directions__card-text">ИТ-система для интеграции в открытый рынок труда людей с
-              инвалидностью в качестве самозанятых и в рамках трудоустройства в другие компании</p>
-            <a class="card__link button-link button-link_color_white directions__card-link" href="#">Подробнее</a>
-          </li>
-          <li class="card card_type_directions card_light_blue">
-            <h3 class="card__title card__title_type_directions">Агентство</h3>
-            <p class="card__paragraph directions__card-text">Услуги специалистов с инвалидностью для крупных компаний
-              (дизайн, право, контент и другие)</p>
-            <a class="card__link button-link button-link_color_white directions__card-link" href="#">Подробнее</a>
-          </li>
-          <li class="card card_type_directions card_light_green">
-            <h3 class="card__title card__title_type_directions">Коворкинг</h3>
-            <p class="card__paragraph directions__card-text">Уникальное пространство, в котором специалисты с
-              инвалидностью могут работать и офлайн – приходить, участвовать в образовательных мероприятиях,
-              встречаться с заказчиками, работать в команде</p>
-            <a class="card__link button-link button-link_color_white directions__card-link" href="#">Подробнее</a>
-          </li>
-          <li class="card card_type_directions card_light_pink">
-            <h3 class="card__title card__title_type_directions">Для людей c инвалидностью</h3>
-            <p class="card__paragraph directions__card-text">Помогаем найти работу, пройти обучение, предоставляем
-              разные виды поддержки</p>
-            <a class="card__link button-link button-link_color_white directions__card-link" href="#">Подробнее</a>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="accordions section-container">
-      <h2 class="accordions__title">Главное в нашей работе</h2>
-      <div class="accordions__container">
-        <ul class="accordions__column accordions__column-left"></ul>
-        <ul class="accordions__column accordions__column-right"></ul>
-      </div>
-
-    </section>
-
-    <section class="numbers section-container">
-      <h2 class="section-title numbers__title">Everland в цифрах</h2>
-      <div class="numbers__container">
-        <img src="<%=require('./images/numbersSectionPhoto.png')%>" class="numbers__image" alt="everland в цифрах">
-        <div class="numbers__statistic-container">
-          <div class="numbers__statistic numbers__statistic_type_status">
-            <h3 class="numbers__statistic-title">
-              <span class="numbers__title-accent">380+</span> человек
-            </h3>
-            <p class="numbers__statistic-paragraph">
-              прошли обучение и получили работу в разных статусах
-            </p>
-          </div>
-          <div class="numbers__statistic numbers__statistic_type_community">
-            <h3 class="numbers__statistic-title">
-              <span class="numbers__title-accent">1200+</span> человек
-            </h3>
-            <p class="numbers__statistic-paragraph">
-              наше сообщество ― люди с разными видами инвалидности
-            </p>
-          </div>
-          <div class="numbers__statistic numbers__statistic_type_earnings">
-            <h3 class="numbers__statistic-title">
-              <span class="numbers__title-accent">35 000</span> рублей
-            </h3>
-            <p class="numbers__statistic-paragraph">
-              средний заработок в проекте/в рамках работы агентства
-            </p>
-          </div>
-          <div class="numbers__statistic numbers__statistic_type_pumping">
-            <h3 class="numbers__statistic-title">
-              <span class="numbers__title-accent">3</span> недели
-            </h3>
-            <p class="numbers__statistic-paragraph">
-              нужно, чтобы получить первую оплату после прокачки в Everland
-            </p>
+      <section class="numbers section-container">
+        <h2 class="section-title numbers__title">Everland в цифрах</h2>
+        <div class="numbers__container">
+          <img src="<%=require('./images/numbersSectionPhoto.png')%>" class="numbers__image" alt="everland в цифрах">
+          <div class="numbers__statistic-container">
+            <div class="numbers__statistic numbers__statistic_type_status">
+              <h3 class="numbers__statistic-title">
+                <span class="numbers__title-accent">380+</span> человек
+              </h3>
+              <p class="numbers__statistic-paragraph">
+                прошли обучение и получили работу в разных статусах
+              </p>
+            </div>
+            <div class="numbers__statistic numbers__statistic_type_community">
+              <h3 class="numbers__statistic-title">
+                <span class="numbers__title-accent">1200+</span> человек
+              </h3>
+              <p class="numbers__statistic-paragraph">
+                наше сообщество ― люди с разными видами инвалидности
+              </p>
+            </div>
+            <div class="numbers__statistic numbers__statistic_type_earnings">
+              <h3 class="numbers__statistic-title">
+                <span class="numbers__title-accent">35 000</span> рублей
+              </h3>
+              <p class="numbers__statistic-paragraph">
+                средний заработок в проекте/в рамках работы агентства
+              </p>
+            </div>
+            <div class="numbers__statistic numbers__statistic_type_pumping">
+              <h3 class="numbers__statistic-title">
+                <span class="numbers__title-accent">3</span> недели
+              </h3>
+              <p class="numbers__statistic-paragraph">
+                нужно, чтобы получить первую оплату после прокачки в Everland
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="spec-projects section-container">
-      <div class="spec-projects__container">
-        <ul class="spec-projects__slider-list">
-          <li class="card card_light_blue spec-projects__slider-item">
-            <p class="spec-projects__subtitle">Наши спецпроекты</p>
-            <img src="<%=require('./images/seconsSliderPhoto.png')%>" alt="фотограф" class="spec-projects__image">
-            <h2 class="spec-projects__title">Фотопроект «Семья&nbsp;как&nbsp;семья»</h2>
-            <p class="spec-projects__description">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
+      <section class="spec-projects section-container">
+        <div class="spec-projects__container">
+          <ul class="spec-projects__slider-list">
+            <li class="card card_light_blue spec-projects__slider-item">
+              <div class="spec-projects__content">
+                <p class="spec-projects__subtitle">Наши спецпроекты</p>
+                <img src="<%=require('./images/seconsSliderPhoto.png')%>" alt="фотограф" class="spec-projects__image">
+                <h2 class="spec-projects__title">Фотопроект «Семья&nbsp;как&nbsp;семья»</h2>
+                <p class="spec-projects__description">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
+                  семей, где один или оба супруга имеют инвалидность</p>
+                <a href="#" class="button button_type_secondary-bright spec-projects__details-link">Посмотреть</a>
+              </div>
+            </li>
+            <li class="card card_light_green spec-projects__slider-item slider-hidden">
+              <div class="spec-projects__content">
+                <p class="spec-projects__subtitle">Наши спецпроекты</p>
+                <img src="<%=require('./images/seconsSliderPhoto.png')%>" alt="фотограф" class="spec-projects__image">
+                <h2 class="spec-projects__title">Etiam quis&nbsp;finibus&nbsp;turpis</h2>
+                <p class="spec-projects__description">Pellentesque pulvinar, erat et posuere posuere, leo lorem hendrerit
+                  eros, vel fringilla urna sem sed nunc. Aliquam erat volutpat</p>
+                <a href="#" class="button button_type_secondary-bright spec-projects__details-link">Посмотреть</a>
+              </div>
+            </li>
+            <li class="card card_light_pink spec-projects__slider-item slider-hidden">
+              <div class="spec-projects__content">
+                <p class="spec-projects__subtitle">Наши спецпроекты</p>
+                <img src="<%=require('./images/seconsSliderPhoto.png')%>" alt="фотограф" class="spec-projects__image">
+                <h2 class="spec-projects__title">Фотопроект «Семья&nbsp;как&nbsp;семья»</h2>
+                <p class="spec-projects__description">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
+                  семей, где один или оба супруга имеют инвалидность</p>
+                <a href="#" class="button button_type_secondary-bright spec-projects__details-link">Посмотреть</a>
+              </div>
+            </li>
+            <li class="card card_light_purple spec-projects__slider-item slider-hidden">
+              <div class="spec-projects__content">
+                <p class="spec-projects__subtitle">Наши спецпроекты</p>
+                <img src="<%=require('./images/bestProjectsImage2.png')%>" alt="фотограф" class="spec-projects__image">
+                <h2 class="spec-projects__title">Class aptent taciti sociosqu</h2>
+                <p class="spec-projects__description">Proin scelerisque pulvinar purus, in porta tellus consequat eget.
+                  Etiam non metus a tellus ornare condimentum</p>
+                <a href="#" class="button button_type_secondary-bright spec-projects__details-link">Посмотреть</a>
+              </div>
+            </li>
+          </ul>
+          <div class="spec-projects__buttons-container">
+            <button type="button" class="slider-button_type_dark slider-button slider-button_direction_left"
 
-              семей,
-              где один или оба супруга имеют инвалидность</p>
-            <a href="#" class="button button_type_secondary-bright spec-projects__details-link">Посмотреть</a>
-          </li>
-          <li class="card card_light_green spec-projects__slider-item slider-hidden">
-            <p class="spec-projects__subtitle">Наши спецпроекты</p>
-            <img src="<%=require('./images/seconsSliderPhoto.png')%>" alt="фотограф" class="spec-projects__image">
-            <h2 class="spec-projects__title">Etiam quis&nbsp;finibus&nbsp;turpis</h2>
-            <p class="spec-projects__description">Pellentesque pulvinar, erat et posuere posuere, leo lorem hendrerit
+              aria-label="spec-projects slider prev"></button>
+            <button type="button" class="slider-button_type_dark slider-button slider-button_direction_right"
 
-              eros, vel fringilla urna sem sed nunc.
-              Sed in ante fermentum, cursus nisi quis, aliquet velit.
-              Maecenas vel felis in enim finibus consequat. Aliquam erat volutpat</p>
-            <a href="#" class="button button_type_secondary-bright spec-projects__details-link">Посмотреть</a>
-          </li>
-          <li class="card card_light_pink spec-projects__slider-item slider-hidden">
-            <p class="spec-projects__subtitle">Наши спецпроекты</p>
-            <img src="<%=require('./images/seconsSliderPhoto.png')%>" alt="фотограф" class="spec-projects__image">
-            <h2 class="spec-projects__title">Фотопроект «Семья&nbsp;как&nbsp;семья»</h2>
-            <p class="spec-projects__description">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
-
-              семей,
-              где один или оба супруга имеют инвалидность</p>
-            <a href="#" class="button button_type_secondary-bright spec-projects__details-link">Посмотреть</a>
-          </li>
-          <li class="card card_light_purple spec-projects__slider-item slider-hidden">
-            <p class="spec-projects__subtitle">Наши спецпроекты</p>
-            <img src="<%=require('./images/bestProjectsImage2.png')%>" alt="фотограф" class="spec-projects__image">
-            <h2 class="spec-projects__title">Class aptent taciti sociosqu</h2>
-            <p class="spec-projects__description">Proin scelerisque pulvinar purus, in porta tellus consequat eget.
-              Maecenas suscipit tempor dui eu euismod.
-              Etiam non metus a tellus ornare condimentum. Praesent suscipit ipsum ligula</p>
-            <a href="#" class="button button_type_secondary-bright spec-projects__details-link">Посмотреть</a>
-          </li>
-        </ul>
-        <div class="spec-projects__buttons-container">
-          <button type="button" class="slider-button_type_dark slider-button slider-button_direction_left"
-            aria-label="spec-projects slider prev"></button>
-          <button type="button" class="slider-button_type_dark slider-button slider-button_direction_right"
-            aria-label="spec-projects slider next"></button>
+              aria-label="spec-projects slider next"></button>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
     <section class="stories section-container">
       <h2 class="section-title stories__title">Истории</h2>
@@ -712,60 +705,61 @@
       </div>
     </section>
 
-    <footer class="footer section-container">
-      <div class="footer__about">
-        <a class="link" href="#"><img class="footer__logo" src="<%=require('./images/Logo.svg')%>"
-            alt="Логотип Everland"></a>
-        <p class="footer__main-text">
-          Платформа Everland &#8212; инклюзивный социальный предпринимательский проект.
-          Реализуется&nbsp;ООО&nbsp;&#171;ЭВЕРЛЭНД&#187;, АНО &#171;Пространство равных возможностей&#187;.
+      <footer class="footer section-container">
+        <div class="footer__about">
+          <a class="link" href="#"><img class="footer__logo" src="<%=require('./images/Logo.svg')%>"
+
+              alt="Логотип Everland"></a>
+          <p class="footer__main-text">
+            Платформа Everland &#8212; инклюзивный социальный предпринимательский проект.
+            Реализуется&nbsp;ООО&nbsp;&#171;ЭВЕРЛЭНД&#187;, АНО &#171;Пространство равных возможностей&#187;.
+          </p>
+        </div>
+        <nav class="footer__navigation">
+          <ul class="footer__nav-links">
+            <li class="footer__nav-link"><a class="link" href="#">О проекте</a></li>
+            <li class="footer__nav-link"><a class="link" href="#">Программы</a></li>
+            <li class="footer__nav-link"><a class="link" href="#">Услуги</a></li>
+            <li class="footer__nav-link"><a class="link" href="#">Платформа</a></li>
+            <li class="footer__nav-link"><a class="link" href="#">Людям с&nbsp;инвалидностью</a></li>
+            <li class="footer__nav-link"><a class="link" href="#">Мы&nbsp;благодарим</a></li>
+          </ul>
+        </nav>
+        <div class="footer__support">
+          <h3 class="footer__heading">При поддержке</h3>
+          <ul class="footer__support-list">
+            <li><a class="footer__support-img footer__support-img_type_beeline link" href="#"></a></li>
+            <li><a class="footer__support-img footer__support-img_type_fond link" href="#"></a></li>
+          </ul>
+        </div>
+        <div class="footer__follow">
+          <h3 class="footer__heading">Подписывайтесь на&nbsp;нас&nbsp;в&nbsp;cоцсетях</h3>
+          <ul class="footer__follow-list">
+            <li><a class="link" href="#"><img class="footer__follow-img"
+                  src="<%=require('./images/footerTelegram.png')%>" alt="Логотип Телеграм"></a></li>
+            <li><a class="link" href="#"><img class="footer__follow-img" src="<%=require('./images/footerVk.png')%>"
+                  alt="Логотип Вконтакте"></a></li>
+          </ul>
+        </div>
+        <div class="footer__contacts">
+          <ul class="footer__contacts-list">
+            <li><a class="footer__contact link" href="tel:#">+7&nbsp;(495)&nbsp;646&nbsp;04&nbsp;28</a></li>
+            <li><a class="footer__contact link" href="tel:#">+7&nbsp;(985)&nbsp;473&nbsp;08&nbsp;93</a></li>
+          </ul>
+          <p class="footer__contact">Гоголевский бульвар, дом 8, строение 2, офис 8, Москва, Россия.</p>
+        </div>
+        <p class="footer__main-text footer__main-text_type_color">
+          &copy; ООО &#171;ЭВЕРЛЭНД&#187;, АНО &#171;Пространство равных возможностей&#187;.
+          Если&nbsp;не&nbsp;указано&nbsp;иначе,&nbsp;все материалы сайта доступны по лицензии Creative Commons CC-BY-SA
+          3.0
         </p>
-      </div>
-      <nav class="footer__navigation">
-        <ul class="footer__nav-links">
-          <li class="footer__nav-link"><a class="link" href="#">О проекте</a></li>
-          <li class="footer__nav-link"><a class="link" href="#">Программы</a></li>
-          <li class="footer__nav-link"><a class="link" href="#">Услуги</a></li>
-          <li class="footer__nav-link"><a class="link" href="#">Платформа</a></li>
-          <li class="footer__nav-link"><a class="link" href="#">Людям с&nbsp;инвалидностью</a></li>
-          <li class="footer__nav-link"><a class="link" href="#">Мы&nbsp;благодарим</a></li>
-        </ul>
-      </nav>
-      <div class="footer__support">
-        <h3 class="footer__heading">При поддержке</h3>
-        <ul class="footer__support-list">
-          <li><a class="footer__support-img footer__support-img_type_beeline link" href="#"></a></li>
-          <li><a class="footer__support-img footer__support-img_type_fond link" href="#"></a></li>
-        </ul>
-      </div>
-      <div class="footer__follow">
-        <h3 class="footer__heading">Подписывайтесь на&nbsp;нас&nbsp;в&nbsp;cоцсетях</h3>
-        <ul class="footer__follow-list">
-          <li><a class="link" href="#"><img class="footer__follow-img" src="<%=require('./images/footerTelegram.png')%>"
-                alt="Логотип Телеграм"></a></li>
-          <li><a class="link" href="#"><img class="footer__follow-img" src="<%=require('./images/footerVk.png')%>"
-                alt="Логотип Вконтакте"></a></li>
-        </ul>
-      </div>
-      <div class="footer__contacts">
-        <ul class="footer__contacts-list">
-          <li><a class="footer__contact link" href="tel:#">+7&nbsp;(495)&nbsp;646&nbsp;04&nbsp;28</a></li>
-          <li><a class="footer__contact link" href="tel:#">+7&nbsp;(985)&nbsp;473&nbsp;08&nbsp;93</a></li>
-        </ul>
-        <p class="footer__contact">Гоголевский бульвар, дом 8, строение 2, офис 8, Москва, Россия.</p>
-      </div>
-      <p class="footer__main-text footer__main-text_type_color">
-        &copy; ООО &#171;ЭВЕРЛЭНД&#187;, АНО &#171;Пространство равных возможностей&#187;.
-        Если&nbsp;не&nbsp;указано&nbsp;иначе,&nbsp;все материалы сайта доступны по лицензии Creative Commons CC-BY-SA
-        3.0
-      </p>
-      <div class="footer__partner">
-        <a class="link" href="#"><img class="footer__partner-img" src="<%=require('./images/footerPraktikum.png')%>"
-            alt="Логотип Яндекс Практикум"></a>
-        <span class="footer__attendee">сделано&nbsp;при&nbsp;участии&nbsp;Яндекс&nbsp;Практикума</span>
-      </div>
-    </footer>
-  </main>
+        <div class="footer__partner">
+          <a class="link" href="#"><img class="footer__partner-img" src="<%=require('./images/footerPraktikum.png')%>"
+              alt="Логотип Яндекс Практикум"></a>
+          <span class="footer__attendee">сделано&nbsp;при&nbsp;участии&nbsp;Яндекс&nbsp;Практикума</span>
+        </div>
+      </footer>
+    </main>
   </div>
   <template class="accordion-template">
     <li class="accordion">
