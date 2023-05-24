@@ -7,6 +7,7 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
   <title>Everland</title>
+  <link rel="icon" href="<%=require('/src/images/favicon.png')%>" type="image/x-icon">
 </head>
 
 <body class="body">
@@ -328,10 +329,10 @@
       </section>
 
       <section class="accordions section-container">
-        <h2 class="accardion-container__title">Главное в нашей работе</h2>
+        <h2 class="accardions-container__title">Главное в нашей работе</h2>
         <div class="accordion-container">
-          <div class="accordion-container__column accordion-container__column-left"></div>
-          <div class="accordion-container__column accordion-container__column-right"></div>
+          <ul class="accordion-container__column accordion-container__column-left"></ul>
+          <ul class="accordion-container__column accordion-container__column-right"></ul>
         </div>
 
       </section>
@@ -435,30 +436,30 @@
       <section class="stories section-container">
         <h2 class="stories__title">Истории</h2>
         <button class="button button_type_secondary stories__button">Все истории</button>
-        <div class="stories__text">
-          <div class="card card_type_histories-large">
+        <ul class="stories__text">
+          <li class="card card_type_histories-large">
             <img class="card__avatar card__avatar_type_histories-large"
               src="<%=require('/src/images/storiesPhoto1.png')%>" alt="аватар" />
             <img class="card__quote-img card__quote-img_type_histories-large"
               src="<%=require('/src/images/quoteIcon.png')%>" alt="кавычки" />
-            <h2 class="card__title card__title_type_histories-large">
+            <q class="card__title card__title_type_histories-large">
               Мне интересно слушать интервью с людьми. Это мотивация и вдохновение,
               которых так не хватает
-            </h2>
+            </q>
             <p class="card__paragraph card__paragraph_type_histories-large">
               Максиму Гильфанову из Узбекистана 41 год. Диплом программиста и курсы
               по веб-дизайну не решили проблему с трудоустройством
             </p>
             <a href="#" class="card__link card__link_type-histories-large button-link button-link_color_blue">История Максима</a>
-          </div>
+          </li>
 
-          <div class="card card_type_histories-large">
+          <li class="card card_type_histories-large">
             <img class="card__quote-img card__quote-img_type_histories-large"
 
               src="<%=require('/src/images/quoteIcon.png')%>" alt="кавычки" />
-            <h2 class="card__title card__title_type_histories-large">
+            <q class="card__title card__title_type_histories-large">
               Платформа дала надежду: кто-то заинтересован в трудоустройстве инвалидов
-            </h2>
+            </q>
             <p class="card__paragraph card__paragraph_type_histories-large">
               Максиму Чернышову из Набережных Челнов 32 года. В детстве он неудачно сделал
               сальто и повредил позвоночник. С тех пор ему тяжело передвигаться на большие расстояния
@@ -466,30 +467,30 @@
             <a href="#" class="card__link card__link_type-histories-large button-link button-link_color_blue">История Максима</a>
             <img class="card__avatar card__avatar_type_histories-large"
               src="<%=require('/src/images/storiesPhoto2.png')%>" alt="аватар"/>
-          </div>
+          </li>
 
-        </div>
-        <div class="stories__audio">
-          <div class="card card_type_histories-small">
+        </ul>
+        <ul class="stories__audio">
+          <li class="card card_type_histories-small">
             <img class="card__avatar" src="<%=require('/src/images/storiesPhoto3.png')%>"  alt="аватар"/>
             <p class="card__paragraph card__paragraph_type_histories-small">
               Айслу Асан
             </p>
-            <h2 class="card__title card__title_type_histories-small">Когда хочется жить</h2>
+            <h3 class="card__title card__title_type_histories-small">Когда хочется жить</h3>
             <span class="card__audio">История&nbsp;Айслу<button class="card__audio-button"></button></span>
-          </div>
+          </li>
 
-          <div class="card card_type_histories-small">
+          <li class="card card_type_histories-small">
             <img class="card__avatar card__avatar_type_histories-large"
 
               src="<%=require('/src/images/storiesPhoto4.png')%>" alt="аватар"/>
             <p class="card__paragraph card__paragraph_type_histories-small">
               Артём Плаксин
             </p>
-            <h2 class="card__title card__title_type_histories-small">Не видеть и смотреть в будущее</h2>
+            <h3 class="card__title card__title_type_histories-small">Не видеть и смотреть в будущее</h3>
             <span class="card__audio">История&nbsp;Артёма<button class="card__audio-button"></button></span>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
 
       <section class="projects">
@@ -501,7 +502,6 @@
           <ul class="projects__list">
             <li class="card card_type_best-projects">
               <img src="<%=require('./images/bestProjectsImage1.png')%>" alt="Макет сайта DisQuestion"
-
                 class="card__image card__image_type_best-projects">
               <h3 class="card__paragraph card__paragraph_type_best-projects">Скрипты-рекомендации для бизнеса
 
@@ -532,19 +532,19 @@
             <span class="card__theme">Тема</span>
             <img class="card__image" src="<%=require('../src/images/newsImage1.png')%>" alt="Коллаборация с PepsiCo">
             <div class="card__text-block">
-              <h2 class="card__title">Ура! Новое партнерство — с PepsiCo</h2>
+              <h3 class="card__title">Ура! Новое партнерство — с PepsiCo</h3>
               <p class="card__paragraph card__paragraph_type_news">Everland совместно с PepsiCo приняли участие в акции
                 «Благотворительность
                 вместо сувениров»
               </p>
             </div>
-            <span class="card__date">20 сентября 2021</span>
+            <time class="card__date">20 сентября 2021</time>
           </div>
           <div class="card card_type_news card_light_green">
             <span class="card__theme">Тема</span>
             <div class="card__text-block">
-              <h2 class="card__title">Трехдневный интенсив для КСО-менеджеров «Бизнес и инклюзия:
-                как строить эффективные программы»</h2>
+              <h3 class="card__title">Трехдневный интенсив для КСО-менеджеров «Бизнес и инклюзия:
+                как строить эффективные программы»</h3>
               <p class="card__paragraph card__paragraph_type_news">Эксперты с инвалидностью, представители бизнеса и
                 некоммерческих
                 организаций поговорили о том, что такое инклюзия, рассмотрели подходы к трудоустройству
@@ -552,19 +552,19 @@
                 успешными кейсами
               </p>
             </div>
-            <span class="card__date">20 сентября 2021</span>
+            <time class="card__date">20 сентября 2021</time>
           </div>
           <div class="card card_type_news">
             <span class="card__theme">Тема</span>
             <div class="card__text-block">
-              <h2 class="card__title">Тестируем супермаркеты на доступность</h2>
+              <h3 class="card__title">Тестируем супермаркеты на доступность</h3>
               <p class="card__paragraph card__paragraph_type_news">Everland совместно с торговой сетью «Перекресток»
                 провели аудит продуктовых магазинов на доступность для людей с разными
                 видами инвалидности
               </p>
             </div>
             <img class="card__image" src="<%=require('../src/images/newsImage2.png')%>" alt="Помощь инвалидам">
-            <span class="card__date">20 сентября 2021</span>
+            <time class="card__date">20 сентября 2021</time>
           </div>
         </div>
       </section>
@@ -657,8 +657,8 @@
               <button class="button button_type_primary donate-form__submit-button" type="submit">Поддержать</button>
             </form>
             <div class="donators">
-              <h4 class="donators__header">Everland создается силами многих. Мы&nbsp;благодарны каждому за поддержку!
-              </h4>
+              <h3 class="donators__header">Everland создается силами многих. Мы&nbsp;благодарны каждому за поддержку!
+              </h3>
               <ul class="donators__list">
                 <li class="donators__list-item">
                   <p class="donators__name">Аноним</p>
@@ -751,14 +751,14 @@
           </ul>
         </nav>
         <div class="footer__support">
-          <h2 class="footer__heading">При поддержке</h2>
+          <h3 class="footer__heading">При поддержке</h3>
           <ul class="footer__support-list">
             <li><a class="footer__support-img footer__support-img_type_beeline ref" href="#"></a></li>
             <li><a class="footer__support-img footer__support-img_type_fond ref" href="#"></a></li>
           </ul>
         </div>
         <div class="footer__follow">
-          <h2 class="footer__heading">Подписывайтесь на&nbsp;нас&nbsp;в&nbsp;cоцсетях</h2>
+          <h3 class="footer__heading">Подписывайтесь на&nbsp;нас&nbsp;в&nbsp;cоцсетях</h3>
           <ul class="footer__follow-list">
             <li><a class="ref" href="#"><img class="footer__follow-img"
                   src="<%=require('./images/footerTelegram.png')%>" alt="Логотип Телеграм"></a></li>
@@ -787,7 +787,7 @@
     </main>
   </div>
   <template class="accordion__template">
-    <div class="accordion">
+    <li class="accordion">
       <div class="accordion__header">
         <h3 class="accordion__title">gfd</h3>
         <button class="accardion__button" aria-label="toggle accordion"></button>
@@ -798,7 +798,7 @@
         eos officia vel quidem quis officiis dolores
         porro beatae veritatis tenetur. Culpa ex libero
         a!</p>
-    </div>
+      </li>
   </template>
 </body>
 
