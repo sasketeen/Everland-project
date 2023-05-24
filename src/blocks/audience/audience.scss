@@ -2,14 +2,17 @@
   width: 100%;
   margin: auto;
   background-color: $light-grey;
+  padding-top: 100px;
+  padding-bottom: 100px;
 
   @media screen and (max-width: 1439px) {
-    padding: 50px 40px 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   @media screen and (max-width: 767px) {
     width: 100%;
-    padding: 32px 0;
-    box-sizing: border-box;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 }
