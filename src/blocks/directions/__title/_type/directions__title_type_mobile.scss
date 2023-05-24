@@ -1,3 +1,9 @@
 .directions__title_type_mobile {
-
-}
+    display: none;
+  }
+  
+  @media screen and (max-width: 1439px) {
+    .directions__title_type_mobile {
+      display: block;
+    }
+  }

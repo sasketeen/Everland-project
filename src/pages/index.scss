@@ -102,7 +102,7 @@
 @import "../blocks/card/__icon/_light/card__icon_light_green.scss";
 @import "../blocks/card/__icon/_light/card__icon_light_blue.scss";
 
-@import "../blocks/card/__icon-image/card__icon_image.scss";
+@import "../blocks/card/__icon-image/card__icon-image.scss";
 
 @import "../blocks/card/__date/card__date.scss";
 
@@ -130,7 +130,9 @@
 @import "/src/blocks/accordeon/__header/accordion__header.scss";
 @import "/src/blocks/accordeon/__title/accordion__title.scss";
 @import "/src/blocks/accordeon/__body/accordion__body.scss";
-@import "/src/blocks/accordeon/_opened/accordion_opened.scss";
+@import "/src/blocks/accordeon/__button/_opened/accordion__button_opened.scss";
+@import "/src/blocks/accordeon/__body/_opened/accordion__body_opened.scss";
+
 
 @import "../blocks/intro/intro.scss";
 @import "../blocks/intro/__container/intro__container.scss";
