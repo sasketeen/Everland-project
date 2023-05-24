@@ -6,13 +6,8 @@
 }
 
 @media screen and (max-width: 768px) {
-    .accordion-container {
+    .accordions__container {
         flex-direction: column;
         gap: 18px;
-
-        &__column {
-            width: 100%;
-            gap: 18px;
-        }
     }
 }
