@@ -1,5 +1,5 @@
 .card__paragraph {
-  @include main-text();
+  @include main-text;
   margin: 0;
   margin-top: 20px ;
   grid-area: text;

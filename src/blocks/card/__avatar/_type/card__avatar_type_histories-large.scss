@@ -1,13 +1,18 @@
-@media screen and (max-width: 1440px) {
+.card__avatar_type_histories-large {
+  width: 224px;
+  height: 224px;
+}
+
+@media screen and (max-width: 1439px) {
   .card__avatar_type_histories-large {
-    margin-top: 38px;
+    width: 204px;
+    height: 204px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .card__avatar_type_histories-large {
     width: 80px;
     height: 80px;
-    margin-top: 0;
   }
 }

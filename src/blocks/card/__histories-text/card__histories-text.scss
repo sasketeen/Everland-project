@@ -1,0 +1,18 @@
+.card__histories-text {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  max-width: 966px;
+}
+
+@media screen and (max-width: 1439px) {
+  .card__histories-text {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card__histories-text {
+    gap: 16px;
+  }
+}
