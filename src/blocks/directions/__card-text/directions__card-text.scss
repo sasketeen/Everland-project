@@ -3,12 +3,18 @@
   max-width: 380px;
   width: 100%;
   margin: 0;
-  
+
   line-height: $base-line-height;
 }
 
 @media screen and (max-width: 1439px) {
   .directions__card-text {
     padding-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .directions__card-text {
+    line-height: 130%;
   }
 }

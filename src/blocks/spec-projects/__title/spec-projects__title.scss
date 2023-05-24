@@ -8,6 +8,7 @@
   overflow: hidden;
   max-height: 62px;
   flex-shrink: 0;
+  letter-spacing: $title-letter-spacing;
 
   @media screen and (min-width: 768px) {
     grid-area: title;
