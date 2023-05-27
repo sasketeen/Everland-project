@@ -120,9 +120,9 @@ function charityFormSubmit(inputValues) {
 		if (inputValues.sum === item.value) {
 			item.checked = true;
 			toggleSumInputVisibility(item);
+      item.focus();
 		}
     donateForm.scrollIntoView();
-    item.focus();
 	})
 }
 
