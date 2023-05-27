@@ -4,13 +4,12 @@
   min-height: 428px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1439px) {
   .card_type_directions {
     max-width: 334px;
-    gap: 10px;
     min-height: 298px;
   }
 }

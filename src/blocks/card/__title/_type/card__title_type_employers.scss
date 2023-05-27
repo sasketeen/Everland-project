@@ -1,26 +1,12 @@
 .card__title_type_employers {
   @include h4;
   margin: 0;
-
-  line-height: $base-line-height;
+  padding: 40px 0 0;
 }
 
 @media screen and (max-width: 1439px) {
   .card__title_type_employers {
     @include h3;
-    padding-top: 10px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .card__title_type_employers {
-    @include h3;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .card__title_type_employers {
-    @include h3;
-    padding-top: 10px;
+    padding: 20px 0 0;
   }
 }

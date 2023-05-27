@@ -1,7 +1,7 @@
 // Mixins for text styles
 @mixin text-styles($desktop, $tablet, $mobile, $weight: $font-weight-regular) {
   font-size: $desktop;
-  
+
   font-weight: $weight;
   line-height: $base-line-height;
 
@@ -52,7 +52,7 @@
 
 @mixin button-text {
   @include text-styles(20px, 16px, 14px, $font-weight-medium);
-  @include animation('', undefined,)
+  // @include animation('', undefined,)
 }
 
 // Mixin for animation
