@@ -1,7 +1,7 @@
 .numbers {
   display: flex;
   flex-direction: column;
-  max-width: 300px;
+  // max-width: 300px;
   width: 100%;
   color: $black-card-text;
   padding-top: 32px;
@@ -10,7 +10,7 @@
 
 @media screen and (min-width: 768px) {
   .numbers {
-    max-width: 600px;
+
     padding-top: 50px;
     padding-bottom: 50px;
   }
