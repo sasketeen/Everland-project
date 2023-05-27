@@ -6,10 +6,12 @@
 	padding: 32px 20px;
 	display: flex;
 	flex-direction: column;
+  margin: 0 auto;
 
 	@media (min-width: 768px) {
     padding: 30px;
 		border-radius: 30px;
+    max-width: 690px;
   }
 
 	@media (min-width: 1440px) {
