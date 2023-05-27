@@ -1,16 +1,33 @@
 import "./pages/index.scss"
 import {
   menu,
-  headerMenuButton, 
-  donateForm, 
-  charityForm, 
-  amountInputs, 
+  headerMenuButton,
+  donateForm,
+  charityForm,
+  amountInputs,
   hiddenTextInput,
 } from "./utils/constants.js";
 import Menu from "./components/Menu.js";
 import Slider from "./components/Slider";
 import Accordion from "./components/Accordion/Accordion"
 import Form from "./components/Form";
+
+function smoothScroll(event) {
+  event.preventDefault();
+  const targetId = event.currentTarget.getAttribute("href");
+  document.querySelector(targetId).scrollIntoView({
+    behavior: "smooth"
+  });
+}
+
+const anchorLinks = document.querySelectorAll('a[href]');
+anchorLinks.forEach(link => {
+  const href = link.getAttribute("href");
+  const regex = /^#[a-zA-Z]+$/;
+  if (regex.test(href)) {
+    link.addEventListener("click", smoothScroll);
+  }
+});
 
 const modal = new Menu(menu, headerMenuButton);
 modal.setListeners();

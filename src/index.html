@@ -80,14 +80,14 @@
   <main class="content">
     <nav class="navigation">
       <ul class="navigation__list">
-        <li><a class="navigation__link link">Для кого</a></li>
-        <li><a class="navigation__link link">Направления работы</a></li>
-        <li><a class="navigation__link link">Преимущества</a></li>
-        <li><a class="navigation__link link">Основные цифры</a></li>
-        <li><a class="navigation__link link">Спецпроекты</a></li>
-        <li><a class="navigation__link link">Истории</a></li>
-        <li><a class="navigation__link link">Агентство</a></li>
-        <li><a class="navigation__link link">Новости</a></li>
+        <li><a class="navigation__link link" href="#audience">Для кого</a></li>
+        <li><a class="navigation__link link" href="#directions">Направления работы</a></li>
+        <li><a class="navigation__link link" href="#adventages">Преимущества</a></li>
+        <li><a class="navigation__link link" href="#numbers">Основные цифры</a></li>
+        <li><a class="navigation__link link" href="#spec-projects">Спецпроекты</a></li>
+        <li><a class="navigation__link link" href="#stories">Истории</a></li>
+        <li><a class="navigation__link link" href="#agency">Агентство</a></li>
+        <li><a class="navigation__link link" href="#news">Новости</a></li>
       </ul>
     </nav>
 
@@ -207,7 +207,7 @@
     </section>
 
 
-    <section class="audience">
+    <section class="audience" id="audience">
       <div class="section-container">
         <h2 class="section-title audience__title">Для кого мы работаем</h2>
         <ul class="audience__card-list">
@@ -248,7 +248,7 @@
       </div>
     </section>
 
-    <section class="directions">
+    <section class="directions" id="directions">
       <div class="directions__container">
         <h2 class="section-title directions__title directions__title_type_desktop">Наши направления</h2>
         <h2 class="section-title directions__title directions__title_type_mobile">В каких направлениях мы работаем?</h2>
@@ -295,7 +295,7 @@
       </div>
     </section>
 
-    <section class="accordions section-container">
+    <section class="accordions section-container" id="adventages">
       <h2 class="accordions__title">Главное в нашей работе</h2>
       <div class="accordions__container">
         <ul class="accordions__column accordions__column-left"></ul>
@@ -304,7 +304,7 @@
 
     </section>
 
-    <section class="numbers section-container">
+    <section class="numbers section-container" id="numbers">
       <h2 class="section-title numbers__title">Everland в цифрах</h2>
       <div class="numbers__container">
         <img src="<%=require('./images/numbersSectionPhoto.png')%>" class="numbers__image" alt="everland в цифрах">
@@ -345,7 +345,7 @@
       </div>
     </section>
 
-    <section class="spec-projects section-container">
+    <section class="spec-projects section-container" id="spec-projects">
       <div class="spec-projects__container">
         <ul class="spec-projects__slider-list">
           <li class="card card_light_blue spec-projects__slider-item">
@@ -398,7 +398,7 @@
       </div>
     </section>
 
-    <section class="stories section-container">
+    <section class="stories section-container" id="stories">
       <h2 class="section-title stories__title">Истории</h2>
       <button class="button button_type_secondary stories__button">Все истории</button>
       <ul class="stories__text">
@@ -462,7 +462,7 @@
       </ul>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="agency">
       <div class="section-container projects__container">
         <h2 class="section-title projects__title">Лучшие проекты нашего&nbsp;агентства</h2>
         <p class="projects__description">Мы выполняем работы в области веб-разработки, дизайна, права, видео,
@@ -491,7 +491,7 @@
       </div>
     </section>
 
-    <section class="news section-container">
+    <section class="news section-container" id="news">
       <h2 class="section-title news__title">Новости</h2>
       <button class="news__button button button_type_secondary">Все&nbsp;новости</button>
       <div class="news__cards">
