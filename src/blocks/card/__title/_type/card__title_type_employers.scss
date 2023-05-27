@@ -1,8 +1,7 @@
 .card__title_type_employers {
   @include h4;
-  max-height: 77px;
   margin: 0;
-  
+
   line-height: $base-line-height;
 }
 

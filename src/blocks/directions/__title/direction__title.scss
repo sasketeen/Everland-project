@@ -1,5 +1,4 @@
 .directions__title {
-  max-height: 77px;
   padding: 0 0 50px 0;
   margin: 0;
   letter-spacing: $title-letter-spacing;
@@ -9,7 +8,6 @@
 
 @media screen and (max-width: 1439px) {
   .directions__title {
-    max-height: 86px;
     max-width: 420px;
     padding: 0 0 32px 0;
   }
@@ -17,7 +15,6 @@
 
 @media screen and (max-width: 767px) {
   .directions__title {
-    max-height: 62px;
     max-width: 300px;
     padding: 0 0 24px 0;
     text-align: start;
