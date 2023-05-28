@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  max-width: 300px;
   width: 100%;
   order: 1;
   gap: 5px;
@@ -11,7 +10,6 @@
 
 @media screen and (min-width: 768px) {
   .numbers__statistic {
-    max-width: 334px;
     gap: 10px;
   }
 }
