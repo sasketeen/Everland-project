@@ -1,0 +1,10 @@
+.donate__container {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+
+	@media (min-width: 1440px) {
+    flex-direction: row;
+		gap: 117px;
+  }
+}

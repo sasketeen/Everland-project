@@ -1,0 +1,25 @@
+.card_type_directions {
+  max-width: 440px;
+  width: 100%;
+  min-height: 428px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media screen and (max-width: 1439px) {
+    & {
+      max-width: 334px;
+      min-height: 294px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    & {
+      max-width: 300px;
+      padding: 24px;
+      min-height: unset;
+      justify-content: unset;
+      gap: 20px;
+    }
+  }
+}

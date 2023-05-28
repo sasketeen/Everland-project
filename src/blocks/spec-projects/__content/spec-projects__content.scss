@@ -1,0 +1,25 @@
+.spec-projects__content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 445px;
+
+  @media screen and (min-width: 768px) {
+    min-height: 284px;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-areas:
+      "subtitle . photo"
+      "title . photo"
+      "description . photo"
+      "details . photo";
+    grid-template-columns: 53.98% 1fr 41.24%;
+    grid-template-rows: 31px fit-content(86px) fit-content(123px) 45px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    min-height: 393px;
+    grid-template-columns: 603px 1fr 555px;
+    grid-template-rows: 39px fit-content(154px) fit-content(149px) 50px;
+  }
+}

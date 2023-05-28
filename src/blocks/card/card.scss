@@ -1,0 +1,12 @@
+.card {
+  @include main-text();
+  border-radius: 30px;
+  padding: 30px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  color: $black-card-text;
+
+  @media (max-width: 1439px) {
+      border-radius: 20px;
+  }
+}

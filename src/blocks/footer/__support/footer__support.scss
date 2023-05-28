@@ -1,0 +1,12 @@
+.footer__support {
+  max-width: 269px;
+  padding-top: 90px;
+  
+  @media (max-width: 1439px) {
+    padding-top: 56px;
+  }
+  @media (max-width: 767px) {
+    padding-top: 40px;
+    max-width: 300px;
+  }
+}

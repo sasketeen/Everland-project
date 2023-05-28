@@ -1,0 +1,15 @@
+.menu__container_type_about {
+  grid-area: type_about;
+  margin-right: 86px;
+
+  @media (min-width: 768px) {
+    max-width: 259px;
+  };
+  @media (max-width: 1439px) {
+    margin-right: 50px;
+    min-width: 186px;
+  };
+  @media (max-width: 767px) {
+    width: 100%;
+  };
+}

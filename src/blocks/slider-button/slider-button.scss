@@ -1,0 +1,40 @@
+.slider-button {
+    background-color: unset;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    border-radius: 6px;
+    cursor: pointer;
+    @include animation(background-color);
+
+    &::after {
+        @include arrow-icon;
+        width: 10px;
+        height: 10px;
+        background-color: $white-background;
+        cursor: pointer;
+    };
+
+    &:disabled {
+        background-color: $grey-disabled;
+
+        &::after {
+            background-color: $gray-disabled-icon;
+            opacity: 0.5;
+        };
+    }
+}
+
+@media (min-width: 1440px) {
+    .slider-button {
+      padding: 9px;
+      border-radius: 10px;
+
+      &::after {
+        width: 17px;
+        height: 17px;
+      }
+    }
+}

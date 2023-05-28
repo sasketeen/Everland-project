@@ -1,0 +1,19 @@
+.intro__description {
+  @include main-text;
+  color: $black-card-text;
+  margin: 0;
+  width: 100%;
+  font-size: calc(14px + 2 * ((100vw - 320px) / 448));
+
+  @media screen and (min-width: 768px) {
+    width: 94%;
+    font-size: calc(16px + 4 * ((100vw - 768px) / 672));
+    margin-bottom: 40px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 543px;
+    font-size: 20px;
+    margin-bottom: 51px;
+  }
+}

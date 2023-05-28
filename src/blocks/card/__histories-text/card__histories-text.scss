@@ -1,0 +1,47 @@
+.card__histories-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  max-width: 966px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: -80px;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    background: center / 35px 27px no-repeat url(./../images/quoteIcon.png);
+  }
+
+  @media screen and (max-width: 1439px) {
+    & {
+      gap: 20px;
+      padding-top: 36.5px;
+    }
+
+    &::before {
+      left: 0px;
+      top: 0px;
+      height: 28px;
+      width: 28px;
+      background-size: 28px 20px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    & {
+      padding-top: 34px;
+      gap: 16px;
+    }
+
+    &::before {
+      left: 0px;
+      top: 0px;
+      height: 24px;
+      width: 24px;
+      background-size: 24px 17px;
+    }
+  }
+}

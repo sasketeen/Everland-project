@@ -1,0 +1,8 @@
+.header__menu-vector_opened {
+  background: center / contain no-repeat url('./../images/MenuCross.svg');
+
+  @media (max-width: 767px) {
+    width: 24px;
+    height: 24px;
+  };
+}

@@ -1,0 +1,15 @@
+.spec-projects__subtitle {
+  @include main-text;
+  color: $black-card-text;
+  margin: 0;
+  padding-bottom: 24px;
+
+  @media screen and (min-width: 768px) {
+    grid-area: subtitle;
+  }
+
+  @media screen and (min-width: 1440px) {
+    grid-area: subtitle;
+    font-size: 18px;
+  }
+}

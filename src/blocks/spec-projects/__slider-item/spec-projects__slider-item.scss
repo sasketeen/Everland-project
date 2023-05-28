@@ -1,0 +1,19 @@
+.spec-projects__slider-item {
+  min-width: 100%;
+  list-style-type: none;
+  border-radius: 20px;
+  padding: 27px 24px 24px;
+  display: flex;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 1.5s linear;
+
+  @media screen and (min-width: 768px) {
+    padding: 30px;
+
+  }
+
+  @media screen and (min-width: 1440px) {
+    border-radius: 30px;
+  }
+}

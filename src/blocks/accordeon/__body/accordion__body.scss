@@ -1,0 +1,8 @@
+.accordion__body {
+    @include main-text();
+    @include animation();
+    margin: 0;
+    max-height: 0;
+    overflow-wrap: break-word;
+    overflow-y: hidden;
+}

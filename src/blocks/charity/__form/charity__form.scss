@@ -1,0 +1,21 @@
+.charity__form {
+	box-sizing: border-box;
+	background-color: $light-blue;
+	border-radius: 10px;
+	padding: 32px 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+
+	@media (min-width: 768px) {
+    padding: 32px 24px 36px;
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 22px;
+  }
+
+  @media (min-width: 1440px) {
+    padding: 58px 54px 58px 30px;
+		gap: 90px;
+  }
+}

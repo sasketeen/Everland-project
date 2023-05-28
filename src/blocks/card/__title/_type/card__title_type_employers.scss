@@ -1,0 +1,12 @@
+.card__title_type_employers {
+  @include h4;
+  margin: 0;
+  padding: 40px 0 0;
+
+  @media screen and (max-width: 1439px) {
+    & {
+      @include h3;
+      padding: 20px 0 0;
+    }
+  }
+}

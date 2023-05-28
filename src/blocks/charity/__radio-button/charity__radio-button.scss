@@ -1,0 +1,33 @@
+.charity__radio-button {
+	box-sizing: border-box;
+	height: 44px;
+	background-color: #fff;
+	flex-basis: 122px;
+	flex-grow: 1;
+	border: 1px solid rgba(0, 0, 0, 0);
+	
+	&:hover {
+		border-color: $blue-pressed;
+	}
+
+	@media (width: 768px) {
+    flex-grow: 0;
+		flex-basis: auto;
+		width: 75px;
+
+		&:last-of-type {
+			width: 135px;
+		}
+  }
+
+  @media (min-width: 1440px) {
+		flex-grow: 0;
+		flex-basis: auto;
+    width: 159px;
+		height: 48px;
+
+		&:last-of-type {
+			width: 211px;
+		}
+  }
+}

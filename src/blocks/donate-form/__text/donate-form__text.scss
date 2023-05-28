@@ -1,0 +1,12 @@
+.donate-form__text {
+	@include small-text;
+	margin: 16px 0 32px;
+
+	@media (min-width: 768px) {
+		margin: 19px 0 14px;
+  }
+
+	@media (min-width: 768px) {
+		margin: 16px 0 24px;
+  }
+}

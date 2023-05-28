@@ -1,0 +1,9 @@
+.footer__partner-img {
+  width: 161px;
+  height: 28px;
+
+  @media (max-width: 1439px) {
+    width: 115px;
+    height: 20px;
+  }
+}

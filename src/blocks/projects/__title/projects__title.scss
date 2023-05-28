@@ -1,0 +1,18 @@
+.projects__title {
+  padding-bottom: 10px;
+  letter-spacing: $title-letter-spacing;
+  box-sizing: border-box;
+  color: $black-card-text;
+
+  @media screen  and (min-width: 768px) {
+    padding-bottom: 15px;
+    max-width: 57.26%;
+    font-size: calc(36px + 28 * ((100vw - 768px) / 672));
+  }
+
+  @media screen  and (min-width: 1440px) {
+    padding-bottom: 20px;
+    max-width: 100%;
+    font-size: 64px;
+  }
+}

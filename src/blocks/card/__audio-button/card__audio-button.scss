@@ -1,0 +1,31 @@
+.card__audio-button {
+  @include animation();
+    padding: 0;
+    background-color: $white-background;
+    border: unset;
+    border-radius: 50%;
+    width: 40px;
+    aspect-ratio: 1/1;
+    margin-left: 10px;
+    background-image: url(/src/images/audio-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &:hover {
+      opacity: .5;
+    }
+
+    @media screen and (max-width: 1440px) {
+        & {
+          width: 28px;
+
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        & {
+         width: 24px;
+        }
+      }
+}
+

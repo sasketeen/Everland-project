@@ -1,0 +1,13 @@
+.accordions {
+  padding-top: 75px;
+  padding-bottom: 75px;
+
+  @media (max-width: 1439px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  @media (max-width: 767px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}

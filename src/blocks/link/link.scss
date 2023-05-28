@@ -1,0 +1,11 @@
+.link {
+  text-decoration: none;
+  transition: opacity .4s;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 1);
+
+  &:hover {
+    opacity: .5;
+  };
+}
+

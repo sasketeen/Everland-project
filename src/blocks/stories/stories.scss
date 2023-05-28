@@ -1,0 +1,27 @@
+.stories {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content;
+  grid-template-areas:
+    "title button"
+    "text text"
+    "audio audio";
+  padding-top: 75px;
+  padding-bottom: 100px;
+
+  @media (max-width: 1439px) {
+      grid-template-columns: 100%;
+      grid-template-areas:
+        "title"
+        "text"
+        "audio"
+        "button";
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  @media (max-width: 767px) {
+      padding-top: 32px;
+      padding-bottom: 32px;
+  }
+}

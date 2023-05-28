@@ -1,0 +1,11 @@
+.audience__icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 32px 32px;
+
+  @media screen and (max-width: 1439px) {
+    & {
+      background-size: 24px 24px;
+    }
+  }
+}

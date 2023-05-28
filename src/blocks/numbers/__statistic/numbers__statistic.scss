@@ -1,0 +1,18 @@
+.numbers__statistic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  order: 1;
+  gap: 5px;
+
+  @media screen and (min-width: 768px) {
+      gap: 10px;
+  }
+
+  @media screen and (min-width: 1440px) {
+      max-width: 325px;
+      gap: 5px;
+  }
+}

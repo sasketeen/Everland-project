@@ -1,0 +1,11 @@
+.footer__main-text {
+  margin: 0;
+
+  @include small-text;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__main-text {
+    line-height: 130%;
+  }
+}

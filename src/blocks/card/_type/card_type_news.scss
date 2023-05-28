@@ -1,0 +1,22 @@
+.card_type_news {
+  width: 100%;
+  aspect-ratio: 1/1.82;
+  border: 1px solid $grey-outline;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-self: center;
+
+  @media (max-width: 1439px) {
+      aspect-ratio: unset;
+      height: 100%;
+      max-width: 420px;
+      gap: 20px;
+  }
+
+  @media (max-width: 767px) {
+      height: fit-content;
+      padding: 24px;
+      max-width: 420px;
+  }
+}

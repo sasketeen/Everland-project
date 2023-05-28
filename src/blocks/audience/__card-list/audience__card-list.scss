@@ -1,0 +1,22 @@
+.audience__card-list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  grid-template-rows: repeat(1, max-content);
+  gap: 20px;
+
+  @media screen and (max-width: 1439px) {
+    & {
+      grid-template-columns: repeat(1, max-content);
+      grid-template-rows: repeat(3, max-content);
+      justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    & {
+      gap: 16px;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.charity {
+	@include button-text;
+	margin: 0 auto;
+	padding: 0 10px 32px;
+	box-sizing: border-box;
+	
+	@media (min-width: 768px) {
+		padding: 0 40px 50px;
+	}
+
+	@media (min-width: 1440px) {
+    padding: 45px 40px 50px;
+		max-width: 1440px;
+  }
+}

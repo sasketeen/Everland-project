@@ -1,0 +1,27 @@
+.card_type_histories-small {
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(120px, 224px) 1fr;
+  grid-template-rows: min-content 1fr min-content;
+  grid-template-areas:
+  "avatar name"
+  "avatar slogan"
+  "avatar audio";
+  gap: 20px;
+  background-color: $light-purple;
+  box-sizing: border-box;
+
+  @media (max-width: 1439px) {
+      gap: 16px;
+      grid-template-columns: 120px 1fr;
+     row-gap: 6px;
+     padding: 25px 20px;
+  }
+
+  @media (max-width: 767px) {
+      grid-template-columns: 26% 1fr;
+      row-gap: 0;
+      padding: 16px;
+      grid-template-columns: 80px 1fr;
+  }
+}

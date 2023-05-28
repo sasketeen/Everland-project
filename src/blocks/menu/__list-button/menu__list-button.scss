@@ -1,0 +1,10 @@
+.menu__list-button {
+  text-align: left;
+  
+  @media (max-width: 767px) {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

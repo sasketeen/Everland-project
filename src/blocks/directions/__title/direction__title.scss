@@ -1,0 +1,15 @@
+.directions__title {
+  padding: 0 0 50px 0;
+  letter-spacing: $title-letter-spacing;
+
+  @media screen and (max-width: 1439px) {
+      max-width: 420px;
+      padding: 0 0 32px 0;
+  }
+
+  @media screen and (max-width: 767px) {
+      max-width: 300px;
+      padding: 0 0 24px 0;
+      text-align: start;
+  }
+}

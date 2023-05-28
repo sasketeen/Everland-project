@@ -1,0 +1,14 @@
+.footer__main-text_type_color {
+  color: rgba(38, 38, 38, 0.5);
+  margin: 0;
+  padding-top: 50px;
+
+  @media (max-width: 1439px) {
+    padding-top: 22px;
+  }
+  @media (max-width: 767px) {
+    padding-top: 25px;
+    max-width: 300px;
+    order: 2;
+  }
+}

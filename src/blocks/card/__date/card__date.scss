@@ -1,0 +1,6 @@
+.card__date {
+  @include small-text();
+  order: 2;
+  margin-top: auto;
+  color: $gray-disabled-icon;
+}

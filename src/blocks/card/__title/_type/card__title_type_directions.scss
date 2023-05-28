@@ -1,0 +1,10 @@
+.card__title_type_directions {
+  @include h4;
+  margin: 0;
+
+  @media screen and (max-width: 1439px) {
+    & {
+      @include h3;
+    }
+  }
+}

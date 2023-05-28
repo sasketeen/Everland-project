@@ -1,0 +1,10 @@
+.donators__header {
+	@include h3;
+	text-align: center;
+	margin: 0;
+
+	@media (min-width: 768px) {
+    max-width: 531px;
+		margin: 0 auto;
+  }
+}

@@ -1,0 +1,25 @@
+.numbers {
+  display: flex;
+  flex-direction: column;
+  // max-width: 300px;
+  width: 100%;
+  color: $black-card-text;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .numbers {
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .numbers {
+    max-width: 1440px;
+    padding-top: 84px;
+    padding-bottom: 75px;
+  }
+}

@@ -1,0 +1,33 @@
+.news {
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    grid-template-rows: 120px 1fr;
+    grid-template-areas:
+        "title button"
+        "card card";
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+@media (max-width: 1439px) {
+    .news {
+        width: fit-content;
+        gap: 32px;
+        grid-template-columns: 1fr;
+        grid-template-rows: min-content min-content min-content;
+        grid-template-areas:
+            "title"
+            "card"
+            "button";
+            padding-top: 50px;
+            padding-bottom: 56px;
+    }
+}
+
+@media (max-width: 767px) {
+    .news {
+        gap: 20px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}

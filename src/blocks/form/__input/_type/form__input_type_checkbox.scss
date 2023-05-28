@@ -1,0 +1,13 @@
+.form__input_type_checkbox {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+
+	&:checked+label::before {
+		background-image: url('../images/iconCheck.svg');
+	}
+
+	&:focus + label::before {
+		border: 1px solid #000;
+	}
+}

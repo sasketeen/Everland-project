@@ -1,0 +1,274 @@
+@import "../vendor/normalize.scss";
+@import "../vendor/fonts.css";
+
+@import "../utils/variables.scss";
+@import "../utils/mixins.scss";
+@import "../blocks/body/body.scss";
+
+@import "../blocks/section-container/section-container.scss";
+@import "../blocks/section-title/section-title.scss";
+
+@import "../blocks/icon/_type/icon_type_arrow.scss";
+@import "../blocks/icon/_type/icon_type_cross.scss";
+
+@import "../blocks/button/button.scss";
+@import "../blocks/button/_type/button_type_primary.scss";
+@import "../blocks/button/_type/button_type_secondary.scss";
+@import "../blocks/button/_type/button_type_secondary-bright.scss";
+
+@import "../blocks/button-link/button-link.scss";
+@import "../blocks/button-link/_disabled/button-link_disabled.scss";
+@import "../blocks/button-link/_color/button-link_color_white.scss";
+@import "../blocks/button-link/_color/button-link_color_blue.scss";
+@import "../blocks/button-link/_color/button-link_color_orange.scss";
+@import "../blocks/button-link/_color/button-link_color_green.scss";
+@import "../blocks/button-link/_color/button-link_color_violete.scss";
+
+@import "../blocks/link/link.scss";
+
+@import "../blocks/slider-button/slider-button.scss";
+@import "../blocks/slider-button/_type/slider-button_type_light.scss";
+@import "../blocks/slider-button/_type/slider-button_type_dark.scss";
+@import "../blocks/slider-button/_direction/slider-button_direction_left.scss";
+
+@import "../blocks/header/header.scss";
+@import "../blocks/header/__container/header__container.scss";
+@import "../blocks/header/__logo/header__logo.scss";
+@import "../blocks/header/__menu-button/header__menu-button.scss";
+@import "../blocks/header/__menu-vector/header__menu-vector.scss";
+@import "../blocks/header/__menu-vector/_opened/header__menu-vector_opened.scss";
+@import "../blocks/header/__menu-text/header__menu-text.scss";
+@import "../blocks/header/__buttons-container/header__buttons-container.scss";
+@import "../blocks/header/__button/header__button.scss";
+
+@import "../blocks/navigation/navigation.scss";
+@import "../blocks/navigation/__list/navigation__list.scss";
+@import "../blocks/navigation/__link/navigation__link.scss";
+
+@import "../blocks/menu/menu.scss";
+@import "../blocks/menu/_opened/menu_opened.scss";
+@import "../blocks/menu/__nav-container/menu__nav-container.scss";
+@import "../blocks/menu/__container/menu__container.scss";
+@import "../blocks/menu/__container/_type/menu__container_type_about.scss";
+@import "../blocks/menu/__container/_type/menu__container_type_realm.scss";
+@import "../blocks/menu/__container/_type/menu__container_type_service.scss";
+@import "../blocks/menu/__list/menu__list.scss";
+@import "../blocks/menu/__list/_opened/menu__list_opened.scss";
+@import "../blocks/menu/__list/_type/menu__list_type_global.scss";
+@import "../blocks/menu/__heading/menu__heading.scss";
+@import "../blocks/menu/__list-button/menu__list-button.scss";
+@import "../blocks/menu/__list-vector/menu__list-vector.scss";
+@import "../blocks/menu/__list-vector/_opened/menu__list-vector_opened.scss";
+@import "../blocks/menu/__link/menu__link.scss";
+
+@import "../blocks/card/card.scss";
+@import "../blocks/card/_type/card_type_best-projects.scss";
+@import "../blocks/card/_type/card_type_directions.scss";
+@import "../blocks/card/_type/card_type_employers.scss";
+@import "../blocks/card/_type/card_type_histories-large.scss";
+@import "../blocks/card/_type/card_type_histories-small.scss";
+@import "../blocks/card/_type/card_type_news.scss";
+
+@import "../blocks/card/_light/card_light_blue.scss";
+@import "../blocks/card/_light/card_light_green.scss";
+@import "../blocks/card/_light/card_light_pink.scss";
+@import "../blocks/card/_light/card_light_purple.scss";
+
+@import "../blocks/card/__title/card__title.scss";
+@import "../blocks/card/__title/_type/card__title_type_histories-small.scss";
+@import "../blocks/card/__title/_type/card__title_type_histories-large.scss";
+@import "../blocks/card/__title/_type/card__title_type_employers.scss";
+@import "../blocks/card/__title/_type/card__title_type_directions.scss";
+
+@import "../blocks/card/__theme/card__theme.scss";
+
+@import "../blocks/card/__subtitle/card__subtitle.scss";
+
+@import "../blocks/card/__paragraph/card__paragraph.scss";
+@import "../blocks/card/__paragraph/_type/card__paragraph_type_news.scss";
+@import "../blocks/card/__paragraph/_type/card__paragraph_type_histories-small.scss";
+@import "../blocks/card/__paragraph/_type/card__paragraph_type_histories-large.scss";
+@import "../blocks/card/__paragraph/_type/card__paragraph_type_best-projects.scss";
+@import "../blocks/card/__histories-text/card__histories-text.scss";
+
+@import "../blocks/card/__image/card__image.scss";
+@import "../blocks/card/__image/_type/card__image_type_best-projects.scss";
+
+@import "../blocks/card/__icon/card__icon.scss";
+@import "../blocks/card/__icon/_light/card__icon_light_pink.scss";
+@import "../blocks/card/__icon/_light/card__icon_light_green.scss";
+@import "../blocks/card/__icon/_light/card__icon_light_blue.scss";
+
+@import "../blocks/card/__date/card__date.scss";
+
+@import "../blocks/card/__avatar/card__avatar.scss";
+@import "../blocks/card/__avatar/_type/card__avatar_type_histories-large.scss";
+
+@import "../blocks/card/__audio/card__audio.scss";
+@import "../blocks/card/__audio-button/card__audio-button.scss";
+
+@import "../blocks/card/__quote-img/card__quote-img.scss";
+@import "../blocks/card/__paragraph/_type/card__paragraph_type_histories-large.scss";
+@import "../blocks/card/__audio-button/card__audio-button.scss";
+
+@import "../blocks/accordeons/accordions.scss";
+@import "/src/blocks/accordeons/__container/accardeons__container.scss";
+@import "/src/blocks/accordeons/__column/accordions__column.scss";
+@import "/src/blocks/accordeons/__title/accordions__title.scss";
+
+@import "/src/blocks/accordeon/accordion.scss";
+@import "/src/blocks/accordeon/__button/accordion__button.scss";
+@import "/src/blocks/accordeon/__header/accordion__header.scss";
+@import "/src/blocks/accordeon/__title/accordion__title.scss";
+@import "/src/blocks/accordeon/__body/accordion__body.scss";
+@import "/src/blocks/accordeon/__button/_opened/accordion__button_opened.scss";
+@import "/src/blocks/accordeon/__body/_opened/accordion__body_opened.scss";
+
+
+@import "../blocks/intro/intro.scss";
+@import "../blocks/intro/__container/intro__container.scss";
+@import "../blocks/intro/__slider-list/intro__slider-list.scss";
+@import "../blocks/intro/__slider-item/intro__slider-item.scss";
+@import "../blocks/intro/__about/intro__about.scss";
+@import "../blocks/intro/__title/intro__title.scss";
+@import "../blocks/intro/__title-accent/intro__title-accent.scss";
+@import "../blocks/intro/__description/intro__description.scss";
+@import "../blocks/intro/__image-container/intro__image-container.scss";
+@import "../blocks/intro/__image-top/intro__image-top.scss";
+@import "../blocks/intro/__image-bottom/intro__image-bottom.scss";
+@import "../blocks/intro/__buttons-container/intro__buttons-container.scss";
+@import "../blocks/intro/__button/intro__button.scss";
+@import "../blocks/intro/__counter/intro__counter.scss";
+
+@import "../blocks/spec-projects/spec-projects.scss";
+@import "../blocks/spec-projects/__container/spec-projects__container.scss";
+@import "../blocks/spec-projects/__slider-list/spec-projects__slider-list.scss";
+@import "../blocks/spec-projects/__slider-item/spec-projects__slider-item.scss";
+@import "../blocks/spec-projects/__content/spec-projects__content.scss";
+@import "../blocks/spec-projects/__subtitle/spec-projects__subtitle.scss";
+@import "../blocks/spec-projects/__title/spec-projects__title.scss";
+@import "../blocks/spec-projects/__description/spec-projects__description.scss";
+@import "../blocks/spec-projects/__details-link/spec-projects__details-link.scss";
+@import "../blocks/spec-projects/__image/spec-projects__image.scss";
+@import "../blocks/spec-projects/__buttons-container/spec-projects__buttons-container.scss";
+
+@import "../blocks/numbers/numbers.scss";
+@import "../blocks/numbers/__container/numbers__container.scss";
+@import "../blocks/numbers/__image/numbers__image.scss";
+@import "../blocks/numbers/__statistic-container/numbers__statistic-container.scss";
+@import "../blocks/numbers/__statistic/numbers__statistic.scss";
+@import "../blocks/numbers/__statistic/_type/numbers__statistic_type_community.scss";
+@import "../blocks/numbers/__statistic/_type/numbers__statistic_type_earnings.scss";
+@import "../blocks/numbers/__statistic/_type/numbers__statistic_type_pumping.scss";
+@import "../blocks/numbers/__statistic/_type/numbers__statistic_type_status.scss";
+@import "../blocks/numbers/__statistic-title/numbers__statistic-title.scss";
+@import "../blocks/numbers/__statistic-paragraph/numbers__statistic-paragraph.scss";
+@import "../blocks/numbers/__title/numbers__title.scss";
+@import "../blocks/numbers/__title-accent/numbers__title-accent.scss";
+
+@import "../blocks/slider-hidden/slider-hidden.scss";
+
+@import "../blocks/projects/projects.scss";
+@import "../blocks/projects/__container/projects__container.scss";
+@import "../blocks/projects/__title/projects__title.scss";
+@import "../blocks/projects/__description/projects__description.scss";
+@import "../blocks/projects/__list/projects__list.scss";
+@import "../blocks/projects/__button/projects__button.scss";
+
+@import "../blocks/news/news.scss";
+@import "../blocks/news/__title/news__title.scss";
+@import "../blocks/news/__button/news__button.scss";
+@import "../blocks/news/__cards/news__cards.scss";
+
+@import '../blocks/directions/directions.scss';
+@import '../blocks/directions/__title/direction__title.scss';
+@import '../blocks/directions/__card-list/directions__card-list.scss';
+@import '../blocks/directions/__title/_type/directions__title_type_mobile.scss';
+@import '../blocks/directions/__title/_type/directions__title_type_desktop.scss';
+
+@import '../blocks/audience/audience.scss';
+@import '../blocks/audience/__icon/audience__icon.scss';
+@import '../blocks/audience/__icon/_type/audience__icon_type_brief.scss';
+@import '../blocks/audience/__icon/_type/audience__icon_type_pers.scss';
+@import '../blocks/audience/__icon/_type/audience__icon_type_dis.scss';
+@import '../blocks/audience/__title/audience__title.scss';
+@import '../blocks/audience/__card-list/audience__card-list.scss';
+@import '../blocks/audience/__card-link/audience__card-link.scss';
+
+@import "../blocks/stories/stories.scss";
+@import "../blocks/stories/__title/stories__title.scss";
+@import "../blocks/stories/__text/stories__text.scss";
+@import "../blocks/stories/__audio/stories__audio.scss";
+@import "../blocks/stories/__button/stories__button.scss";
+
+@import '../blocks/directions/__container/directions__container.scss';
+
+@import "../blocks/form/__input/_type/form__input_type_checkbox.scss";
+@import "../blocks/form/__input/_type/form__input_type_radio.scss";
+@import "../blocks/form/__input/_type/form__input_type_text.scss";
+@import "../blocks/form/__input/_type/form__input_type_text-hidden.scss";
+@import "../blocks/form/__checkbox-label/form__checkbox-label.scss";
+
+@import "../blocks/charity/charity.scss";
+@import "../blocks/charity/__form/charity__form.scss";
+@import "../blocks/charity/__sum-buttons/charity__sum-buttons.scss";
+@import "../blocks/charity/__radio-button/charity__radio-button.scss";
+@import "../blocks/charity/__submit-button/charity__submit-button.scss";
+
+@import "../blocks/donate/donate.scss";
+@import "../blocks/donate/__header/donate__header.scss";
+@import "../blocks/donate/__container/donate__container.scss";
+
+@import "../blocks/donate-form/donate-form.scss";
+@import "../blocks/donate-form/__input-header/donate-form__input-header.scss";
+@import "../blocks/donate-form/__input-header-container/donate-form__input-header-container.scss";
+@import "../blocks/donate-form/__radio-button/donate-form__radio-button.scss";
+@import "../blocks/donate-form/__radio-button/_type/donate-form__radio-button_type_payment.scss";
+@import "../blocks/donate-form/__radio-button/_type/donate-form__radio-button_type_amount.scss";
+@import "../blocks/donate-form/__radio-button/_payment-type/donate-form__radio-button_payment-type_card.scss";
+@import "../blocks/donate-form/__radio-button/_payment-type/donate-form__radio-button_payment-type_webmoney.scss";
+@import "../blocks/donate-form/__radio-button/_payment-type/donate-form__radio-button_payment-type_youmoney.scss";
+@import "../blocks/donate-form/__question-button/donate-form__question-button.scss";
+@import "../blocks/donate-form/__amount-input-container/donate-form__amount-input-container.scss";
+@import "../blocks/donate-form/__regularity-input-container/donate-form__regularity-input-container.scss";
+@import "../blocks/donate-form/__text/donate-form__text.scss";
+@import "../blocks/donate-form/__payment-slider/donate-form__payment-slider.scss";
+@import "../blocks/donate-form/__payment-input-container/donate-form__payment-input-container.scss";
+@import "../blocks/donate-form/__slider-arrow/donate-form__slider-arrow.scss";
+@import "../blocks/donate-form/__donator-input-container/donate-form__donator-input-container.scss";
+@import "../blocks/donate-form/__policy-input-container/donate-form__policy-input-container.scss";
+@import "../blocks/donate-form/__link/donate-form__link.scss";
+@import "../blocks/donate-form/__submit-button/donate-form__submit-button.scss";
+
+@import "../blocks/donators/donators.scss";
+@import "../blocks/donators/__header/donators__header.scss";
+@import "../blocks/donators/__list/donators__list.scss";
+@import "../blocks/donators/__list-item/donators__list-item.scss";
+@import "../blocks/donators/__name/donators__name.scss";
+@import "../blocks/donators/__dotted-border/donators__dotted-border.scss";
+@import "../blocks/donators/__sum-time-container/donators__sum-time-container.scss";
+@import "../blocks/donators/__sum/donators__sum.scss";
+@import "../blocks/donators/__time/donators__time.scss";
+
+@import "../blocks/footer/footer.scss";
+@import "../blocks/footer/__logo/footer__logo.scss";
+@import "../blocks/footer/__heading/footer__heading.scss";
+@import "../blocks/footer/__about/footer__about.scss";
+@import "../blocks/footer/__main-text/footer__main-text.scss";
+@import "../blocks/footer/__nav-links/footer__nav-links.scss";
+@import "../blocks/footer/__nav-link/footer__nav-link.scss";
+@import "../blocks/footer/__support/footer__support.scss";
+@import "../blocks/footer/__support-list/footer__support-list.scss";
+@import "../blocks/footer/__support-img/footer__support-img.scss";
+@import "../blocks/footer/__support-img/_type/footer__support-img_type_beeline.scss";
+@import "../blocks/footer/__support-img/_type/footer__support-img_type__fond.scss";
+@import "../blocks/footer/__follow/footer__follow.scss";
+@import "../blocks/footer/__follow-list/footer__follow-list.scss";
+@import "../blocks/footer/__follow-img/footer__follow-img.scss";
+@import "../blocks/footer/__contacts/footer__contacts.scss";
+@import "../blocks/footer/__contacts-list/footer__contacts-list.scss";
+@import "../blocks/footer/__contact/footer__contact.scss";
+@import "../blocks/footer/__main-text/_type/footer__contact_type_color.scss";
+@import "../blocks/footer/__partner/footer__partner.scss";
+@import "../blocks/footer/__attendee/footer__attendee.scss";
+@import "../blocks/footer/__partner-img/footer__partner-img.scss";

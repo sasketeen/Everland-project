@@ -1,0 +1,11 @@
+.card__image_type_best-projects {
+  aspect-ratio: 0.9565/1;
+  max-height: unset;
+
+  @media (max-width: 1439px){
+    & {
+      aspect-ratio: 1/1;
+    }
+  }
+}
+

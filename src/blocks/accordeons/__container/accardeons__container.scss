@@ -1,0 +1,11 @@
+.accordions__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  @media screen and (max-width: 1439px) {
+        flex-direction: column;
+        gap: 18px;
+  }
+}

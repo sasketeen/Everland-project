@@ -1,0 +1,12 @@
+.card__paragraph_type_best-projects {
+  font-size: 16px;
+  margin-top: 16px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 20px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 24px;
+  }
+}

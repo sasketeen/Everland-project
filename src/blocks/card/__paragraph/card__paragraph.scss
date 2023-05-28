@@ -1,0 +1,12 @@
+.card__paragraph {
+  @include main-text;
+  margin: 20px 0 0;
+  grid-area: text;
+
+  @media (max-width: 1439px) {
+    & {
+      margin-top: 10px;
+    }
+  }
+}
+

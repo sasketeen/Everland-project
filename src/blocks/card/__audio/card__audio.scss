@@ -1,0 +1,14 @@
+.card__audio {
+    display: flex;
+    align-items: center;
+    grid-area: audio;
+    @include small-text;
+
+    @media (min-width: 768px) {
+      @include main-text;
+    }
+
+    @media (min-width: 1440px) {
+      @include small-text;
+    }
+}

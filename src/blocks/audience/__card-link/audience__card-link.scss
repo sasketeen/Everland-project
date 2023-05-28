@@ -1,0 +1,17 @@
+.audience__card-link {
+  @include button-text;
+  margin-top: auto;
+
+  @media screen and (max-width: 1439px) {
+    & {
+      margin-top: 20px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    & {
+      margin-top: 28px;
+    }
+  }
+}
+

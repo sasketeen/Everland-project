@@ -1,0 +1,32 @@
+.news__cards {
+    width: 100%;
+    max-width: 100%;
+    grid-area: card;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+@media (max-width: 1439px) {
+    .news__cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        max-height: fit-content;
+
+        .card:last-child {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .news__cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, min-content);
+
+        .card:last-child {
+            display: flex;
+        }
+    }
+
+}

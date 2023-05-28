@@ -1,0 +1,21 @@
+.card_type_employers {
+  width: 440px;
+  min-height: 428px;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (max-width: 1439px) {
+    & {
+      width: 450px;
+      min-height: unset;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    & {
+      max-width: 300px;
+      padding: 24px;
+    }
+  }
+}
+
