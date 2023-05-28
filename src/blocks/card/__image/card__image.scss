@@ -5,4 +5,10 @@
   max-height: 50%;
   object-fit: cover;
   border-radius: 30px;
+
+  @media (max-width: 1439px){
+    & {
+      border-radius: 20px;
+    }
+  }
 }

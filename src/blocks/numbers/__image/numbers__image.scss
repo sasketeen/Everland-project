@@ -4,16 +4,12 @@
   order: 2;
   margin-top: 24px;
   object-fit: contain;
-}
 
-@media screen and (min-width: 768px) {
-  .numbers__image {
+  @media screen and (min-width: 768px) {
     display: none;
   }
-}
 
-@media screen and (min-width: 1440px) {
-  .numbers__image {
+  @media screen and (min-width: 1440px) {
     display: block;
     width: 555px;
     height: 368px;

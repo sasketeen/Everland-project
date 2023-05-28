@@ -52,7 +52,6 @@
 
 @mixin button-text {
   @include text-styles(20px, 16px, 14px, $font-weight-medium);
-  // @include animation('', undefined,)
 }
 
 // Mixin for animation

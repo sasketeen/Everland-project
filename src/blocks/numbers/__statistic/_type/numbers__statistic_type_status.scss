@@ -1,9 +1,8 @@
 .numbers__statistic_type_status {
   order: 1;
-}
 
-@media screen and (min-width: 768px) {
-  .numbers__statistic_type_status {
-    grid-area: status;
+  @media screen and (min-width: 768px) {
+      grid-area: status;
   }
 }
+

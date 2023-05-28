@@ -1,18 +1,14 @@
 .accordion__header {
-    padding: 25px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+  padding: 26px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-@media (max-width: 1439px) {
-    .accordion__header {
-        padding: 20px 0;
+  @media (max-width: 1439px) {
+        padding: 18.5px 0;
     }
-}
 
-@media (max-width: 767px) {
-    .accordion__header {
-        padding: 12px 0;
-    }
+  @media (max-width: 767px) {
+        padding: 10px 0;
+  }
 }

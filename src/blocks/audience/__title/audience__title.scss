@@ -1,22 +1,21 @@
 .audience__title {
   @include h2;
   letter-spacing: $title-letter-spacing;
-  line-height: $base-line-height;
   margin: 0;
   padding-bottom: 50px;
-}
 
-@media screen and (max-width: 1439px) {
-  .audience__title {
-    text-align: center;
-    padding-bottom: 32px;
+  @media screen and (max-width: 1439px) {
+    & {
+      text-align: center;
+      padding-bottom: 32px;
+    }
   }
-}
 
-@media screen and (max-width: 767px) {
-  .audience__title {
-    padding-bottom: 24px;
-    text-align: left;
+  @media screen and (max-width: 767px) {
+    & {
+      padding-bottom: 24px;
+      text-align: left;
+    }
   }
 }
 

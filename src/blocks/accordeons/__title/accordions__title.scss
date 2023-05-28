@@ -1,7 +1,14 @@
 .accordions__title {
-    @include h2();
-    margin: 0;
-    padding-bottom: 50px;
-    width: 100%;
-    letter-spacing: $title-letter-spacing;
+  @include h2();
+  margin-bottom: 50px;
+  width: 100%;
+  letter-spacing: $title-letter-spacing;
+
+  @media screen and (max-width: 1439px) {
+      margin-bottom: 32px;
+  }
+
+  @media screen and (max-width: 767px) {
+      margin-bottom: 24px;
+  }
 }

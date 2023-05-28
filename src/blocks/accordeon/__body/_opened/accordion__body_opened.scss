@@ -1,16 +1,12 @@
 .accordion__body_opened {
-    max-height: 200px;
-    padding-bottom: 22px;
-}
+  max-height: 200px;
+  padding-bottom: 22px;
 
-@media (max-width: 1439px) {
-    .accordion__body_opened {
-        padding-bottom: 11px;
-    }
-}
+  @media (max-width: 1439px) {
+      padding-bottom: 11px;
+  }
 
-@media (max-width: 767px) {
-    .accordion__body_opened {
-        padding-bottom: 16px;
-    }
+  @media (max-width: 767px) {
+      padding-bottom: 16px;
+  }
 }

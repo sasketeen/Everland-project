@@ -1,14 +1,14 @@
 .button_type_secondary {
-    color: $blue-card-text;
-    border: 1px solid $blue-card-text;
+  color: $blue-card-text;
+  border: 1px solid $blue-card-text;
 
-    &:hover {
-        color: $blue-pressed;
-        border: 1px solid $blue-pressed;
-    }
-    
-    &:active {
-        color: $white-background;
-        background-color: $blue-pressed;
-    }
+  &:hover {
+    color: $blue-pressed;
+    border: 1px solid $blue-pressed;
+  }
+
+  &:active {
+    color: $white-background;
+    background-color: $blue-pressed;
+  }
 }

@@ -1,9 +1,7 @@
 .numbers__statistic_type_earnings {
   order: 2;
-}
 
-@media screen and (min-width: 768px) {
-  .numbers__statistic_type_earnings {
+  @media screen and (min-width: 768px) {
     grid-area: earnings;
   }
 }

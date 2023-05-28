@@ -1,22 +1,15 @@
 .directions__title {
   padding: 0 0 50px 0;
-  margin: 0;
   letter-spacing: $title-letter-spacing;
-  line-height: $base-line-height;
-}
 
-
-@media screen and (max-width: 1439px) {
-  .directions__title {
-    max-width: 420px;
-    padding: 0 0 32px 0;
+  @media screen and (max-width: 1439px) {
+      max-width: 420px;
+      padding: 0 0 32px 0;
   }
-}
 
-@media screen and (max-width: 767px) {
-  .directions__title {
-    max-width: 300px;
-    padding: 0 0 24px 0;
-    text-align: start;
+  @media screen and (max-width: 767px) {
+      max-width: 300px;
+      padding: 0 0 24px 0;
+      text-align: start;
   }
 }

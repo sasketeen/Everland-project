@@ -1,9 +1,7 @@
 .numbers__statistic_type_community {
   order: 3;
-}
 
-@media screen and (min-width: 768px) {
-  .numbers__statistic_type_community {
+  @media screen and (min-width: 768px) {
     grid-area: community;
   }
 }

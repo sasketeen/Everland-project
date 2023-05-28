@@ -2,22 +2,19 @@
   display: grid;
   gap: 16px;
   order: 1;
-}
 
-@media screen and (min-width: 768px) {
-  .numbers__statistic-container {
-    grid-template-areas:
-      "status community"
-      "earnings pumping";
-    gap: 33px 27px;
-    justify-content: space-between;
+  @media (min-width: 768px) {
+      grid-template-areas:
+        "status community"
+        "earnings pumping";
+      gap: 33px 27px;
+      justify-content: space-between;
+      max-width: 1100px;
   }
-}
 
-@media screen and (min-width: 1440px) {
-  .numbers__statistic-container {
-    max-width: 670px;
-    width: 100%;
-    gap: 30px 20px;
+  @media (min-width: 1440px) {
+      max-width: 670px;
+      width: 100%;
+      gap: 30px 20px;
   }
 }

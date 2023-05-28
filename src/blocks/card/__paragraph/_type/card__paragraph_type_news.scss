@@ -1,11 +1,5 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .card__paragraph_type_news {
       margin-top: 10px;
     }
   }
-
-@media screen and (min-width: 1440px) {
-  .card__paragraph_type_news {
-    line-height: 130%;
-  }
-}

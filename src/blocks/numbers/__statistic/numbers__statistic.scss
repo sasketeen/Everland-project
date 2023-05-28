@@ -6,17 +6,13 @@
   width: 100%;
   order: 1;
   gap: 5px;
-}
 
-@media screen and (min-width: 768px) {
-  .numbers__statistic {
-    gap: 10px;
+  @media screen and (min-width: 768px) {
+      gap: 10px;
   }
-}
 
-@media screen and (min-width: 1440px) {
-  .numbers__statistic {
-    max-width: 325px;
-    gap: 5px;
+  @media screen and (min-width: 1440px) {
+      max-width: 325px;
+      gap: 5px;
   }
 }

@@ -2,11 +2,9 @@
   @include h4;
   margin: 0;
 
-  line-height: $base-line-height;
-}
-
-@media screen and (max-width: 1439px) {
-  .card__title_type_directions {
-    @include h3;
+  @media screen and (max-width: 1439px) {
+    & {
+      @include h3;
+    }
   }
 }

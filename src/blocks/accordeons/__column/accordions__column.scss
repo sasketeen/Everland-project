@@ -1,22 +1,14 @@
 .accordions__column {
-    margin: 0;
-    padding: 0;
-    width: calc(50% - 10px);
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: calc(50% - 10px);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 
-@media screen and (max-width: 1439px) {
-    .accordions__column {
-        width: 100%;
-        gap: 18px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .accordions__column {
-        gap: 18px;
-    }
+  @media screen and (max-width: 1439px) {
+      width: 100%;
+  }
 }

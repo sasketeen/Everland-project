@@ -4,10 +4,11 @@
   width: fit-content;
   word-wrap: break-word;
   quotes: none;
-}
 
-@media screen and (max-width: 1439px) {
-  .card__title_type_histories-large {
-    max-width: 660px;
+  @media screen and (max-width: 1439px) {
+    & {
+      max-width: 660px;
+    }
   }
 }
+

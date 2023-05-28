@@ -1,17 +1,15 @@
 .stories__button {
-align-self: center;
-width: 200px;
-}
+  align-self: center;
+  width: 194px;
+  margin-right: 18px;
 
-@media (max-width: 1439px) {
-    .stories__button {
-        margin: 0 auto;
-      justify-self: center;
-    }
+  @media (max-width: 1439px) {
+    margin: 40px auto 0;
+    justify-self: center;
   }
 
   @media (max-width: 767px) {
-    .stories__button {
-      width: 100%;
-    }
+    margin-top: 24px;
+    width: 100%;
   }
+}

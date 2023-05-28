@@ -1,6 +1,10 @@
 .accordion__title {
-    @include h4();
-    margin: 0;
-    width: calc(100% - 50px);
-    overflow-wrap: break-word;
+  @include h4();
+  margin: 0;
+  width: calc(100% - 50px);
+  overflow-wrap: break-word;
+
+  @media (max-width: 1439px) {
+      @include h3();
+  }
 }

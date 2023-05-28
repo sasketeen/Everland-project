@@ -1,17 +1,17 @@
 .button-link_color_orange {
-    background-color: $light-pink;
-    color: $orange-card-text;
+  background-color: $light-pink;
+  color: $orange-card-text;
 
-    &::after {
-        background-color: $orange-card-text;
-    }
+  &::after {
+    background-color: $orange-card-text;
+  }
 
-    &:hover {
-        background-color: $orange-card-text;
-    }
-    
-    &:active {
-        background-color: $orange-pressed;
-    }
-    
+  &:hover {
+    background-color: $orange-card-text;
+  }
+
+  &:active {
+    background-color: $orange-pressed;
+  }
+
 }

@@ -1,34 +1,27 @@
 .stories {
-  font-family: $base-font-family;
   display: grid;
-  grid-template-columns: 1fr max-content;
+  grid-template-columns: 1fr;
   grid-template-rows: min-content;
   grid-template-areas:
     "title button"
     "text text"
     "audio audio";
-  gap: 50px 20px;
   padding-top: 75px;
   padding-bottom: 100px;
-}
 
-@media (max-width: 1439px) {
-  .stories {
-    grid-template-columns: 100%;
-    grid-template-areas:
-      "title"
-      "text"
-      "audio"
-      "button";
-  padding-top: 50px;
-  padding-bottom: 50px;
+  @media (max-width: 1439px) {
+      grid-template-columns: 100%;
+      grid-template-areas:
+        "title"
+        "text"
+        "audio"
+        "button";
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
-}
 
-@media (max-width: 767px) {
-  .stories {
-    gap: 25px 20px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+  @media (max-width: 767px) {
+      padding-top: 32px;
+      padding-bottom: 32px;
   }
 }
